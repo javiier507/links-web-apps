@@ -1,5 +1,5 @@
 {
-  "name": "links-web-apss",
+  "name": "links-web-apps",
   "private": true,
   "scripts": {
     "build": "turbo run build",
