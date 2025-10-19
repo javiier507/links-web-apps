@@ -1,0 +1,85 @@
+.app-container {
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--dark1);
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: var(--white1);
+  text-align: center;
+}
+
+.card {
+  width: 350px;
+  height: 200px;
+  margin: 0 auto;
+  background: var(--dark1);
+  border: 1px solid var(--dark1);
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: grid;
+  gap: 16px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.url-label {
+  margin: 0;
+  font-weight: 600;
+  color: var(--gray1);
+  text-align: center;
+  font-size: 16px;
+}
+
+.url-display {
+  background: var(--dark2);
+  border: 1px solid var(--dark2);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0;
+  color: var(--gray1);
+  font-size: 14px;
+  overflow: hidden;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-clamp: 4;
+}
+
+.get-url-btn {
+  width: 100%;
+  padding: 10px;
+  background: var(--yellow2);
+  color: var(--dark1);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.get-url-btn:hover:not(:disabled) {
+  background: var(--yellow1);
+}
+
+.get-url-btn:active:not(:disabled) {
+  background: var(--yellow1);
+  opacity: 0.9;
+}
+
+.get-url-btn:disabled {
+  background: var(--dark2);
+  color: var(--gray1);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.error {
+  color: var(--red1);
+}
