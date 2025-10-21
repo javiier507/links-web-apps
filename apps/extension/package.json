@@ -12,19 +12,19 @@
   },
   "dependencies": {
     "@repo/api": "workspace:*",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/chrome": "^0.1.24",
-    "@types/node": "^22.15.3",
+    "@types/chrome": "0.1.24",
+    "@types/node": "22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
-    "@vitejs/plugin-react-swc": "^4.1.0",
-    "eslint": "^9.34.0",
+    "@vitejs/plugin-react-swc": "4.1.0",
+    "eslint": "9.34.0",
     "typescript": "5.9.2",
-    "vite": "^7.1.7"
+    "vite": "7.1.7"
   }
 }

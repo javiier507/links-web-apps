@@ -1,3 +1,6 @@
 packages:
   - "apps/*"
   - "packages/*"
+
+# 1 semana
+minimumReleaseAge: 10080
