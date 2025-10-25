@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
-import { useGoogleLogin } from "@react-oauth/google";
 import "./App.css";
 
 function App() {
     const [currentUrl, setCurrentUrl] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const [user, setUser] = useState<any>(null);
 
     useEffect(() => {
         // Get current tab URL
@@ -40,17 +38,6 @@ function App() {
         getCurrentTabUrl();
     }, []);
 
-    const login = useGoogleLogin({
-        onSuccess: (tokenResponse) => {
-            console.log("Login successful:", tokenResponse);
-            setUser(tokenResponse);
-        },
-        onError: () => {
-            console.error("Login failed");
-            setError("Login failed");
-        },
-    });
-
     const handleGetUrl = () => {
         if (currentUrl) {
             console.log("URL added:", currentUrl);
@@ -71,24 +58,6 @@ function App() {
         return "No URL available";
     };
 
-    // Login view
-    if (!user) {
-        return (
-            <div className="card">
-                <p className="url-label">Wlinks</p>
-                <div className="url-display">Sign in to continue</div>
-                <button
-                    type="button"
-                    onClick={() => login()}
-                    className="get-url-btn"
-                >
-                    Sign in with Google
-                </button>
-            </div>
-        );
-    }
-
-    // Main app view (authenticated)
     return (
         <div className="card">
             <p className="url-label">Wlinks</p>
