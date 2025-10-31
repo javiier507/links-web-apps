@@ -64,6 +64,11 @@ h1 {
   transition: background 0.3s;
 }
 
+.get-url-btn:focus,
+.get-url-btn:focus-visible {
+  outline: none;
+}
+
 .get-url-btn:hover:not(:disabled) {
   background: var(--yellow1);
 }
