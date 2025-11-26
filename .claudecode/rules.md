@@ -1,6 +1,46 @@
 # Project Rules
 
-## Code Style
+## Monorepo Structure
+
+**IMPORTANT:** This is a **monorepo** for the Wlinks project - an application for saving and organizing links. Understanding the structure is critical:
+
+### Applications (`apps/`)
+
+- **`apps/web`** - Web version built with Next.js
+  - Purpose: Main web application accessible via browser
+  - Framework: Next.js with Next Auth for authentication
+
+- **`apps/extension`** - Browser extension for Chromium-based browsers
+  - Purpose: Save links directly from the browser
+  - Build tool: Vite
+
+### Packages (`packages/`)
+
+- **`packages/ui`** - Centralized UI package
+  - **CRITICAL:** This is the single source of truth for styling and UI components
+  - Contains: Tailwind CSS v4 theme configuration, color palette, and reusable React components
+  - **All apps MUST align with this package** for styling consistency
+  - Do NOT create duplicate styling logic in apps
+
+- **`packages/api`** - Backend integration layer
+  - Purpose: All communication with the backend (Appwrite)
+  - Implementation: JavaScript SDK wrapper for Appwrite
+  - **All backend calls MUST go through this package**
+  - Do NOT make direct Appwrite calls from apps
+
+## Styling Guidelines
+
+- **Framework:** Tailwind CSS v4 (configured in `packages/ui`)
+- **Theme location:** `packages/ui/src/styles.css` using `@theme` directive
+- **Color palette:** Defined in `packages/ui/src/styles.css`
+- **Configuration:** Centralized in `packages/ui/tailwind.config.ts`
+- **Apps import:** Each app imports `@import '@repo/ui/styles'` in their main CSS file
+- **DO NOT:**
+  - Define custom colors in apps - use the centralized theme
+  - Duplicate Tailwind configuration
+  - Create app-specific theme configurations
+
+## Typescript Code Style
 
 - **Linting/Formatting:** Code is automatically formatted with Biome on commit via lint-staged
 - **TypeScript:**
