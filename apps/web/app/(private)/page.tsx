@@ -1,5 +1,3 @@
-import styles from "./page.module.css";
-
 import { getAuthUser } from "@/libs/auth/server-functions";
 import { signOut } from "@/libs/auth/actions";
 

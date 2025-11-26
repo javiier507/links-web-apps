@@ -1,4 +1,4 @@
-@import '@repo/style';
+@import '@repo/ui/styles';
 
 #root {
   display: flex;

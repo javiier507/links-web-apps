@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+    "./styles": "./src/styles.css",
+    "./tailwind.config": "./tailwind.config.ts",
     "./*": "./src/*.tsx"
   },
   "scripts": {
@@ -12,6 +14,7 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/vite": "^4.1.17",
     "@types/node": "22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
