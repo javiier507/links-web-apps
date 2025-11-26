@@ -30,7 +30,7 @@ Ejecutar una aplicación específica:
 
 ```bash
 # Extensión de Chrome
-pnpm turbo run dev --filter=links-extension
+pnpm turbo run dev --filter=extension
 
 # Aplicación Web
 pnpm turbo run dev --filter=web
@@ -48,7 +48,7 @@ Compilar una aplicación específica:
 
 ```bash
 # Extensión de Chrome
-pnpm turbo run build --filter=links-extension
+pnpm turbo run build --filter=extension
 
 # Aplicación Web
 pnpm turbo run build --filter=web
