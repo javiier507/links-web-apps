@@ -26,42 +26,16 @@ export default async function LoginPage() {
                             </span>
                         </div>
 
-                        {/* Desktop Menu */}
-                        <div className="hidden md:block">
-                            <div className="ml-10 flex items-baseline space-x-8">
-                                <form action={signInGoogle}>
-                                    <button
-                                        type="submit"
-                                        className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
-                                    >
-                                        Sign In
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-
-                        {/* Mobile Menu Button */}
-                        <div className="md:hidden">
-                            <button
-                                type="button"
-                                className="text-gray-1 hover:text-white-1"
-                                aria-label="Open menu"
-                            >
-                                <svg
-                                    className="h-6 w-6"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    aria-hidden="true"
+                        {/* Sign In Menu (Desktop & Mobile) */}
+                        <div>
+                            <form action={signInGoogle}>
+                                <button
+                                    type="submit"
+                                    className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
                                 >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M4 6h16M4 12h16M4 18h16"
-                                    />
-                                </svg>
-                            </button>
+                                    Sign In
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
