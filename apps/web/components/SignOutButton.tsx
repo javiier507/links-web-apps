@@ -1,8 +1,10 @@
 "use client";
 
-import { signOut } from "./client-functions";
+interface SignOutButtonProps {
+    signOut: () => void;
+}
 
-export function SignOutButton() {
+export function SignOutButton({ signOut }: SignOutButtonProps) {
     return (
         <button
             type="button"

@@ -1,6 +1,8 @@
-import { SignOutButton } from "@/libs/auth/SignOutButton";
-import { getAuthUser } from "@/libs/auth/server-functions";
 import { redirect } from "next/navigation";
+
+import { SignOutButton } from "@/components/SignOutButton";
+import { signOut } from "@/libs/auth/client-functions";
+import { getAuthUser } from "@/libs/auth/server-functions";
 
 export default async function PrivateLayout({
     children,
@@ -34,7 +36,7 @@ export default async function PrivateLayout({
                             <span className="text-gray-1 text-sm hidden sm:inline">
                                 Hello, <span className="text-white-1 font-medium">{user.name}</span>
                             </span>
-                            <SignOutButton />
+                            <SignOutButton signOut={signOut} />
                         </div>
                     </div>
                 </div>
