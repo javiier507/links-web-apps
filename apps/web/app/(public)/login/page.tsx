@@ -1,8 +1,10 @@
 import { redirect } from "next/navigation";
 
-import { Footer } from "@/components/Footer";
 import { signInGoogle } from "@/libs/auth/actions";
 import { isAuth } from "@/libs/auth/server-functions";
+
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 
 export default async function LoginPage() {
     const isAuthenticated = await isAuth();
@@ -13,34 +15,19 @@ export default async function LoginPage() {
 
     return (
         <div className="min-h-screen">
-            {/* Navbar */}
-            <nav className="fixed w-full z-50 bg-dark-1/90 backdrop-blur-md border-b border-white/5">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-20">
-                        {/* Logo */}
-                        <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-                            <div className="w-8 h-8 bg-gradient-to-br from-yellow-2 to-yellow-1 rounded-lg flex items-center justify-center text-dark-1 font-bold text-xl shadow-lg shadow-yellow-1/20">
-                                W
-                            </div>
-                            <span className="font-bold text-xl tracking-tight text-white-1">
-                                Wlinks
-                            </span>
-                        </div>
-
-                        {/* Sign In Menu (Desktop & Mobile) */}
-                        <div>
-                            <form action={signInGoogle}>
-                                <button
-                                    type="submit"
-                                    className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
-                                >
-                                    Sign In
-                                </button>
-                            </form>
-                        </div>
-                    </div>
+            <Header>
+                {/* Sign In Menu */}
+                <div>
+                    <form action={signInGoogle}>
+                        <button
+                            type="submit"
+                            className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
+                        >
+                            Sign In
+                        </button>
+                    </form>
                 </div>
-            </nav>
+            </Header>
 
             {/* Hero Section */}
             <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
