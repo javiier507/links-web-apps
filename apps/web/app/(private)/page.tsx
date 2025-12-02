@@ -1,194 +1,114 @@
-import { getAuthUser } from "@/libs/auth/server-functions";
+import { MOCKED_LINKS } from "@repo/api/link.mock";
 
 export default async function Home() {
-    const user = await getAuthUser();
-
-    if (!user) {
-        return null;
-    }
+    const links = MOCKED_LINKS.documents;
 
     return (
-        <div className="min-h-screen">
-            {/* Hero Section */}
-            <section className="relative pt-12 pb-20 lg:pt-20 lg:pb-32 overflow-hidden">
-                {/* Glow Effects */}
-                <div className="hero-glow top-1/4 left-1/4" />
-                <div
-                    className="hero-glow bottom-1/4 right-1/4"
-                    style={{
-                        background:
-                            "radial-gradient(circle, rgba(229,57,53,0.05) 0%, rgba(24,24,24,0) 70%)",
-                    }}
-                />
-
-                {/* Main Content */}
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                    {/* Welcome Message */}
-                    <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-white-1">
-                        Welcome back, <span className="gradient-text">{user.name}</span>
-                    </h1>
-
-                    {/* Subtitle */}
-                    <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-1 mb-10">
-                        Your links are waiting for you. Start organizing your digital world.
+        <div className="min-h-screen py-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                {/* Header Section */}
+                <div className="mb-8">
+                    <h1 className="text-3xl md:text-4xl font-bold text-white-1 mb-2">My Links</h1>
+                    <p className="text-gray-1">
+                        {links.length} {links.length === 1 ? "link" : "links"} saved
                     </p>
+                </div>
 
-                    {/* Quick Actions */}
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
+                {/* Links Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {links.map((link) => (
                         <a
-                            href="/dashboard"
-                            className="px-8 py-3.5 bg-gradient-to-r from-yellow-2 to-yellow-1 text-dark-1 rounded-full font-medium text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5"
+                            key={link.$id}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group bg-dark-2 rounded-xl border border-white/5 hover:border-yellow-1/50 transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-1/10"
                         >
-                            Go to Dashboard
+                            {/* Card Content */}
+                            <div className="p-6">
+                                {/* Icon/Favicon Placeholder */}
+                                <div className="w-12 h-12 bg-yellow-1/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-yellow-1/20 transition-colors">
+                                    <svg
+                                        className="w-6 h-6 text-yellow-1"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        aria-hidden="true"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
+                                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                                        />
+                                    </svg>
+                                </div>
+
+                                {/* Title */}
+                                <h3 className="text-lg font-semibold text-white-1 mb-2 line-clamp-2 group-hover:text-yellow-2 transition-colors">
+                                    {link.title}
+                                </h3>
+
+                                {/* URL */}
+                                <p className="text-sm text-gray-1 mb-4 truncate">
+                                    {new URL(link.url).hostname}
+                                </p>
+
+                                {/* Tags */}
+                                {link.tags && link.tags.length > 0 && (
+                                    <div className="flex flex-wrap gap-2">
+                                        {link.tags.slice(0, 3).map((tag) => (
+                                            <span
+                                                key={tag}
+                                                className="px-2 py-1 text-xs bg-dark-3 text-gray-1 rounded-md border border-white/5"
+                                            >
+                                                {tag}
+                                            </span>
+                                        ))}
+                                        {link.tags.length > 3 && (
+                                            <span className="px-2 py-1 text-xs bg-dark-3 text-gray-1 rounded-md border border-white/5">
+                                                +{link.tags.length - 3}
+                                            </span>
+                                        )}
+                                    </div>
+                                )}
+                            </div>
                         </a>
+                    ))}
+                </div>
+
+                {/* Empty State */}
+                {links.length === 0 && (
+                    <div className="text-center py-20">
+                        <div className="w-20 h-20 bg-yellow-1/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <svg
+                                className="w-10 h-10 text-yellow-1"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                                />
+                            </svg>
+                        </div>
+                        <h2 className="text-2xl font-bold text-white-1 mb-2">No links yet</h2>
+                        <p className="text-gray-1 mb-6">
+                            Start adding links to build your collection
+                        </p>
                         <a
                             href="/links/new"
-                            className="px-8 py-3.5 bg-dark-2 text-white-1 rounded-full font-medium text-lg border border-white/10 hover:border-yellow-1/50 transition-all duration-300 transform hover:-translate-y-0.5"
+                            className="inline-block px-6 py-3 bg-gradient-to-r from-yellow-2 to-yellow-1 text-dark-1 rounded-full font-medium hover:shadow-xl transition-all duration-300"
                         >
-                            Add New Link
+                            Add Your First Link
                         </a>
                     </div>
-                </div>
-            </section>
-
-            {/* Stats Section */}
-            <section className="py-20 bg-dark-3/30 relative">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {/* Stat 1 */}
-                        <div className="bg-dark-2 p-8 rounded-2xl border border-white/5 hover:border-yellow-1/30 transition-all duration-300 hover:-translate-y-1 text-center">
-                            <div className="w-16 h-16 bg-yellow-1/10 rounded-lg flex items-center justify-center mb-4 mx-auto text-yellow-1">
-                                <svg
-                                    className="w-8 h-8"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    role="img"
-                                    aria-label="Link icon"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                                    />
-                                </svg>
-                            </div>
-                            <h3 className="text-3xl font-bold text-white-1 mb-2">0</h3>
-                            <p className="text-gray-1">Total Links</p>
-                        </div>
-
-                        {/* Stat 2 */}
-                        <div className="bg-dark-2 p-8 rounded-2xl border border-white/5 hover:border-yellow-1/30 transition-all duration-300 hover:-translate-y-1 text-center">
-                            <div className="w-16 h-16 bg-yellow-1/10 rounded-lg flex items-center justify-center mb-4 mx-auto text-yellow-1">
-                                <svg
-                                    className="w-8 h-8"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    role="img"
-                                    aria-label="Tag icon"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
-                                    />
-                                </svg>
-                            </div>
-                            <h3 className="text-3xl font-bold text-white-1 mb-2">0</h3>
-                            <p className="text-gray-1">Tags Used</p>
-                        </div>
-
-                        {/* Stat 3 */}
-                        <div className="bg-dark-2 p-8 rounded-2xl border border-white/5 hover:border-yellow-1/30 transition-all duration-300 hover:-translate-y-1 text-center">
-                            <div className="w-16 h-16 bg-yellow-1/10 rounded-lg flex items-center justify-center mb-4 mx-auto text-yellow-1">
-                                <svg
-                                    className="w-8 h-8"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    role="img"
-                                    aria-label="Calendar icon"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                                    />
-                                </svg>
-                            </div>
-                            <h3 className="text-3xl font-bold text-white-1 mb-2">Today</h3>
-                            <p className="text-gray-1">Last Activity</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Quick Start Guide */}
-            <section className="py-20 relative">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold text-white-1 mb-4">Getting Started</h2>
-                        <p className="text-gray-1">
-                            Start organizing your links in just a few steps
-                        </p>
-                    </div>
-
-                    <div className="space-y-6">
-                        {/* Step 1 */}
-                        <div className="bg-dark-2 p-6 rounded-xl border border-white/5 hover:border-yellow-1/30 transition-colors flex items-start gap-4">
-                            <div className="w-10 h-10 bg-yellow-1 rounded-lg flex items-center justify-center text-dark-1 font-bold flex-shrink-0">
-                                1
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-white-1 mb-2">
-                                    Add Your First Link
-                                </h3>
-                                <p className="text-gray-1">
-                                    Click on "Add New Link" to save your first bookmark. You can add
-                                    a title, tags, and organize it however you want.
-                                </p>
-                            </div>
-                        </div>
-
-                        {/* Step 2 */}
-                        <div className="bg-dark-2 p-6 rounded-xl border border-white/5 hover:border-yellow-1/30 transition-colors flex items-start gap-4">
-                            <div className="w-10 h-10 bg-yellow-1 rounded-lg flex items-center justify-center text-dark-1 font-bold flex-shrink-0">
-                                2
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-white-1 mb-2">
-                                    Organize with Tags
-                                </h3>
-                                <p className="text-gray-1">
-                                    Use tags to categorize your links. Create custom tags like
-                                    "work", "personal", "inspiration", or anything that makes sense
-                                    for you.
-                                </p>
-                            </div>
-                        </div>
-
-                        {/* Step 3 */}
-                        <div className="bg-dark-2 p-6 rounded-xl border border-white/5 hover:border-yellow-1/30 transition-colors flex items-start gap-4">
-                            <div className="w-10 h-10 bg-yellow-1 rounded-lg flex items-center justify-center text-dark-1 font-bold flex-shrink-0">
-                                3
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-white-1 mb-2">
-                                    Access Anywhere
-                                </h3>
-                                <p className="text-gray-1">
-                                    Your links sync across all your devices. Download our mobile app
-                                    to access your bookmarks on the go.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                )}
+            </div>
         </div>
     );
 }
