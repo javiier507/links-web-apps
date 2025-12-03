@@ -6,7 +6,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://hackertarget.com/tcpdump-examples/",
             title: "Tcpdump Examples - 22 Tactical Commands | HackerTarget.com",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/6847a958000513f51267/200/200",
             imagePlaceholderUrl: null,
             tags: ["linux", "servers"],
             userId: "lorem",
@@ -21,7 +21,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://react.dev/learn",
             title: "React Official Learning Path",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec1/200/200",
             imagePlaceholderUrl: null,
             tags: ["react", "javascript"],
             userId: "lorem",
@@ -36,7 +36,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
             title: "JavaScript Guide – MDN",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec3/200/200",
             imagePlaceholderUrl: null,
             tags: ["javascript", "apis"],
             userId: "lorem",
@@ -66,7 +66,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://www.postgresql.org/docs/",
             title: "PostgreSQL Documentation",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec6/200/200",
             imagePlaceholderUrl: null,
             tags: ["sql", "backend"],
             userId: "lorem",
@@ -81,7 +81,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://expressjs.com/",
             title: "Express.js – Node.js web application framework",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec7/200/200",
             imagePlaceholderUrl: null,
             tags: ["backend", "javascript"],
             userId: "lorem",
@@ -96,7 +96,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://fastapi.tiangolo.com/",
             title: "FastAPI – Modern, Fast (high-performance) web framework for Python",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec8/200/200",
             imagePlaceholderUrl: null,
             tags: ["python", "apis"],
             userId: "lorem",
@@ -126,7 +126,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://jwt.io/",
             title: "JWT Debugger",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec10/200/200",
             imagePlaceholderUrl: null,
             tags: ["auth", "apis"],
             userId: "lorem",
@@ -141,7 +141,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://nodejs.org/en/docs/",
             title: "Node.js Documentation",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/rec11/200/200",
             imagePlaceholderUrl: null,
             tags: ["javascript", "backend"],
             userId: "lorem",
@@ -156,7 +156,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://overreacted.io/a-complete-guide-to-useeffect/",
             title: "A Complete Guide to useEffect",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art1/200/200",
             imagePlaceholderUrl: null,
             tags: ["react", "hooks"],
             userId: "demo",
@@ -171,7 +171,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://kentcdodds.com/blog/how-to-write-a-react-component",
             title: "How to Write a React Component",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art2/200/200",
             imagePlaceholderUrl: null,
             tags: ["react", "components"],
             userId: "demo",
@@ -186,7 +186,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
             title: "A Guide to Flexbox",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art3/200/200",
             imagePlaceholderUrl: null,
             tags: ["css", "flexbox"],
             userId: "demo",
@@ -201,7 +201,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://dev.to/aspittel/an-intro-to-functional-programming-2f6a",
             title: "An Intro to Functional Programming",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art5/200/200",
             imagePlaceholderUrl: null,
             tags: ["functional", "javascript"],
             userId: "demo",
@@ -231,7 +231,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://www.taniarascia.com/node-express-mongodb-crud/",
             title: "Node, Express, MongoDB CRUD",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art7/200/200",
             imagePlaceholderUrl: null,
             tags: ["nodejs", "mongodb"],
             userId: "demo",
@@ -246,7 +246,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://www.digitalocean.com/community/tutorials/how-to-use-structs-in-go",
             title: "How To Use Structs in Go",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art8/200/200",
             imagePlaceholderUrl: null,
             tags: ["go", "structs"],
             userId: "demo",
@@ -276,7 +276,7 @@ export const MOCKED_LINKS: LinkList = {
         {
             url: "https://khalilstemmler.com/articles/solid-principles/",
             title: "SOLID Principles in JavaScript",
-            imageOriginalUrl: null,
+            imageOriginalUrl: "https://picsum.photos/seed/art10/200/200",
             imagePlaceholderUrl: null,
             tags: ["solid", "javascript"],
             userId: "demo",

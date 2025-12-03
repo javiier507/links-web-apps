@@ -1,4 +1,5 @@
 import type { Link } from "@repo/api/link";
+import Image from "next/image";
 
 interface LinkItemProps {
     link: Link;
@@ -13,22 +14,23 @@ export function LinkItem({ link }: LinkItemProps) {
             className="group bg-dark-2 rounded-xl border border-white/5 hover:border-yellow-1/50 transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-1/10"
         >
             <div className="p-6">
-                {/* Icon/Favicon Placeholder */}
-                <div className="w-12 h-12 bg-yellow-1/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-yellow-1/20 transition-colors">
-                    <svg
-                        className="w-6 h-6 text-yellow-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        aria-hidden="true"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                {/* Image */}
+                <div className="w-full aspect-square mb-4 rounded-lg overflow-hidden bg-dark-3">
+                    {link.imageOriginalUrl ? (
+                        <Image
+                            src={link.imageOriginalUrl}
+                            alt={link.title}
+                            width={200}
+                            height={200}
+                            className="w-full h-full object-cover"
                         />
-                    </svg>
+                    ) : (
+                        <img
+                            src="/placeholder.png"
+                            alt={link.title}
+                            className="w-full h-full object-cover"
+                        />
+                    )}
                 </div>
 
                 {/* Title */}
