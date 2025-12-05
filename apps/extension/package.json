@@ -1,30 +1,30 @@
 {
-  "name": "extension",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "biome check .",
-    "check-types": "tsc --noEmit",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@repo/api": "workspace:*",
-    "@repo/ui": "workspace:*",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
-  },
-  "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
-    "@tailwindcss/vite": "^4.1.17",
-    "@types/chrome": "0.1.24",
-    "@types/node": "22.15.3",
-    "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
-    "@vitejs/plugin-react-swc": "4.1.0",
-    "typescript": "5.9.2",
-    "vite": "7.1.7"
-  }
+    "name": "extension",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "biome check .",
+        "check-types": "tsc --noEmit",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@repo/api": "workspace:*",
+        "@repo/ui": "workspace:*",
+        "react": "19.1.2",
+        "react-dom": "19.1.2"
+    },
+    "devDependencies": {
+        "@repo/typescript-config": "workspace:*",
+        "@tailwindcss/vite": "^4.1.17",
+        "@types/chrome": "0.1.24",
+        "@types/node": "22.15.3",
+        "@types/react": "19.1.0",
+        "@types/react-dom": "19.1.1",
+        "@vitejs/plugin-react-swc": "4.1.0",
+        "typescript": "5.9.2",
+        "vite": "7.1.7"
+    }
 }
