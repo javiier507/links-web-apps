@@ -1,6 +1,6 @@
 import type { Models } from "node-appwrite";
 
-export interface Link extends Models.Document {
+export interface Link extends Models.Row {
     url: string;
     title: string;
     imageOriginalUrl: string | null;
@@ -9,4 +9,4 @@ export interface Link extends Models.Document {
     userId: string;
 }
 
-export type LinkList = Models.DocumentList<Link>;
+export type LinkList = Models.RowList<Link>;

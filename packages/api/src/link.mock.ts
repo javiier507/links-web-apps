@@ -2,7 +2,7 @@ import type { LinkList } from "./link";
 
 export const MOCKED_LINKS: LinkList = {
     total: 19,
-    documents: [
+    rows: [
         {
             url: "https://hackertarget.com/tcpdump-examples/",
             title: "Tcpdump Examples - 22 Tactical Commands | HackerTarget.com",
@@ -16,7 +16,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-10T04:09:10.976+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://react.dev/learn",
@@ -31,7 +31,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:01.209+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
@@ -46,7 +46,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:03.273+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://auth0.com/docs/get-started",
@@ -61,7 +61,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:04.230+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://www.postgresql.org/docs/",
@@ -76,7 +76,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:06.161+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://expressjs.com/",
@@ -91,7 +91,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:07.423+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://fastapi.tiangolo.com/",
@@ -106,7 +106,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:08.374+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://sequelize.org/",
@@ -121,7 +121,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:09.427+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://jwt.io/",
@@ -136,7 +136,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:53.931+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://nodejs.org/en/docs/",
@@ -151,7 +151,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-12T03:04:55.370+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://overreacted.io/a-complete-guide-to-useeffect/",
@@ -166,7 +166,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:21.526+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://kentcdodds.com/blog/how-to-write-a-react-component",
@@ -181,7 +181,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:22.936+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
@@ -196,7 +196,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:24.107+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://dev.to/aspittel/an-intro-to-functional-programming-2f6a",
@@ -211,7 +211,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:26.723+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://blog.logrocket.com/understanding-async-await-javascript/",
@@ -226,7 +226,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:28.206+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://www.taniarascia.com/node-express-mongodb-crud/",
@@ -241,7 +241,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:29.592+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://www.digitalocean.com/community/tutorials/how-to-use-structs-in-go",
@@ -256,7 +256,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:31.583+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://realpython.com/python-type-checking/",
@@ -271,7 +271,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:32.964+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
         {
             url: "https://khalilstemmler.com/articles/solid-principles/",
@@ -286,7 +286,7 @@ export const MOCKED_LINKS: LinkList = {
             $updatedAt: "2025-06-14T04:45:34.345+00:00",
             $permissions: [],
             $databaseId: "6847a63c00178471e105",
-            $collectionId: "6847a65000396daa6428",
+            $tableId: "6847a65000396daa6428",
         },
     ],
 };
