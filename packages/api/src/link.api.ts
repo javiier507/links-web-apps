@@ -9,7 +9,7 @@ export async function getLinks(): Promise<LinkList> {
     const links = await tablesDB.listRows({
         databaseId: APPWRITE_DATABASE_ID as string,
         tableId: APPWRITE_TABLE_ID as string,
-        queries: [Query.limit(100), Query.offset(0)],
+        queries: [Query.orderDesc("$sequence")],
     });
 
     return {
