@@ -2,10 +2,14 @@ import { EmptyLinks } from "@/components/EmptyLinks";
 import { LinksGrid } from "@/components/LinksGrid";
 import { LinksHeader } from "@/components/LinksHeader";
 
-import { getLinks } from "@repo/api/link.api";
+import { getAuthCookie, getAuthUserFromAppwrite } from "@/libs/auth/server-functions";
+import { getLinks, getLinksFromSession } from "@repo/api/link.api";
 
 export default async function Home() {
-    const links = await getLinks();
+    const sessionSecret = await getAuthCookie();
+    const links = await getLinksFromSession(sessionSecret ?? "");
+    const user = await getAuthUserFromAppwrite();
+    console.log("user", user);
 
     return (
         <div className="min-h-screen py-8">

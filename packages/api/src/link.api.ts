@@ -1,4 +1,11 @@
-import { ExecutionMethod, Query, account, functions, tablesDB } from "./appwrite";
+import {
+    ExecutionMethod,
+    Query,
+    account,
+    createSessionClient,
+    functions,
+    tablesDB,
+} from "./appwrite";
 import { APPWRITE_DATABASE_ID, APPWRITE_TABLE_ID } from "./environment";
 
 import { toLink } from "./link.mapper";
@@ -18,7 +25,7 @@ export async function getLinks(): Promise<LinkList> {
     };
 }
 
-export async function googleSignIn(token: string): Promise<boolean> {
+export async function googleSignIn(token: string): Promise<string | null> {
     const response = await functions.createExecution(
         "google-sign-in-function",
         JSON.stringify({ token }),
@@ -30,10 +37,26 @@ export async function googleSignIn(token: string): Promise<boolean> {
     console.log(response.responseStatusCode);
     if (response.responseStatusCode !== 200) {
         console.error(response.responseBody);
-        return false;
+        return null;
     }
 
     const responseBody = JSON.parse(response.responseBody);
-    await account.createSession(responseBody.userId, responseBody.secret);
-    return true;
+    const session = await account.createSession(responseBody.userId, responseBody.secret);
+    console.log(session);
+    return session.secret;
+}
+
+export async function getLinksFromSession(sessionSecret: string): Promise<LinkList> {
+    const { tablesDB: table } = await createSessionClient(sessionSecret);
+
+    const links = await table.listRows({
+        databaseId: APPWRITE_DATABASE_ID as string,
+        tableId: APPWRITE_TABLE_ID as string,
+        queries: [Query.orderDesc("$sequence")],
+    });
+
+    return {
+        rows: links.rows.map(toLink),
+        total: links.total,
+    };
 }

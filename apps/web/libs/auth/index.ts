@@ -1,5 +1,6 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
+import { cookies } from "next/headers";
 
 import { googleSignIn } from "@repo/api/link.api";
 
@@ -14,7 +15,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
              */
             return !!auth;
         },
-        signIn: async ({ user, account }) => {
+        signIn: async ({ account }) => {
             /**
              * Usado para verificar si el usuario puede iniciar sesión.
              * Si devuelve false, el usuario no podrá iniciar sesión.
@@ -22,7 +23,18 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             if (account?.type === "oidc" && account.id_token) {
                 try {
                     const response = await googleSignIn(account.id_token);
-                    return response;
+
+                    if (!response) return false;
+
+                    const cookieStore = await cookies();
+                    cookieStore.set("my-custom-session", response, {
+                        path: "/",
+                        httpOnly: true,
+                        sameSite: "strict",
+                        secure: true,
+                    });
+
+                    return true;
                 } catch (error) {
                     console.error(error);
                     return false;
