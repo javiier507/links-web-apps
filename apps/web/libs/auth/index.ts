@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
-import { cookies } from "next/headers";
 
+import { SetSession } from "@/libs/api/cookie";
 import { googleSignIn } from "@repo/api/link.api";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
@@ -23,17 +23,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             if (account?.type === "oidc" && account.id_token) {
                 try {
                     const response = await googleSignIn(account.id_token);
-
                     if (!response) return false;
-
-                    const cookieStore = await cookies();
-                    cookieStore.set("my-custom-session", response, {
-                        path: "/",
-                        httpOnly: true,
-                        sameSite: "strict",
-                        secure: true,
-                    });
-
+                    await SetSession(response);
                     return true;
                 } catch (error) {
                     console.error(error);
