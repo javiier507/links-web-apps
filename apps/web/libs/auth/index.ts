@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 
-import { SetSession } from "@/libs/api/cookie";
+import { DeleteSession, SetSession } from "@/libs/api/cookie";
 import { googleSignIn } from "@repo/api/link.api";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
@@ -32,6 +32,15 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
                 }
             }
             return true;
+        },
+    },
+    events: {
+        signOut: async () => {
+            try {
+                await DeleteSession();
+            } catch (error) {
+                console.error("Error in signOut event:", error);
+            }
         },
     },
     pages: {
