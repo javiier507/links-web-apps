@@ -2,7 +2,8 @@ import { Account, Client, Functions, TablesDB } from "node-appwrite";
 
 import { APPWRITE_ENDPOINT, APPWRITE_PROJECT, APPWRITE_WEB_AUTH_API_KEY } from "./environment";
 
-export { ExecutionMethod, ID, Query } from "node-appwrite";
+export { ExecutionMethod, ID, Query, Permission, Role } from "node-appwrite";
+export type { Account, TablesDB, Functions, Models } from "node-appwrite";
 
 export async function ApiKeyClient() {
     const client = new Client()

@@ -1,5 +1,5 @@
 import { SessionClient } from "@repo/api/appwrite";
-import { getLinks } from "@repo/api/link.api";
+import { createLink, getLinks } from "@repo/api/link.api";
 
 import { GetSessionSecret } from "@/libs/api/cookie";
 
@@ -24,4 +24,25 @@ export async function GetLinks() {
     if (!sessionSecret) return { rows: [], total: 0 };
 
     return getLinks(sessionSecret);
+}
+
+export async function CreateLink(url: string) {
+    const sessionSecret = await GetSessionSecret();
+    if (!sessionSecret)
+        throw new Error("Unauthorized", {
+            cause: "No session secret found",
+        });
+
+    const authUser = await GetAuthUser();
+    if (!authUser)
+        throw new Error("Unauthorized", {
+            cause: "No user found",
+        });
+
+    return createLink(sessionSecret, {
+        url,
+        title: url,
+        tags: [],
+        userId: authUser.$id,
+    });
 }
