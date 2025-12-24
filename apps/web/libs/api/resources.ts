@@ -20,7 +20,8 @@ export async function GetAuthUser() {
 export async function GetLinks() {
     const sessionSecret = await GetSessionSecret();
 
-    if (!sessionSecret) throw new Error("No session secret found");
+    // workaround for avoing errors when the user is logging in
+    if (!sessionSecret) return { rows: [], total: 0 };
 
     return getLinks(sessionSecret);
 }

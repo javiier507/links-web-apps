@@ -21,7 +21,6 @@ export async function googleSignIn(token: string): Promise<string | null> {
 
     const responseBody = JSON.parse(response.responseBody);
     const session = await account.createSession(responseBody.userId, responseBody.secret);
-    console.log(session);
     return session.secret;
 }
 
