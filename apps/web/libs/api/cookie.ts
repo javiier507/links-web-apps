@@ -5,9 +5,7 @@ const SESSION_COOKIE_NAME = "wlinks.cookie.token";
 export async function SetSession(sessionSecret: string) {
     const cookieStore = await cookies();
     cookieStore.set(SESSION_COOKIE_NAME, sessionSecret, {
-        path: "/",
         httpOnly: true,
-        sameSite: "strict",
         secure: true,
     });
 }
