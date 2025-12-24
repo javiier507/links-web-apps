@@ -3,11 +3,11 @@ import { LinksGrid } from "@/components/LinksGrid";
 import { LinksHeader } from "@/components/LinksHeader";
 
 import { getAuthCookie, getAuthUserFromAppwrite } from "@/libs/auth/server-functions";
-import { getLinks, getLinksFromSession } from "@repo/api/link.api";
+import { getLinks } from "@repo/api/link.api";
 
 export default async function Home() {
     const sessionSecret = await getAuthCookie();
-    const links = await getLinksFromSession(sessionSecret ?? "");
+    const links = await getLinks(sessionSecret ?? "");
     const user = await getAuthUserFromAppwrite();
     console.log("user", user);
 

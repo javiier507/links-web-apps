@@ -15,7 +15,7 @@ export async function getAuthUser() {
 
 import { cookies } from "next/headers";
 
-import { createSessionClient } from "@repo/api/appwrite";
+import { SessionClient } from "@repo/api/appwrite";
 
 export async function getAuthCookie() {
     const cookieStore = await cookies();
@@ -29,7 +29,7 @@ export async function getAuthUserFromAppwrite() {
     if (!sessionSecret) return null;
 
     try {
-        const { account } = await createSessionClient(sessionSecret);
+        const { account } = await SessionClient(sessionSecret);
         return await account.get();
     } catch (error) {
         console.error(error);
