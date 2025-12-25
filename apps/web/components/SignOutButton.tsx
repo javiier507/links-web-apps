@@ -1,17 +1,17 @@
 "use client";
 
-interface SignOutButtonProps {
+interface LogOutButtonProps {
     signOut: () => void;
 }
 
-export function SignOutButton({ signOut }: SignOutButtonProps) {
+export function SignOutButton({ signOut }: LogOutButtonProps) {
     return (
         <button
             type="button"
             onClick={() => signOut()}
-            className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
+            className="bg-red-500 hover:bg-red-600 text-white font-medium px-6 py-3 rounded-lg transition-colors border border-transparent hover:border-transparent"
         >
-            Sign Out
+            Log Out
         </button>
     );
 }
