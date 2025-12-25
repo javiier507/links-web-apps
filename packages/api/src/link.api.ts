@@ -10,6 +10,7 @@ import {
 import { APPWRITE_DATABASE_ID, APPWRITE_TABLE_ID } from "./environment";
 import { MetadataSchema } from "./link";
 import { toLink } from "./link.mapper";
+import { getRandomPlaceholder } from "./utils/placeholder";
 
 import type { Functions, TablesDB } from "./appwrite";
 import type { CreateLinkRequest, Link, LinkList, Metadata } from "./link";
@@ -59,7 +60,7 @@ export async function createLink(sessionSecret: string, request: CreateLinkReque
         ...request,
         title: metadata.title,
         imageOriginalUrl: metadata.image?.url,
-        //TODO: imagePlaceholderUrl: getRandomPlaceholder()
+        imagePlaceholderUrl: getRandomPlaceholder(),
     });
 
     return newLink;
