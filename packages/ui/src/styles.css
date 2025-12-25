@@ -10,6 +10,7 @@
   --color-white-1: #FFFFFF;
   --color-gray-1: #bdbdbd;
   --color-red-1: #E53935;
+  --color-red-2: #C62828;
 }
 
 @layer base {
@@ -47,22 +48,32 @@
     line-height: 1.1;
   }
 
-  button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    @apply bg-dark-2 cursor-pointer transition-colors duration-250;
+  /* Button variants hover fix */
+  .btn-primary {
+    background: linear-gradient(to bottom right, var(--color-yellow-2), var(--color-yellow-1));
   }
 
-  button:hover {
-    @apply border-yellow-2;
+  .btn-primary:hover {
+    box-shadow: 0 10px 15px -3px rgba(203, 138, 5, 0.3);
+    transform: scale(1.02);
   }
 
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+  .btn-secondary {
+    background-color: var(--color-dark-2);
+    color: var(--color-gray-1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .btn-secondary:hover {
+    color: var(--color-yellow-2);
+    border-color: var(--color-yellow-2);
+  }
+
+  .btn-danger {
+    background-color: var(--color-red-1);
+  }
+
+  .btn-danger:hover {
+    background-color: var(--color-red-2);
   }
 }

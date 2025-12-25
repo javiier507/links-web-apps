@@ -1,17 +1,15 @@
 "use client";
 
-interface LogOutButtonProps {
+import { Button } from "@repo/ui/button";
+
+interface SignOutButtonProps {
     signOut: () => void;
 }
 
-export function SignOutButton({ signOut }: LogOutButtonProps) {
+export function SignOutButton({ signOut }: SignOutButtonProps) {
     return (
-        <button
-            type="button"
-            onClick={() => signOut()}
-            className="bg-red-500 hover:bg-red-600 text-white font-medium px-6 py-3 rounded-lg transition-colors border border-transparent hover:border-transparent"
-        >
+        <Button variant="danger" size="lg" onClick={() => signOut()}>
             Log Out
-        </button>
+        </Button>
     );
 }

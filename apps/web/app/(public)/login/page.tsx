@@ -1,5 +1,7 @@
 import { redirect } from "next/navigation";
 
+import { Button } from "@repo/ui/button";
+
 import { signInGoogle } from "@/libs/auth/actions";
 import { isAuth } from "@/libs/auth/server-functions";
 
@@ -19,12 +21,9 @@ export default async function LoginPage() {
                 {/* Sign In Menu */}
                 <div>
                     <form action={signInGoogle}>
-                        <button
-                            type="submit"
-                            className="text-gray-1 hover:text-yellow-2 transition-colors px-3 py-2 rounded-md text-sm font-medium bg-transparent border-none cursor-pointer"
-                        >
+                        <Button type="submit" variant="ghost" size="sm">
                             Sign In
-                        </button>
+                        </Button>
                     </form>
                 </div>
             </Header>

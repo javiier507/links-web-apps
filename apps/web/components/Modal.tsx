@@ -1,12 +1,13 @@
 "use client";
 
-import type { ReactNode } from "react";
 import { useEffect } from "react";
+
+import { Button } from "@repo/ui/button";
 
 interface ModalProps {
     isOpen: boolean;
     onClose: () => void;
-    children: ReactNode;
+    children: React.ReactNode;
     title?: string;
 }
 
@@ -48,10 +49,11 @@ export function Modal({ isOpen, onClose, children, title }: ModalProps) {
                 )}
 
                 {/* Close button */}
-                <button
-                    type="button"
+                <Button
+                    variant="ghost"
+                    size="sm"
                     onClick={onClose}
-                    className="absolute top-4 right-4 text-gray-1 hover:text-white-1 transition-colors"
+                    className="absolute top-4 right-4 hover:text-white-1"
                     aria-label="Close modal"
                 >
                     {/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
@@ -66,7 +68,7 @@ export function Modal({ isOpen, onClose, children, title }: ModalProps) {
                     >
                         <path d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                </button>
+                </Button>
 
                 {/* Content */}
                 <div className="p-6">{children}</div>

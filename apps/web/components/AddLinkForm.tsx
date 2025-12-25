@@ -2,6 +2,8 @@
 
 import { useActionState, useEffect, useRef } from "react";
 
+import { Button } from "@repo/ui/button";
+
 import { type AddLinkState, addLinkAction } from "@/app/(private)/actions";
 
 interface AddLinkFormProps {
@@ -54,13 +56,16 @@ export function AddLinkForm({ onSuccess }: AddLinkFormProps) {
                 </div>
             )}
 
-            <button
+            <Button
                 type="submit"
-                disabled={isPending}
-                className="w-full px-6 py-3 bg-gradient-to-br from-yellow-2 to-yellow-1 text-dark-1 font-semibold rounded-lg hover:shadow-lg hover:shadow-yellow-1/30 transition-all duration-300 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                variant="primary"
+                size="lg"
+                fullWidth
+                loading={isPending}
+                loadingText="Saving..."
             >
-                {isPending ? "Saving..." : "Save"}
-            </button>
+                Save
+            </Button>
         </form>
     );
 }

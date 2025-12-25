@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { Button } from "@repo/ui/button";
+import { useEffect, useState } from "react";
 
 function App() {
     const [currentUrl, setCurrentUrl] = useState<string | null>(null);
@@ -60,17 +61,20 @@ function App() {
     return (
         <div className="w-[350px] h-[200px] mx-auto bg-dark-1 border border-dark-1 rounded-xl p-2.5 box-border grid gap-4 grid-rows-[auto_1fr_auto]">
             <p className="m-0 font-semibold text-gray-1 text-center text-base">Wlinks</p>
-            <div className={`bg-dark-2 border border-dark-2 rounded-lg p-2.5 m-0 text-sm overflow-hidden break-all line-clamp-4 ${error ? 'text-red-1' : 'text-gray-1'}`}>
+            <div
+                className={`bg-dark-2 border border-dark-2 rounded-lg p-2.5 m-0 text-sm overflow-hidden break-all line-clamp-4 ${error ? "text-red-1" : "text-gray-1"}`}
+            >
                 {getDisplayContent()}
             </div>
-            <button
-                type="button"
+            <Button
+                variant="primary"
+                size="md"
+                fullWidth
                 onClick={handleGetUrl}
-                className="w-full p-2.5 bg-yellow-2 text-dark-1 border-none rounded font-semibold text-base cursor-pointer transition-colors duration-300 hover:bg-yellow-1 disabled:bg-dark-2 disabled:text-gray-1 disabled:cursor-not-allowed disabled:opacity-50 focus:outline-none active:not-disabled:opacity-90"
                 disabled={!currentUrl || isLoading}
             >
                 Save
-            </button>
+            </Button>
         </div>
     );
 }
