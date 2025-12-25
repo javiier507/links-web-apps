@@ -16,7 +16,7 @@ export function LinkItem({ link }: LinkItemProps) {
                 {/* Image */}
                 <div className="w-full aspect-square mb-4 rounded-lg overflow-hidden bg-dark-3">
                     <img
-                        src={link.imageOriginalUrl || "/placeholder.png"}
+                        src={link.imageOriginalUrl || "/placeholder/placeholder.png"}
                         alt={link.title}
                         className="w-full h-full object-cover"
                     />
