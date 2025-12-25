@@ -10,7 +10,7 @@ export function LinkItem({ link }: LinkItemProps) {
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-dark-2 rounded-xl border border-white/5 hover:border-yellow-1/50 transition-all duration-300 overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-1/10"
+            className="group bg-dark-2 rounded-xl border border-white/5 overflow-hidden"
         >
             <div className="p-6">
                 {/* Image */}
@@ -23,7 +23,7 @@ export function LinkItem({ link }: LinkItemProps) {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-white-1 mb-2 line-clamp-2 group-hover:text-yellow-2 transition-colors">
+                <h3 className="text-lg font-semibold text-white-1 mb-2 line-clamp-2 group-hover:text-yellow-2">
                     {link.title}
                 </h3>
 
