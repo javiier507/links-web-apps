@@ -1,4 +1,5 @@
 import type { Link } from "@repo/api/link";
+import { LinkImage } from "./LinkImage";
 
 interface LinkItemProps {
     link: Link;
@@ -14,13 +15,11 @@ export function LinkItem({ link }: LinkItemProps) {
         >
             <div className="p-6">
                 {/* Image */}
-                <div className="w-full aspect-square mb-4 rounded-lg overflow-hidden bg-dark-3">
-                    <img
-                        src={link.imageOriginalUrl || "/placeholder/placeholder.png"}
-                        alt={link.title}
-                        className="w-full h-full object-cover"
-                    />
-                </div>
+                <LinkImage
+                    imageOriginalUrl={link.imageOriginalUrl}
+                    imagePlaceholderUrl={link.imagePlaceholderUrl}
+                    alt={link.title}
+                />
 
                 {/* Title */}
                 <h3 className="text-lg font-semibold text-white-1 mb-2 line-clamp-2 group-hover:text-yellow-2">
