@@ -1,6 +1,11 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 
-export function Header() {
+interface HeaderProps {
+    children?: ReactNode;
+}
+
+export function Header({ children }: HeaderProps) {
     return (
         <nav className="fixed w-full z-50 bg-dark-1/90 backdrop-blur-md border-b border-white/5">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,13 +20,8 @@ export function Header() {
                         </span>
                     </Link>
 
-                    {/* Profile Link */}
-                    <Link
-                        href="/profile"
-                        className="text-gray-1 hover:text-yellow-2 px-3 py-2 rounded-md text-base font-medium"
-                    >
-                        Profile
-                    </Link>
+                    {/* Dynamic Content (Sign In / Profile) */}
+                    {children}
                 </div>
             </div>
         </nav>

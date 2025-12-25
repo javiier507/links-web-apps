@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import { getAuthUser } from "@/libs/auth/server-functions";
@@ -18,7 +19,14 @@ export default async function PrivateLayout({
 
     return (
         <div className="min-h-screen">
-            <Header />
+            <Header>
+                <Link
+                    href="/profile"
+                    className="text-gray-1 hover:text-yellow-2 px-3 py-2 rounded-md text-base font-medium"
+                >
+                    Profile
+                </Link>
+            </Header>
             <main className="pt-20">{children}</main>
             <Footer />
         </div>
