@@ -10,9 +10,11 @@
     "scripts": {
         "lint": "biome check .",
         "generate:component": "turbo gen react-component",
-        "check-types": "tsc --noEmit"
+        "check-types": "tsc --noEmit",
+        "dev": "pnpm ladle serve"
     },
     "devDependencies": {
+        "@ladle/react": "^5.1.1",
         "@repo/typescript-config": "workspace:*",
         "@tailwindcss/vite": "^4.1.17",
         "@types/node": "22.15.3",
