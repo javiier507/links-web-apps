@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/button/Button";
 
 interface SignOutButtonProps {
     signOut: () => void;
@@ -8,7 +8,7 @@ interface SignOutButtonProps {
 
 export function SignOutButton({ signOut }: SignOutButtonProps) {
     return (
-        <Button variant="danger" size="lg" onClick={() => signOut()}>
+        <Button color="red" size="lg" onClick={() => signOut()}>
             Log Out
         </Button>
     );

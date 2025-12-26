@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/button/Button";
 
 interface ModalProps {
     isOpen: boolean;
@@ -51,9 +51,10 @@ export function Modal({ isOpen, onClose, children, title }: ModalProps) {
                 {/* Close button */}
                 <Button
                     variant="ghost"
+                    color="dark"
                     size="sm"
                     onClick={onClose}
-                    className="absolute top-4 right-4 hover:text-white-1"
+                    className="absolute top-4 right-4"
                     aria-label="Close modal"
                 >
                     {/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}

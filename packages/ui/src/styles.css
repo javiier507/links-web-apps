@@ -1,79 +1,51 @@
 @import "tailwindcss";
+@import "./button/button.css";
 
 @theme {
-  /* Custom color palette */
-  --color-dark-1: #181818;
-  --color-dark-2: #282828;
-  --color-dark-3: #232323;
-  --color-yellow-1: #CB8A05;
-  --color-yellow-2: #EBB309;
-  --color-white-1: #FFFFFF;
-  --color-gray-1: #bdbdbd;
-  --color-red-1: #E53935;
-  --color-red-2: #C62828;
+    /* Custom color palette */
+    --color-dark-1: #181818;
+    --color-dark-2: #282828;
+    --color-dark-3: #232323;
+    --color-yellow-1: #cb8a05;
+    --color-yellow-2: #ebb309;
+    --color-white-1: #ffffff;
+    --color-gray-1: #bdbdbd;
+    --color-red-1: #e53935;
+    --color-red-2: #c62828;
 }
 
 @layer base {
-  :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+    :root {
+        font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
 
-    color-scheme: dark;
-    @apply text-gray-1 bg-dark-1;
+        color-scheme: dark;
+        @apply text-gray-1 bg-dark-1;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
-  a {
-    font-weight: 500;
-    @apply text-yellow-2 no-underline;
-  }
+    a {
+        font-weight: 500;
+        @apply text-yellow-2 no-underline;
+    }
 
-  a:hover {
-    @apply text-yellow-1;
-  }
+    a:hover {
+        @apply text-yellow-1;
+    }
 
-  body {
-    margin: 0;
-    padding: 0;
-    min-width: 350px;
-  }
+    body {
+        margin: 0;
+        padding: 0;
+        min-width: 350px;
+    }
 
-  h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-  }
-
-  /* Button variants hover fix */
-  .btn-primary {
-    background: linear-gradient(to bottom right, var(--color-yellow-2), var(--color-yellow-1));
-  }
-
-  .btn-primary:hover {
-    box-shadow: 0 10px 15px -3px rgba(203, 138, 5, 0.3);
-    transform: scale(1.02);
-  }
-
-  .btn-secondary {
-    background-color: var(--color-dark-2);
-    color: var(--color-gray-1);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-  }
-
-  .btn-secondary:hover {
-    color: var(--color-yellow-2);
-    border-color: var(--color-yellow-2);
-  }
-
-  .btn-danger {
-    background-color: var(--color-red-1);
-  }
-
-  .btn-danger:hover {
-    background-color: var(--color-red-2);
-  }
+    h1 {
+        font-size: 3.2em;
+        line-height: 1.1;
+    }
 }

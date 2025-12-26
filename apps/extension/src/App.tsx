@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import { Button } from "@repo/ui/button/Button";
+
 function App() {
     const [currentUrl, setCurrentUrl] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -65,14 +67,15 @@ function App() {
             >
                 {getDisplayContent()}
             </div>
-            <button
-                type="button"
+            <Button
                 onClick={handleGetUrl}
-                className="w-full p-2.5 bg-yellow-2 text-dark-1 border-none rounded font-semibold text-base cursor-pointer transition-colors duration-300 hover:bg-yellow-1 disabled:bg-dark-2 disabled:text-gray-1 disabled:cursor-not-allowed disabled:opacity-50 focus:outline-none active:not-disabled:opacity-90"
                 disabled={!currentUrl || isLoading}
+                loading={isLoading}
+                fullWidth
+                color="yellow"
             >
                 Save
-            </button>
+            </Button>
         </div>
     );
 }

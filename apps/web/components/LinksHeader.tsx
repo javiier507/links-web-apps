@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/button/Button";
 
 import { AddLinkForm } from "./AddLinkForm";
 import { Modal } from "./Modal";
@@ -22,7 +22,8 @@ export function LinksHeader({ linksCount }: LinksHeaderProps) {
                 </p>
 
                 <Button
-                    variant="primary"
+                    variant="solid"
+                    color="yellow"
                     size="sm"
                     onClick={() => setIsModalOpen(true)}
                     aria-label="Add new link"

@@ -2,7 +2,7 @@
 
 import { useActionState, useEffect, useRef } from "react";
 
-import { Button } from "@repo/ui/button";
+import { Button } from "@repo/ui/button/Button";
 
 import { type AddLinkState, addLinkAction } from "@/app/(private)/actions";
 
@@ -58,7 +58,8 @@ export function AddLinkForm({ onSuccess }: AddLinkFormProps) {
 
             <Button
                 type="submit"
-                variant="primary"
+                variant="solid"
+                color="yellow"
                 size="lg"
                 fullWidth
                 loading={isPending}

@@ -1,16 +1,16 @@
 import * as React from "react";
-import { NewButton } from ".//NewButton";
+import { Button } from "./Button";
 
 // Sizes
 export const Sizes = () => (
     <div className="flex flex-col gap-4 p-8">
         <h2 className="text-2xl font-bold mb-4">Sizes</h2>
         <div className="flex items-center gap-4 flex-wrap">
-            <NewButton size="xs">NewButton</NewButton>
-            <NewButton size="sm">NewButton</NewButton>
-            <NewButton size="md">NewButton</NewButton>
-            <NewButton size="lg">NewButton</NewButton>
-            <NewButton size="xl">NewButton</NewButton>
+            <Button size="xs">Button</Button>
+            <Button size="sm">Button</Button>
+            <Button size="md">Button</Button>
+            <Button size="lg">Button</Button>
+            <Button size="xl">Button</Button>
         </div>
     </div>
 );
@@ -21,23 +21,23 @@ export const Variants = () => (
         <div>
             <h2 className="text-2xl font-bold mb-4 text-white-1">Variants - Solid</h2>
             <div className="flex items-center gap-4 flex-wrap">
-                <NewButton color="yellow" variant="solid">
+                <Button color="yellow" variant="solid">
                     Yellow
-                </NewButton>
+                </Button>
             </div>
         </div>
         <div>
             <h2 className="text-2xl font-bold mb-4 text-white-1">Variants - Ghost</h2>
             <div className="flex items-center gap-4 flex-wrap">
-                <NewButton color="yellow" variant="ghost">
+                <Button color="yellow" variant="ghost">
                     Yellow
-                </NewButton>
-                <NewButton color="dark" variant="ghost">
+                </Button>
+                <Button color="dark" variant="ghost">
                     Dark
-                </NewButton>
-                <NewButton color="red" variant="ghost">
+                </Button>
+                <Button color="red" variant="ghost">
                     Red
-                </NewButton>
+                </Button>
             </div>
         </div>
     </div>
@@ -48,9 +48,9 @@ export const Colors = () => (
     <div className="flex flex-col gap-4 p-8">
         <h2 className="text-2xl font-bold mb-4">Colors</h2>
         <div className="flex items-center gap-4 flex-wrap">
-            <NewButton color="yellow">Yellow</NewButton>
-            <NewButton color="dark">Dark</NewButton>
-            <NewButton color="red">Red</NewButton>
+            <Button color="yellow">Yellow</Button>
+            <Button color="dark">Dark</Button>
+            <Button color="red">Red</Button>
         </div>
     </div>
 );
@@ -60,13 +60,13 @@ export const Disabled = () => (
     <div className="flex flex-col gap-4 p-8">
         <h2 className="text-2xl font-bold mb-4">Disabled</h2>
         <div className="flex items-center gap-4 flex-wrap">
-            <NewButton disabled>Yellow</NewButton>
-            <NewButton color="dark" disabled>
+            <Button disabled>Yellow</Button>
+            <Button color="dark" disabled>
                 Dark
-            </NewButton>
-            <NewButton color="red" disabled>
+            </Button>
+            <Button color="red" disabled>
                 Red
-            </NewButton>
+            </Button>
         </div>
     </div>
 );
@@ -76,10 +76,10 @@ export const Loading = () => (
     <div className="flex flex-col gap-4 p-8">
         <h2 className="text-2xl font-bold mb-4">Loading</h2>
         <div className="flex items-center gap-4 flex-wrap">
-            <NewButton loading>Loading</NewButton>
-            <NewButton color="dark" loading loadingText="Processing...">
+            <Button loading>Loading</Button>
+            <Button color="dark" loading loadingText="Processing...">
                 Process
-            </NewButton>
+            </Button>
         </div>
     </div>
 );
