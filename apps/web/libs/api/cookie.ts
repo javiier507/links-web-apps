@@ -2,11 +2,16 @@ import { cookies } from "next/headers";
 
 const SESSION_COOKIE_NAME = "wlinks.cookie.token";
 
-export async function SetSession(sessionSecret: string) {
+export async function SetSession(session: { secret: string; expire: string }) {
     const cookieStore = await cookies();
-    cookieStore.set(SESSION_COOKIE_NAME, sessionSecret, {
+
+    const expireDate = new Date(session.expire);
+
+    cookieStore.set(SESSION_COOKIE_NAME, session.secret, {
         httpOnly: true,
         secure: true,
+        //TODO: esta expirando en 6 meses, no en 12 como deberia. Revisar docs de Next.js
+        expires: expireDate,
     });
 }
 
