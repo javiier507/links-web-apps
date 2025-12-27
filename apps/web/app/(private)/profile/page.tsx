@@ -1,12 +1,12 @@
 import { redirect } from "next/navigation";
 
+import { GetAuthUser } from "@/libs/api/auth";
 import { signOut } from "@/libs/auth/client-functions";
-import { getAuthUser } from "@/libs/auth/server-functions";
 
 import { SignOutButton } from "@/components/SignOutButton";
 
 export default async function ProfilePage() {
-    const user = await getAuthUser();
+    const user = await GetAuthUser();
 
     if (!user) {
         redirect("/login");
@@ -23,19 +23,6 @@ export default async function ProfilePage() {
 
                 {/* Profile Card */}
                 <div className="bg-dark-2 rounded-xl border border-white/5 p-8">
-                    {/* Profile Image */}
-                    {user.image && (
-                        <div className="flex justify-center mb-6">
-                            <div className="relative">
-                                <img
-                                    src={user.image}
-                                    alt={user.name || "Profile"}
-                                    className="w-32 h-32 rounded-full object-cover border-4 border-yellow-1/20"
-                                />
-                            </div>
-                        </div>
-                    )}
-
                     {/* User Information */}
                     <div className="space-y-6">
                         {/* Name */}

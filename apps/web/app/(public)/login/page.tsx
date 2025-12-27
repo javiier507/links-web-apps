@@ -2,14 +2,14 @@ import { redirect } from "next/navigation";
 
 import { Button } from "@repo/ui/button/Button";
 
+import { GetAuthUser } from "@/libs/api/auth";
 import { signInGoogle } from "@/libs/auth/actions";
-import { isAuth } from "@/libs/auth/server-functions";
 
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
 export default async function LoginPage() {
-    const isAuthenticated = await isAuth();
+    const isAuthenticated = await GetAuthUser();
 
     if (isAuthenticated) {
         redirect("/");
