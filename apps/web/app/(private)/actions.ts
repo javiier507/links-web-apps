@@ -3,10 +3,12 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
-import { CreateLink } from "@/libs/api/resources";
+import type { Link } from "@repo/api/link";
+
+import { CreateLink, GetLinks } from "@/libs/api/resources";
 
 const addLinkSchema = z.object({
-    url: z.string().url("Invalid URL format"),
+    url: z.url("Invalid URL format"),
 });
 
 export type AddLinkState = {
@@ -50,6 +52,33 @@ export async function addLinkAction(
         return {
             success: false,
             message: error instanceof Error ? error.message : "Failed to create link",
+        };
+    }
+}
+
+export type LoadMoreLinksState = {
+    success: boolean;
+    links: Link[];
+    hasMore: boolean;
+    message?: string;
+};
+
+export async function loadMoreLinksAction(cursorAfter: string): Promise<LoadMoreLinksState> {
+    try {
+        const result = await GetLinks({ cursorAfter, limit: 25 });
+
+        return {
+            success: true,
+            links: result.rows,
+            hasMore: result.rows.length === 25, // If we got 25, there might be more
+        };
+    } catch (error) {
+        console.error("Error loading more links:", error);
+        return {
+            success: false,
+            links: [],
+            hasMore: false,
+            message: "Failed to load more links",
         };
     }
 }

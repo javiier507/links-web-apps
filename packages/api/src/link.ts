@@ -13,6 +13,11 @@ export interface Link extends Models.Row {
 
 export type LinkList = Models.RowList<Link>;
 
+export type LinkPaginationQuery = {
+    limit?: number;
+    cursorAfter?: string;
+};
+
 // Creating Link
 
 export const UrlSchema = z.url({

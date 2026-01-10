@@ -13,7 +13,7 @@ import { toLink } from "./link.mapper";
 import { getRandomPlaceholder } from "./utils/placeholder";
 
 import type { Functions, TablesDB } from "./appwrite";
-import type { CreateLinkRequest, Link, LinkList, Metadata } from "./link";
+import type { CreateLinkRequest, Link, LinkList, LinkPaginationQuery, Metadata } from "./link";
 
 export async function googleSignIn(
     token: string,
@@ -41,13 +41,28 @@ export async function googleSignIn(
     };
 }
 
-export async function getLinks(sessionSecret: string): Promise<LinkList> {
+export async function getLinks(
+    sessionSecret: string,
+    paginationQuery?: LinkPaginationQuery,
+): Promise<LinkList> {
     const { tablesDB } = await SessionClient(sessionSecret);
+
+    const queries = [Query.orderDesc("$sequence")];
+
+    // Add limit query
+    if (paginationQuery?.limit) {
+        queries.push(Query.limit(paginationQuery.limit));
+    }
+
+    // Add cursor query for pagination
+    if (paginationQuery?.cursorAfter) {
+        queries.push(Query.cursorAfter(paginationQuery.cursorAfter));
+    }
 
     const links = await tablesDB.listRows({
         databaseId: APPWRITE_DATABASE_ID as string,
         tableId: APPWRITE_TABLE_ID as string,
-        queries: [Query.orderDesc("$sequence")],
+        queries,
     });
 
     return {

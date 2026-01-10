@@ -1,4 +1,5 @@
 import { SessionClient } from "@repo/api/appwrite";
+import type { LinkPaginationQuery } from "@repo/api/link";
 import { createLink, getLinks } from "@repo/api/link.api";
 
 import { GetSessionSecret } from "@/libs/api/cookie";
@@ -17,13 +18,13 @@ export async function GetAuthUser() {
     }
 }
 
-export async function GetLinks() {
+export async function GetLinks(paginationQuery?: LinkPaginationQuery) {
     const sessionSecret = await GetSessionSecret();
 
     // workaround for avoing errors when the user is logging in
     if (!sessionSecret) return { rows: [], total: 0 };
 
-    return getLinks(sessionSecret);
+    return getLinks(sessionSecret, paginationQuery);
 }
 
 export async function CreateLink(url: string) {
