@@ -20,11 +20,16 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
     const loadMoreRef = useRef<HTMLDivElement>(null);
 
     const loadMore = useCallback(async () => {
-        if (isLoading || !hasMore) return;
+        if (isLoading || !hasMore || links.length === 0) return;
 
         setIsLoading(true);
 
         const lastLink = links[links.length - 1];
+        if (!lastLink) {
+            setIsLoading(false);
+            return;
+        }
+
         const cursorAfter = lastLink.$id;
 
         const result = await loadMoreLinksAction(cursorAfter);
@@ -41,7 +46,7 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
         // Setup Intersection Observer
         observerRef.current = new IntersectionObserver(
             (entries) => {
-                if (entries[0].isIntersecting) {
+                if (entries[0]?.isIntersecting) {
                     loadMore();
                 }
             },
