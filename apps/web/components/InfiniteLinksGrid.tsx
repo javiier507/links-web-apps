@@ -13,18 +13,27 @@ interface InfiniteLinksGridProps {
 }
 
 export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
-    const [links, setLinks] = useState<Link[]>(initialLinks);
+    const [additionalLinks, setAdditionalLinks] = useState<Link[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [hasMore, setHasMore] = useState(initialLinks.length === 100);
     const observerRef = useRef<IntersectionObserver | null>(null);
     const loadMoreRef = useRef<HTMLDivElement>(null);
 
+    // Combine initial links with additional paginated links
+    const allLinks = [...initialLinks, ...additionalLinks];
+
+    // Reset additional links when initialLinks changes (e.g., after revalidation)
+    useEffect(() => {
+        setAdditionalLinks([]);
+        setHasMore(initialLinks.length === 100);
+    }, [initialLinks]);
+
     const loadMore = useCallback(async () => {
-        if (isLoading || !hasMore || links.length === 0) return;
+        if (isLoading || !hasMore || allLinks.length === 0) return;
 
         setIsLoading(true);
 
-        const lastLink = links[links.length - 1];
+        const lastLink = allLinks[allLinks.length - 1];
         if (!lastLink) {
             setIsLoading(false);
             return;
@@ -35,12 +44,12 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
         const result = await loadMoreLinksAction(cursorAfter);
 
         if (result.success) {
-            setLinks((prev) => [...prev, ...result.links]);
+            setAdditionalLinks((prev) => [...prev, ...result.links]);
             setHasMore(result.hasMore);
         }
 
         setIsLoading(false);
-    }, [links, isLoading, hasMore]);
+    }, [allLinks, isLoading, hasMore]);
 
     useEffect(() => {
         // Setup Intersection Observer
@@ -67,7 +76,7 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
 
     return (
         <>
-            <LinksGrid links={links} />
+            <LinksGrid links={allLinks} />
 
             {hasMore && (
                 <div ref={loadMoreRef} className="py-8 text-center">
