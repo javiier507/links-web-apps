@@ -4,8 +4,15 @@ import { LinksHeader } from "@/components/LinksHeader";
 
 import { GetLinks } from "@/libs/api/resources";
 
-export default async function Home() {
-    const links = await GetLinks({ limit: 100 });
+type HomeProps = {
+    searchParams: Promise<{
+        search?: string;
+    }>;
+};
+
+export default async function Home({ searchParams }: HomeProps) {
+    const { search } = await searchParams;
+    const links = await GetLinks({ limit: 100, search });
 
     return (
         <div className="min-h-screen py-8">

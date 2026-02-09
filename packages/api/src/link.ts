@@ -13,9 +13,10 @@ export interface Link extends Models.Row {
 
 export type LinkList = Models.RowList<Link>;
 
-export type LinkPaginationQuery = {
+export type LinkQuery = {
     limit?: number;
     cursorAfter?: string;
+    search?: string;
 };
 
 // Creating Link

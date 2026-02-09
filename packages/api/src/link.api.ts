@@ -13,7 +13,7 @@ import { toLink } from "./link.mapper";
 import { getRandomPlaceholder } from "./utils/placeholder";
 
 import type { Functions, TablesDB } from "./appwrite";
-import type { CreateLinkRequest, Link, LinkList, LinkPaginationQuery, Metadata } from "./link";
+import type { CreateLinkRequest, Link, LinkList, LinkQuery, Metadata } from "./link";
 
 export async function googleSignIn(
     token: string,
@@ -41,22 +41,29 @@ export async function googleSignIn(
     };
 }
 
-export async function getLinks(
-    sessionSecret: string,
-    paginationQuery?: LinkPaginationQuery,
-): Promise<LinkList> {
+export async function getLinks(sessionSecret: string, linkQuery?: LinkQuery): Promise<LinkList> {
     const { tablesDB } = await SessionClient(sessionSecret);
 
     const queries = [Query.orderDesc("$sequence")];
 
+    // Add search query
+    if (linkQuery?.search) {
+        queries.push(
+            Query.or([
+                Query.contains("title", linkQuery.search),
+                Query.contains("tags", linkQuery.search),
+            ]),
+        );
+    }
+
     // Add limit query
-    if (paginationQuery?.limit) {
-        queries.push(Query.limit(paginationQuery.limit));
+    if (linkQuery?.limit) {
+        queries.push(Query.limit(linkQuery.limit));
     }
 
     // Add cursor query for pagination
-    if (paginationQuery?.cursorAfter) {
-        queries.push(Query.cursorAfter(paginationQuery.cursorAfter));
+    if (linkQuery?.cursorAfter) {
+        queries.push(Query.cursorAfter(linkQuery.cursorAfter));
     }
 
     const links = await tablesDB.listRows({
