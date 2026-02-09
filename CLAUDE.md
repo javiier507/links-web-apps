@@ -1,5 +1,7 @@
 # Project Rules
 
+> For general project information, setup instructions, and tech stack details, see [README.md](./README.md)
+
 ## Monorepo Structure
 
 **IMPORTANT:** This is a **monorepo** for the Wlinks project - an application for saving and organizing links. Understanding the structure is critical:
@@ -40,7 +42,7 @@
   - Duplicate Tailwind configuration
   - Create app-specific theme configurations
 
-## Typescript Code Style
+## JavaScript Code Style
 
 - **Linting/Formatting:** Code is automatically formatted with Biome on commit via lint-staged
 - **TypeScript:**

@@ -4,20 +4,6 @@ Web applications monorepo for **Wlinks**, an application for saving and organizi
 
 For more information about the project, visit: [wlinks-app.netlify.app/about](https://wlinks-app.netlify.app/about)
 
-## Monorepo Architecture
-
-This project is organized as a **monorepo** composed of **2 applications** and **several reusable packages**.
-
-### Applications
-
-- **`apps/web`** - Wlinks web version, built with Next.js
-- **`apps/extension`** - Extension for Chromium-based browsers, allowing users to save links directly from the browser
-
-### Packages
-
-- **`packages/api`** - Handles communication with the backend (Appwrite)
-- **`packages/ui`** - Encapsulates styling logic (themes with Tailwind CSS) and reusable components shared across applications
-
 ## Tech Stack
 
 | Technology | Purpose |
