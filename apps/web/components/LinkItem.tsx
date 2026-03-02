@@ -49,7 +49,7 @@ export function LinkItem({ link }: LinkItemProps) {
                 </div>
             </a>
 
-            <LinkItemActions />
+            <LinkItemActions url={link.url} />
         </div>
     );
 }
