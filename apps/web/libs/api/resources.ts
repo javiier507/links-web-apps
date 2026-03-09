@@ -1,6 +1,6 @@
 import { SessionClient } from "@repo/api/appwrite";
 import type { LinkQuery } from "@repo/api/link";
-import { createLink, getLinks } from "@repo/api/link.api";
+import { createLink, deleteLink, getLinks } from "@repo/api/link.api";
 
 import { GetSessionSecret } from "@/libs/api/cookie";
 
@@ -46,4 +46,14 @@ export async function CreateLink(url: string) {
         tags: [],
         userId: authUser.$id,
     });
+}
+
+export async function DeleteLink(linkId: string) {
+    const sessionSecret = await GetSessionSecret();
+    if (!sessionSecret)
+        throw new Error("Unauthorized", {
+            cause: "No session secret found",
+        });
+
+    return deleteLink(sessionSecret, linkId);
 }

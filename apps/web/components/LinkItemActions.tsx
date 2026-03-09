@@ -2,17 +2,25 @@
 
 import { useState } from "react";
 
+import { deleteLinkAction } from "@/app/(private)/actions";
+
+import type { Link } from "@repo/api/link";
+
 type LinkItemActionsProps = {
-    url: string;
+    link: Link;
 };
 
 export function LinkItemActions(props: LinkItemActionsProps) {
     const [copied, setCopied] = useState(false);
 
     async function HandleShare() {
-        await navigator.clipboard.writeText(props.url);
+        await navigator.clipboard.writeText(props.link.url);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
+    }
+
+    async function HandleDelete() {
+        await deleteLinkAction(props.link.$id);
     }
 
     return (
@@ -76,6 +84,7 @@ export function LinkItemActions(props: LinkItemActionsProps) {
             </button>
             <button
                 type="button"
+                onClick={HandleDelete}
                 className="p-1.5 rounded-md text-gray-1/40 hover:text-red-1 hover:bg-white/5 transition-colors duration-200 cursor-pointer"
                 aria-label="Remove link"
             >

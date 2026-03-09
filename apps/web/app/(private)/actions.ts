@@ -5,7 +5,7 @@ import { z } from "zod";
 
 import type { Link } from "@repo/api/link";
 
-import { CreateLink, GetLinks } from "@/libs/api/resources";
+import { CreateLink, DeleteLink, GetLinks } from "@/libs/api/resources";
 
 const addLinkSchema = z.object({
     url: z.url("Invalid URL format"),
@@ -62,6 +62,22 @@ export type LoadMoreLinksState = {
     hasMore: boolean;
     message?: string;
 };
+
+export async function deleteLinkAction(
+    linkId: string,
+): Promise<{ success: boolean; message: string }> {
+    try {
+        await DeleteLink(linkId);
+        revalidatePath("/");
+        return { success: true, message: "Link deleted successfully" };
+    } catch (error) {
+        console.error("Error deleting link:", error);
+        return {
+            success: false,
+            message: error instanceof Error ? error.message : "Failed to delete link",
+        };
+    }
+}
 
 export async function loadMoreLinksAction(cursorAfter: string): Promise<LoadMoreLinksState> {
     try {

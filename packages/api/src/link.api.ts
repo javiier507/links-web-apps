@@ -109,6 +109,16 @@ async function insertLink(tablesDB: TablesDB, request: CreateLinkRequest): Promi
     return toLink(link);
 }
 
+export async function deleteLink(sessionSecret: string, linkId: string): Promise<void> {
+    const { tablesDB } = await SessionClient(sessionSecret);
+
+    await tablesDB.deleteRow({
+        databaseId: APPWRITE_DATABASE_ID as string,
+        tableId: APPWRITE_TABLE_ID as string,
+        rowId: linkId,
+    });
+}
+
 async function getMetadata(functions: Functions, url: string): Promise<Metadata> {
     try {
         const response = await functions.createExecution(
