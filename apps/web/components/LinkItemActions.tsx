@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { deleteLinkAction } from "@/app/(private)/actions";
+import { Confirm } from "@/components/Confirm";
 
 import type { Link } from "@repo/api/link";
 
@@ -82,26 +83,35 @@ export function LinkItemActions(props: LinkItemActionsProps) {
                     <line x1="7" y1="7" x2="7.01" y2="7" />
                 </svg>
             </button>
-            <button
-                type="button"
-                onClick={HandleDelete}
-                className="p-1.5 rounded-md text-gray-1/40 hover:text-red-1 hover:bg-white/5 transition-colors duration-200 cursor-pointer"
-                aria-label="Remove link"
+            <Confirm
+                title="Delete link"
+                description="Are you sure you want to delete this link? This action cannot be undone."
+                confirmText="Delete"
+                onConfirm={HandleDelete}
             >
-                {/* biome-ignore lint/a11y/noSvgWithoutTitle: decorative icon */}
-                <svg
-                    className="w-3.5 h-3.5"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                >
-                    <polyline points="3 6 5 6 21 6" />
-                    <path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2" />
-                </svg>
-            </button>
+                {(open) => (
+                    <button
+                        type="button"
+                        onClick={open}
+                        className="p-1.5 rounded-md text-gray-1/40 hover:text-red-1 hover:bg-white/5 transition-colors duration-200 cursor-pointer"
+                        aria-label="Remove link"
+                    >
+                        {/* biome-ignore lint/a11y/noSvgWithoutTitle: decorative icon */}
+                        <svg
+                            className="w-3.5 h-3.5"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                        >
+                            <polyline points="3 6 5 6 21 6" />
+                            <path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2" />
+                        </svg>
+                    </button>
+                )}
+            </Confirm>
         </div>
     );
 }
