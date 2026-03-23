@@ -3,6 +3,7 @@
     "compilerOptions": {
         "outDir": "dist",
         "rootDir": "src",
+        "module": "preserve",
         "moduleResolution": "bundler"
     },
     "include": ["src"],

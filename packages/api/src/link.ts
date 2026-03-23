@@ -1,17 +1,21 @@
 import { z } from "zod";
 
-import type { Models } from "./appwrite";
-
-export interface Link extends Models.Row {
+export type Link = {
+    id: string;
     url: string;
     title: string;
     imageOriginalUrl: string | null;
     imagePlaceholderUrl: string | null;
     tags: string[];
     userId: string;
-}
+    createdAt: Date;
+    updatedAt: Date;
+};
 
-export type LinkList = Models.RowList<Link>;
+export type LinkList = {
+    links: Link[];
+    total: number;
+};
 
 export type LinkQuery = {
     limit?: number;

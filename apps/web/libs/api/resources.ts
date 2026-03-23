@@ -1,5 +1,6 @@
 import { SessionClient } from "@repo/api/appwrite";
-import type { LinkQuery } from "@repo/api/link";
+import type { LinkQuery, Metadata } from "@repo/api/link";
+import { MetadataSchema } from "@repo/api/link";
 import { createLink, deleteLink, getLinks } from "@repo/api/link.api";
 
 import { GetSessionSecret } from "@/libs/api/cookie";
@@ -19,41 +20,60 @@ export async function GetAuthUser() {
 }
 
 export async function GetLinks(linkQuery?: LinkQuery) {
-    const sessionSecret = await GetSessionSecret();
+    const authUser = await GetAuthUser();
 
-    // workaround for avoing errors when the user is logging in
-    if (!sessionSecret) return { rows: [], total: 0 };
+    if (!authUser) return { links: [], total: 0 };
 
-    return getLinks(sessionSecret, linkQuery);
+    return getLinks(authUser.$id, linkQuery);
 }
 
 export async function CreateLink(url: string) {
-    const sessionSecret = await GetSessionSecret();
-    if (!sessionSecret)
-        throw new Error("Unauthorized", {
-            cause: "No session secret found",
-        });
-
     const authUser = await GetAuthUser();
     if (!authUser)
         throw new Error("Unauthorized", {
             cause: "No user found",
         });
 
-    return createLink(sessionSecret, {
+    const metadata = await FetchMetadata(url);
+
+    return createLink({
         url,
-        title: url,
+        title: metadata.title,
         tags: [],
         userId: authUser.$id,
+        imageOriginalUrl: metadata.image?.url,
+        imagePlaceholderUrl: undefined,
     });
 }
 
 export async function DeleteLink(linkId: string) {
-    const sessionSecret = await GetSessionSecret();
-    if (!sessionSecret)
+    const authUser = await GetAuthUser();
+    if (!authUser)
         throw new Error("Unauthorized", {
-            cause: "No session secret found",
+            cause: "No user found",
         });
 
-    return deleteLink(sessionSecret, linkId);
+    return deleteLink(authUser.$id, linkId);
+}
+
+async function FetchMetadata(url: string): Promise<Metadata> {
+    try {
+        const response = await fetch(
+            `${process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"}/api/metadata`,
+            {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url }),
+            },
+        );
+
+        const data = await response.json();
+        const result = MetadataSchema.safeParse(data);
+
+        if (result.success) return result.data;
+    } catch (error) {
+        console.error("Failed to fetch metadata:", error);
+    }
+
+    return { title: url };
 }

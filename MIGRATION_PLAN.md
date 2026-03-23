@@ -55,10 +55,11 @@ links {
 ```ts
 import { drizzle } from "drizzle-orm/libsql";
 import { createClient } from "@libsql/client";
+import { TURSO_DATABASE_URL, TURSO_AUTH_TOKEN } from "@/environment";
 
 const client = createClient({
-  url: env.TURSO_DATABASE_URL,
-  authToken: env.TURSO_AUTH_TOKEN,
+  url: TURSO_DATABASE_URL,
+  authToken: TURSO_AUTH_TOKEN,
 });
 
 export const db = drizzle(client);
@@ -67,13 +68,15 @@ export const db = drizzle(client);
 ### Drizzle config (`packages/api/drizzle.config.ts`)
 
 ```ts
+import { TURSO_DATABASE_URL, TURSO_AUTH_TOKEN } from "@/environment";
+
 export default {
   schema: "./src/db/schema.ts",
   out: "./drizzle",
   dialect: "turso",
   dbCredentials: {
-    url: env.TURSO_DATABASE_URL,
-    authToken: env.TURSO_AUTH_TOKEN,
+    url: TURSO_DATABASE_URL,
+    authToken: TURSO_AUTH_TOKEN,
   },
 };
 ```
@@ -91,6 +94,7 @@ export default {
 
 | Archivo | Cambio |
 |---|---|
+| `packages/api/src/environment.ts` | Agregar `TURSO_DATABASE_URL` y `TURSO_AUTH_TOKEN`. Mantener variables de Appwrite hasta Fase 2 |
 | `packages/api/src/link.ts` | Tipo `Link` ya no extiende `Models.Row`, usar campos del schema Drizzle |
 | `packages/api/src/link.api.ts` | Reescribir CRUD con Drizzle. `userId` sigue viniendo de la sesión actual |
 | `packages/api/package.json` | Agregar `drizzle-orm`, `@libsql/client`, `drizzle-kit`. Mantener `node-appwrite` |
@@ -109,6 +113,72 @@ turso db create wlinks
 turso db tokens create wlinks
 pnpm drizzle-kit push
 ```
+
+### Script de migración de datos (`scripts/migrate-json-to-turso.ts`)
+
+Ejecutar una sola vez para importar el JSON de backup de Appwrite a Turso.
+
+```ts
+import { createClient } from "@libsql/client";
+import { drizzle } from "drizzle-orm/libsql";
+import { links } from "../packages/api/src/db/schema";
+import data from "/ruta/absoluta/a/tu/backup.json";
+
+const client = createClient({
+  url: process.env.TURSO_DATABASE_URL!,
+  authToken: process.env.TURSO_AUTH_TOKEN!,
+});
+
+const db = drizzle(client);
+
+type AppwriteLink = {
+  $id: string;
+  url: string;
+  title: string;
+  tags: string[];
+  userId: string;
+  imageOriginalUrl?: string | null;
+  imagePlaceholderUrl?: string | null;
+  $createdAt: string;
+  $updatedAt: string;
+};
+
+async function Migrate() {
+  const rows = data as AppwriteLink[];
+  console.log(`Migrando ${rows.length} links...`);
+
+  for (const link of rows) {
+    await db.insert(links).values({
+      id: link.$id,
+      url: link.url,
+      title: link.title,
+      tags: JSON.stringify(link.tags ?? []),
+      userId: link.userId,
+      imageOriginalUrl: link.imageOriginalUrl ?? null,
+      imagePlaceholderUrl: link.imagePlaceholderUrl ?? null,
+      createdAt: new Date(link.$createdAt).getTime(),
+      updatedAt: new Date(link.$updatedAt).getTime(),
+    });
+  }
+
+  console.log("Migración completada.");
+  process.exit(0);
+}
+
+Migrate().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
+```
+
+**Cómo ejecutar:**
+
+```bash
+# Desde la raíz del monorepo
+TURSO_DATABASE_URL=libsql://... TURSO_AUTH_TOKEN=... npx tsx scripts/migrate-json-to-turso.ts
+```
+
+> Prerequisito: el schema ya debe estar aplicado (`pnpm drizzle-kit push`) antes de correr el script.
 
 ### Verificación Fase 1
 
@@ -146,12 +216,14 @@ Las variables de Appwrite y NextAuth se eliminan.
 ### Better Auth config (`packages/api/src/auth.ts`)
 
 ```ts
+import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET } from "@/environment";
+
 export const auth = betterAuth({
   database: drizzleAdapter(db, { provider: "sqlite" }),
   socialProviders: {
     google: {
-      clientId: env.GOOGLE_CLIENT_ID,
-      clientSecret: env.GOOGLE_CLIENT_SECRET,
+      clientId: GOOGLE_CLIENT_ID,
+      clientSecret: GOOGLE_CLIENT_SECRET,
     },
   },
 });
@@ -176,6 +248,7 @@ pnpm drizzle-kit push
 
 | Archivo | Cambio |
 |---|---|
+| `packages/api/src/environment.ts` | Eliminar variables de Appwrite, agregar `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` |
 | `packages/api/src/db/schema.ts` | Agregar tablas de Better Auth (`user`, `session`, `account`) |
 | `packages/api/package.json` | Agregar `better-auth`, eliminar `node-appwrite` |
 | `apps/web/package.json` | Eliminar `next-auth`, agregar `better-auth` |
@@ -191,7 +264,6 @@ pnpm drizzle-kit push
 | Archivo | Razón |
 |---|---|
 | `packages/api/src/appwrite.ts` | Ya no se usa Appwrite |
-| `packages/api/src/environment.ts` | Variables de Appwrite obsoletas |
 | `apps/web/libs/api/cookie.ts` | Better Auth maneja cookies internamente |
 | `apps/web/libs/auth/client-functions.tsx` | Reemplazada por `client.ts` |
 | `apps/web/app/api/auth/[...nextauth]/` | Reemplazada por `[...all]/` |

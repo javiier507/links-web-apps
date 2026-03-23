@@ -19,8 +19,8 @@ export default async function Home({ searchParams }: HomeProps) {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <LinksHeader linksCount={links.total} />
 
-                {links.rows.length > 0 ? (
-                    <InfiniteLinksGrid initialLinks={links.rows} />
+                {links.links.length > 0 ? (
+                    <InfiniteLinksGrid initialLinks={links.links} />
                 ) : (
                     <EmptyLinks />
                 )}

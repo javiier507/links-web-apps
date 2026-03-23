@@ -28,7 +28,7 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
     // This prevents IntersectionObserver from recreating on every render
     const isLoadingRef = useRef(false);
     const hasMoreRef = useRef(hasMore);
-    const cursorRef = useRef<string | null>(initialLinks[initialLinks.length - 1]?.$id ?? null);
+    const cursorRef = useRef<string | null>(initialLinks[initialLinks.length - 1]?.id ?? null);
 
     // Combine server-rendered links (initialLinks) with client-loaded links (additionalLinks)
     const allLinks = [...initialLinks, ...additionalLinks];
@@ -44,7 +44,7 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
     useEffect(() => {
         const lastLink =
             additionalLinks[additionalLinks.length - 1] ?? initialLinks[initialLinks.length - 1];
-        cursorRef.current = lastLink?.$id ?? null;
+        cursorRef.current = lastLink?.id ?? null;
     }, [initialLinks, additionalLinks]);
 
     // Reset pagination state when initialLinks changes (e.g., after revalidatePath)
@@ -53,7 +53,7 @@ export function InfiniteLinksGrid({ initialLinks }: InfiniteLinksGridProps) {
         setAdditionalLinks([]);
         setHasMore(initialLinks.length === PAGE_SIZE);
         hasMoreRef.current = initialLinks.length === PAGE_SIZE;
-        cursorRef.current = initialLinks[initialLinks.length - 1]?.$id ?? null;
+        cursorRef.current = initialLinks[initialLinks.length - 1]?.id ?? null;
     }, [initialLinks]);
 
     // Stable callback with no dependencies - uses refs to read current values

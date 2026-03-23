@@ -4,4 +4,6 @@ export const {
     APPWRITE_DATABASE_ID,
     APPWRITE_TABLE_ID,
     APPWRITE_WEB_AUTH_API_KEY,
+    TURSO_DATABASE_URL,
+    TURSO_AUTH_TOKEN,
 } = process.env;

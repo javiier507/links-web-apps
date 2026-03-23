@@ -85,8 +85,8 @@ export async function loadMoreLinksAction(cursorAfter: string): Promise<LoadMore
 
         return {
             success: true,
-            links: result.rows,
-            hasMore: result.rows.length === 25, // If we got 25, there might be more
+            links: result.links,
+            hasMore: result.links.length === 25, // If we got 25, there might be more
         };
     } catch (error) {
         console.error("Error loading more links:", error);

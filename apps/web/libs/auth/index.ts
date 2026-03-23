@@ -2,7 +2,7 @@ import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 
 import { DeleteSession, SetSession } from "@/libs/api/cookie";
-import { googleSignIn } from "@repo/api/link.api";
+import { googleSignIn } from "@repo/api/auth.api";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
     providers: [Google],
