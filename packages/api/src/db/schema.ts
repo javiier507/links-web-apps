@@ -1,5 +1,7 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
+export { user, session, account, verification } from "./auth-schema";
+
 export const links = sqliteTable("links", {
     id: text("id")
         .primaryKey()

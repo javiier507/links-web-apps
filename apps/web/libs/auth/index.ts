@@ -1,49 +1,14 @@
-import NextAuth from "next-auth";
-import Google from "next-auth/providers/google";
+import { auth } from "@repo/api/auth";
+import { headers } from "next/headers";
 
-import { DeleteSession, SetSession } from "@/libs/api/cookie";
-import { googleSignIn } from "@repo/api/auth.api";
+export async function GetSession() {
+    const session = await auth.api.getSession({
+        headers: await headers(),
+    });
+    return session;
+}
 
-export const { handlers, signIn, signOut, auth } = NextAuth({
-    providers: [Google],
-    trustHost: true,
-    callbacks: {
-        authorized: async ({ auth }) => {
-            /**
-             * Usado por el middleware de NextAuth para redirigir a la página de inicio de sesión
-             * si el usuario no está autenticado.
-             */
-            return !!auth;
-        },
-        signIn: async ({ account }) => {
-            /**
-             * Usado para verificar si el usuario puede iniciar sesión.
-             * Si devuelve false, el usuario no podrá iniciar sesión.
-             */
-            if (account?.type === "oidc" && account.id_token) {
-                try {
-                    const response = await googleSignIn(account.id_token);
-                    if (!response) return false;
-                    await SetSession(response);
-                    return true;
-                } catch (error) {
-                    console.error(error);
-                    return false;
-                }
-            }
-            return true;
-        },
-    },
-    events: {
-        signOut: async () => {
-            try {
-                await DeleteSession();
-            } catch (error) {
-                console.error("Error in signOut event:", error);
-            }
-        },
-    },
-    pages: {
-        signIn: "/login",
-    },
-});
+export async function GetAuthUser() {
+    const session = await GetSession();
+    return session?.user ?? null;
+}

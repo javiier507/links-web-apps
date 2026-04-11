@@ -1,41 +1,25 @@
-import { SessionClient } from "@repo/api/appwrite";
 import type { LinkQuery, Metadata } from "@repo/api/link";
-import { MetadataSchema } from "@repo/api/link";
+import { LINKS_PER_PAGE, MetadataSchema } from "@repo/api/link";
 import { createLink, deleteLink, getLinks } from "@repo/api/link.api";
 
-import { GetSessionSecret } from "@/libs/api/cookie";
-
-export async function GetAuthUser() {
-    const sessionSecret = await GetSessionSecret();
-
-    if (!sessionSecret) return null;
-
-    try {
-        const { account } = await SessionClient(sessionSecret);
-        return await account.get();
-    } catch (error) {
-        console.error(error);
-        return null;
-    }
-}
+import { GetAuthUser } from "@/libs/auth";
 
 export async function GetLinks(linkQuery?: LinkQuery) {
-    const authUser = await GetAuthUser();
+    const user = await GetAuthUser();
 
-    if (!authUser) return { links: [], total: 0 };
+    if (!user) return { links: [], total: 0 };
 
-    return getLinks(authUser.$id, linkQuery);
+    return getLinks(user.id, linkQuery);
 }
 
 export async function GetLinksPage(page: number, search?: string) {
-    const { LINKS_PER_PAGE } = await import("@repo/api/link");
     const offset = (page - 1) * LINKS_PER_PAGE;
     return GetLinks({ limit: LINKS_PER_PAGE, offset, search });
 }
 
 export async function CreateLink(url: string) {
-    const authUser = await GetAuthUser();
-    if (!authUser)
+    const user = await GetAuthUser();
+    if (!user)
         throw new Error("Unauthorized", {
             cause: "No user found",
         });
@@ -46,20 +30,20 @@ export async function CreateLink(url: string) {
         url,
         title: metadata.title,
         tags: [],
-        userId: authUser.$id,
+        userId: user.id,
         imageOriginalUrl: metadata.image?.url,
         imagePlaceholderUrl: undefined,
     });
 }
 
 export async function DeleteLink(linkId: string) {
-    const authUser = await GetAuthUser();
-    if (!authUser)
+    const user = await GetAuthUser();
+    if (!user)
         throw new Error("Unauthorized", {
             cause: "No user found",
         });
 
-    return deleteLink(authUser.$id, linkId);
+    return deleteLink(user.id, linkId);
 }
 
 async function FetchMetadata(url: string): Promise<Metadata> {
