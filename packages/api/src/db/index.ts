@@ -1,5 +1,5 @@
-import { createClient } from "@libsql/client";
-import { drizzle } from "drizzle-orm/libsql";
+import { createClient } from "@libsql/client/web";
+import { drizzle } from "drizzle-orm/libsql/web";
 
 import { TURSO_AUTH_TOKEN, TURSO_DATABASE_URL } from "../environment";
 
