@@ -17,9 +17,11 @@ export type LinkList = {
     total: number;
 };
 
+export const LINKS_PER_PAGE = 40;
+
 export type LinkQuery = {
     limit?: number;
-    cursorAfter?: string;
+    offset?: number;
     search?: string;
 };
 

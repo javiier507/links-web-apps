@@ -27,6 +27,12 @@ export async function GetLinks(linkQuery?: LinkQuery) {
     return getLinks(authUser.$id, linkQuery);
 }
 
+export async function GetLinksPage(page: number, search?: string) {
+    const { LINKS_PER_PAGE } = await import("@repo/api/link");
+    const offset = (page - 1) * LINKS_PER_PAGE;
+    return GetLinks({ limit: LINKS_PER_PAGE, offset, search });
+}
+
 export async function CreateLink(url: string) {
     const authUser = await GetAuthUser();
     if (!authUser)

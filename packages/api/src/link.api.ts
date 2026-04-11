@@ -24,37 +24,21 @@ export async function getLinks(userId: string, linkQuery?: LinkQuery): Promise<L
         if (searchCondition) conditions.push(searchCondition);
     }
 
-    // Cursor-based pagination: get items created before the cursor
-    if (linkQuery?.cursorAfter) {
-        const cursor = await db
-            .select({ createdAt: links.createdAt })
-            .from(links)
-            .where(eq(links.id, linkQuery.cursorAfter))
-            .limit(1);
-
-        if (cursor[0]) {
-            const cursorCondition = or(
-                sql`${links.createdAt} < ${cursor[0].createdAt}`,
-                and(
-                    eq(links.createdAt, cursor[0].createdAt),
-                    sql`${links.id} < ${linkQuery.cursorAfter}`,
-                ),
-            );
-            if (cursorCondition) conditions.push(cursorCondition);
-        }
-    }
+    const limit = linkQuery?.limit ?? 100;
+    const offset = linkQuery?.offset ?? 0;
 
     const rows = await db
         .select()
         .from(links)
         .where(and(...conditions))
         .orderBy(desc(links.createdAt), desc(links.id))
-        .limit(linkQuery?.limit ?? 100);
+        .limit(limit)
+        .offset(offset);
 
     const countResult = await db
         .select({ count: sql<number>`count(*)` })
         .from(links)
-        .where(eq(links.userId, userId));
+        .where(and(...conditions));
 
     return {
         links: rows.map(ToLink),
