@@ -1,11 +1,12 @@
-'use server';
+"use server";
 
-import { signIn, signOut as signOutAll } from "./";
+import { auth } from "@repo/api/auth";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 
-export async function signInGoogle() {
-    await signIn("google", { redirectTo: "/" });
-}
-
-export async function signOut() {
-    await signOutAll();
+export async function SignOut() {
+    await auth.api.signOut({
+        headers: await headers(),
+    });
+    redirect("/login");
 }

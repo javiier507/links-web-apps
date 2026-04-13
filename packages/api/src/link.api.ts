@@ -1,144 +1,68 @@
-import {
-    ApiKeyClient,
-    ExecutionMethod,
-    ID,
-    Permission,
-    Query,
-    Role,
-    SessionClient,
-} from "./appwrite";
-import { APPWRITE_DATABASE_ID, APPWRITE_TABLE_ID } from "./environment";
-import { MetadataSchema } from "./link";
-import { toLink } from "./link.mapper";
+import { and, desc, eq, like, or, sql } from "drizzle-orm";
+
+import { db } from "./db";
+import { links } from "./db/schema";
 import { getRandomPlaceholder } from "./utils/placeholder";
 
-import type { Functions, TablesDB } from "./appwrite";
-import type { CreateLinkRequest, Link, LinkList, LinkQuery, Metadata } from "./link";
+import type { CreateLinkRequest, Link, LinkList, LinkQuery } from "./link";
 
-export async function googleSignIn(
-    token: string,
-): Promise<{ secret: string; expire: string } | null> {
-    const { account, functions } = await ApiKeyClient();
-
-    const response = await functions.createExecution(
-        "google-sign-in-function",
-        JSON.stringify({ token }),
-        false,
-        "/",
-        ExecutionMethod.POST,
-    );
-
-    if (response.responseStatusCode !== 200) {
-        console.error(response.responseBody);
-        return null;
-    }
-
-    const responseBody = JSON.parse(response.responseBody);
-    const session = await account.createSession(responseBody.userId, responseBody.secret);
+function ToLink(row: typeof links.$inferSelect): Link {
     return {
-        secret: session.secret,
-        expire: session.expire,
+        ...row,
+        tags: JSON.parse(row.tags),
     };
 }
 
-export async function getLinks(sessionSecret: string, linkQuery?: LinkQuery): Promise<LinkList> {
-    const { tablesDB } = await SessionClient(sessionSecret);
+export async function getLinks(userId: string, linkQuery?: LinkQuery): Promise<LinkList> {
+    const conditions = [eq(links.userId, userId)];
 
-    const queries = [Query.orderDesc("$sequence")];
-
-    // Add search query
     if (linkQuery?.search) {
-        queries.push(
-            Query.or([
-                Query.contains("title", linkQuery.search),
-                Query.contains("tags", linkQuery.search),
-            ]),
+        const searchCondition = or(
+            like(links.title, `%${linkQuery.search}%`),
+            like(links.tags, `%${linkQuery.search}%`),
         );
+        if (searchCondition) conditions.push(searchCondition);
     }
 
-    // Add limit query
-    if (linkQuery?.limit) {
-        queries.push(Query.limit(linkQuery.limit));
-    }
+    const limit = linkQuery?.limit ?? 100;
+    const offset = linkQuery?.offset ?? 0;
 
-    // Add cursor query for pagination
-    if (linkQuery?.cursorAfter) {
-        queries.push(Query.cursorAfter(linkQuery.cursorAfter));
-    }
+    const rows = await db
+        .select()
+        .from(links)
+        .where(and(...conditions))
+        .orderBy(desc(links.createdAt), desc(links.id))
+        .limit(limit)
+        .offset(offset);
 
-    const links = await tablesDB.listRows({
-        databaseId: APPWRITE_DATABASE_ID as string,
-        tableId: APPWRITE_TABLE_ID as string,
-        queries,
-    });
+    const countResult = await db
+        .select({ count: sql<number>`count(*)` })
+        .from(links)
+        .where(and(...conditions));
 
     return {
-        rows: links.rows.map(toLink),
-        total: links.total,
+        links: rows.map(ToLink),
+        total: countResult[0]?.count ?? 0,
     };
 }
 
-export async function createLink(sessionSecret: string, request: CreateLinkRequest): Promise<Link> {
-    const { tablesDB, functions } = await SessionClient(sessionSecret);
+export async function createLink(request: CreateLinkRequest): Promise<Link> {
+    const [newLink] = await db
+        .insert(links)
+        .values({
+            url: request.url,
+            title: request.title,
+            tags: JSON.stringify(request.tags ?? []),
+            userId: request.userId,
+            imageOriginalUrl: request.imageOriginalUrl ?? null,
+            imagePlaceholderUrl: request.imagePlaceholderUrl ?? getRandomPlaceholder(),
+        })
+        .returning();
 
-    const metadata = await getMetadata(functions, request.url);
-
-    const newLink = await insertLink(tablesDB, {
-        ...request,
-        title: metadata.title,
-        imageOriginalUrl: metadata.image?.url,
-        imagePlaceholderUrl: getRandomPlaceholder(),
-    });
-
-    return newLink;
+    if (!newLink) throw new Error("Failed to create link");
+    return ToLink(newLink);
 }
 
-async function insertLink(tablesDB: TablesDB, request: CreateLinkRequest): Promise<Link> {
-    const link = await tablesDB.createRow({
-        databaseId: APPWRITE_DATABASE_ID as string,
-        tableId: APPWRITE_TABLE_ID as string,
-        rowId: ID.unique(),
-        data: request,
-        permissions: [
-            Permission.read(Role.user(request.userId)),
-            Permission.delete(Role.user(request.userId)),
-            Permission.update(Role.user(request.userId)),
-        ],
-    });
-
-    return toLink(link);
-}
-
-export async function deleteLink(sessionSecret: string, linkId: string): Promise<void> {
-    const { tablesDB } = await SessionClient(sessionSecret);
-
-    await tablesDB.deleteRow({
-        databaseId: APPWRITE_DATABASE_ID as string,
-        tableId: APPWRITE_TABLE_ID as string,
-        rowId: linkId,
-    });
-}
-
-async function getMetadata(functions: Functions, url: string): Promise<Metadata> {
-    try {
-        const response = await functions.createExecution(
-            "get-metadata-function",
-            JSON.stringify({ url }),
-            false,
-            "/",
-            ExecutionMethod.POST,
-        );
-        const { success, data, error } = MetadataSchema.safeParse(
-            JSON.parse(response.responseBody),
-        );
-        if (!success) {
-            console.error(error);
-            throw new Error("Failed to fetch metadata");
-        }
-        return data;
-    } catch {
-        return {
-            title: url,
-        };
-    }
+export async function deleteLink(userId: string, linkId: string): Promise<void> {
+    await db.delete(links).where(and(eq(links.id, linkId), eq(links.userId, userId)));
 }

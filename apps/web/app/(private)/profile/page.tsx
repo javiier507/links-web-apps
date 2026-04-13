@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { GetAuthUser } from "@/libs/api/auth";
-import { signOut } from "@/libs/auth/client-functions";
+import { SignOut } from "@/libs/auth/actions";
 
 import { SignOutButton } from "@/components/SignOutButton";
 
@@ -47,7 +47,9 @@ export default async function ProfilePage() {
 
                     {/* Actions */}
                     <div className="flex justify-end">
-                        <SignOutButton signOut={signOut} />
+                        <form action={SignOut}>
+                            <SignOutButton />
+                        </form>
                     </div>
                 </div>
             </div>

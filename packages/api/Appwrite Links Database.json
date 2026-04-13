@@ -1,0 +1,4005 @@
+{
+    "total": 200,
+    "rows": [
+        {
+            "title": "List of tz database time zones - Wikipedia",
+            "imageOriginalUrl": null,
+            "tags": ["docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
+            "imagePlaceholderUrl": "placeholder-24.jpg",
+            "deleted": null,
+            "$id": "689d6aeb000fd42e41e7",
+            "$sequence": 2237,
+            "$createdAt": "2025-08-14T04:49:47.335+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.335+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://github.com/sj26/mailcatcher",
+            "imageOriginalUrl": null,
+            "tags": ["testing", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/sj26/mailcatcher",
+            "imagePlaceholderUrl": "placeholder-25.jpg",
+            "deleted": null,
+            "$id": "689d6aeb0017e56a98b8",
+            "$sequence": 2238,
+            "$createdAt": "2025-08-14T04:49:47.429+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.429+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://jsonapi.org/",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://jsonapi.org/",
+            "imagePlaceholderUrl": "placeholder-24.jpg",
+            "deleted": null,
+            "$id": "689d6aeb001c0ee8cf4c",
+            "$sequence": 2239,
+            "$createdAt": "2025-08-14T04:49:47.532+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.532+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://spring.io/guides/gs/async-method/",
+            "imageOriginalUrl": null,
+            "tags": ["async", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://spring.io/guides/gs/async-method/",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": null,
+            "$id": "689d6aeb0022afd12e59",
+            "$sequence": 2240,
+            "$createdAt": "2025-08-14T04:49:47.606+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.606+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.baeldung.com/spring-rest-api-query-search-language-tutorial",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/spring-rest-api-query-search-language-tutorial",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6aeb0026f494e565",
+            "$sequence": 2241,
+            "$createdAt": "2025-08-14T04:49:47.664+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.664+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Concurrencia VS Paralelismo - Oscar Blancarte Blog",
+            "imageOriginalUrl": null,
+            "tags": ["async"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.oscarblancarteblog.com/2017/03/29/concurrencia-vs-paralelismo/",
+            "imagePlaceholderUrl": "placeholder-55.jpg",
+            "deleted": null,
+            "$id": "689d6aeb002aa8fdc9fc",
+            "$sequence": 2242,
+            "$createdAt": "2025-08-14T04:49:47.727+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.727+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.callicoder.com/java-8-completablefuture-tutorial/",
+            "imageOriginalUrl": null,
+            "tags": ["async", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.callicoder.com/java-8-completablefuture-tutorial/",
+            "imagePlaceholderUrl": "placeholder-28.jpg",
+            "deleted": null,
+            "$id": "689d6aeb002ecbf5fd71",
+            "$sequence": 2243,
+            "$createdAt": "2025-08-14T04:49:47.819+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.819+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "When 'not' to use arrow functions",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/",
+            "imagePlaceholderUrl": "placeholder-5.jpg",
+            "deleted": null,
+            "$id": "689d6aeb0033497356ab",
+            "$sequence": 2244,
+            "$createdAt": "2025-08-14T04:49:47.867+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.867+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "ISO 639 Idioma Lista",
+            "imageOriginalUrl": null,
+            "tags": ["docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.localeplanet.com/icu/iso639.html",
+            "imagePlaceholderUrl": "placeholder-29.jpg",
+            "deleted": null,
+            "$id": "689d6aeb003784df49cb",
+            "$sequence": 2245,
+            "$createdAt": "2025-08-14T04:49:47.927+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.927+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://stackoverflow.com/questions/2513174/avoid-duplicates-in-insert-into-select-query-in-sql-server",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://stackoverflow.com/questions/2513174/avoid-duplicates-in-insert-into-select-query-in-sql-server",
+            "imagePlaceholderUrl": "placeholder-5.jpg",
+            "deleted": null,
+            "$id": "689d6aeb003b141bd1a4",
+            "$sequence": 2246,
+            "$createdAt": "2025-08-14T04:49:47.987+00:00",
+            "$updatedAt": "2025-08-14T04:49:47.987+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Tcpdump Examples - 22 Tactical Commands | HackerTarget.com",
+            "imageOriginalUrl": null,
+            "tags": ["linux"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://hackertarget.com/tcpdump-examples/",
+            "imagePlaceholderUrl": "placeholder-69.jpg",
+            "deleted": null,
+            "$id": "689d6aec0000436a1411",
+            "$sequence": 2247,
+            "$createdAt": "2025-08-14T04:49:48.056+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.056+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Eliminar archivos de un repositorio git después de ignorarlos con .gitignor",
+            "imageOriginalUrl": null,
+            "tags": ["git"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://desarrolloweb.com/articulos/eliminar-archivos-git-gitignore.html",
+            "imagePlaceholderUrl": "placeholder-69.jpg",
+            "deleted": null,
+            "$id": "689d6aec00045510e092",
+            "$sequence": 2248,
+            "$createdAt": "2025-08-14T04:49:48.115+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.115+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Logging in Spring Boot | Baeldung",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/spring-boot-logging",
+            "imagePlaceholderUrl": "placeholder-6.jpg",
+            "deleted": null,
+            "$id": "689d6aec00087f252b0f",
+            "$sequence": 2249,
+            "$createdAt": "2025-08-14T04:49:48.178+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.178+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.middlewareinventory.com/blog/tcpdump-capture-http-get-post-requests-apache-weblogic-websphere/",
+            "imageOriginalUrl": null,
+            "tags": ["linux"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.middlewareinventory.com/blog/tcpdump-capture-http-get-post-requests-apache-weblogic-websphere/",
+            "imagePlaceholderUrl": "placeholder-71.jpg",
+            "deleted": null,
+            "$id": "689d6aec000c11a64da6",
+            "$sequence": 2250,
+            "$createdAt": "2025-08-14T04:49:48.238+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.238+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Validation with Spring Boot - the Complete Guide",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://reflectoring.io/bean-validation-with-spring-boot/",
+            "imagePlaceholderUrl": "placeholder-55.jpg",
+            "deleted": null,
+            "$id": "689d6aec000fcaef301d",
+            "$sequence": 2251,
+            "$createdAt": "2025-08-14T04:49:48.301+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.301+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "REST y el principio de idempotencia - Adictos al trabajo",
+            "imageOriginalUrl": null,
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.adictosaltrabajo.com/2015/06/29/rest-y-el-principio-de-idempotencia/",
+            "imagePlaceholderUrl": "placeholder-16.jpg",
+            "deleted": null,
+            "$id": "689d6aec0013ea1ff498",
+            "$sequence": 2252,
+            "$createdAt": "2025-08-14T04:49:48.360+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.360+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "26 Reasons Why Using Optional Correctly Is Not Optional - DZone Java",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dzone.com/articles/using-optional-correctly-is-not-optional",
+            "imagePlaceholderUrl": "placeholder-25.jpg",
+            "deleted": null,
+            "$id": "689d6aec00179495d94e",
+            "$sequence": 2253,
+            "$createdAt": "2025-08-14T04:49:48.422+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.422+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.adictosaltrabajo.com/2018/06/20/event-sourcing-para-aplicaciones-escalables/",
+            "imageOriginalUrl": null,
+            "tags": ["java", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.adictosaltrabajo.com/2018/06/20/event-sourcing-para-aplicaciones-escalables/",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6aec001ba840b30f",
+            "$sequence": 2254,
+            "$createdAt": "2025-08-14T04:49:48.510+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.510+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/",
+            "imagePlaceholderUrl": "placeholder-52.jpg",
+            "deleted": null,
+            "$id": "689d6aec002105500894",
+            "$sequence": 2255,
+            "$createdAt": "2025-08-14T04:49:48.568+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.568+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://howtodoinjava.com/spring-boot2/rest/enableasync-async-controller/",
+            "imageOriginalUrl": null,
+            "tags": ["async", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://howtodoinjava.com/spring-boot2/rest/enableasync-async-controller/",
+            "imagePlaceholderUrl": "placeholder-15.jpg",
+            "deleted": null,
+            "$id": "689d6aec0028eb8fe203",
+            "$sequence": 2257,
+            "$createdAt": "2025-08-14T04:49:48.706+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.706+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://steveholgado.com/nginx-for-nextjs/",
+            "imageOriginalUrl": null,
+            "tags": ["devops", "nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://steveholgado.com/nginx-for-nextjs/",
+            "imagePlaceholderUrl": "placeholder-33.jpg",
+            "deleted": null,
+            "$id": "689d6aec002cf3a77b44",
+            "$sequence": 2258,
+            "$createdAt": "2025-08-14T04:49:48.777+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.777+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://medium.com/@charlie_fuentes/notacion-big-0-para-principiantes-f9cbb4b6bec8",
+            "imageOriginalUrl": null,
+            "tags": ["programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://medium.com/@charlie_fuentes/notacion-big-0-para-principiantes-f9cbb4b6bec8",
+            "imagePlaceholderUrl": "placeholder-44.jpg",
+            "deleted": null,
+            "$id": "689d6aec00309692fc84",
+            "$sequence": 2259,
+            "$createdAt": "2025-08-14T04:49:48.832+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.832+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://gabrieltanner.org/blog/docker-swarm",
+            "imageOriginalUrl": null,
+            "tags": ["docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://gabrieltanner.org/blog/docker-swarm",
+            "imagePlaceholderUrl": "placeholder-63.jpg",
+            "deleted": null,
+            "$id": "689d6aec00354aa379ac",
+            "$sequence": 2260,
+            "$createdAt": "2025-08-14T04:49:48.895+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.895+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.nebrass.fr/playing-with-cqrs-and-event-sourcing-in-spring-boot-and-axon/",
+            "imageOriginalUrl": null,
+            "tags": ["java", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.nebrass.fr/playing-with-cqrs-and-event-sourcing-in-spring-boot-and-axon/",
+            "imagePlaceholderUrl": "placeholder-12.jpg",
+            "deleted": null,
+            "$id": "689d6aec00390aa76524",
+            "$sequence": 2261,
+            "$createdAt": "2025-08-14T04:49:48.949+00:00",
+            "$updatedAt": "2025-08-14T04:49:48.949+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://lemoncode.net/lemoncode-blog/2020/2/12/hola-docker-ci-cd-github-actions",
+            "imageOriginalUrl": null,
+            "tags": ["devops", "docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://lemoncode.net/lemoncode-blog/2020/2/12/hola-docker-ci-cd-github-actions",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6aed0001b309afc8",
+            "$sequence": 2263,
+            "$createdAt": "2025-08-14T04:49:49.064+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.064+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.softtek.com/es/java-concurrency",
+            "imageOriginalUrl": null,
+            "tags": ["async", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.softtek.com/es/java-concurrency",
+            "imagePlaceholderUrl": "placeholder-2.jpg",
+            "deleted": null,
+            "$id": "689d6aed000515b62564",
+            "$sequence": 2264,
+            "$createdAt": "2025-08-14T04:49:49.120+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.120+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Common mistakes with React Testing Library",
+            "imageOriginalUrl": null,
+            "tags": ["react", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://kentcdodds.com/blog/common-mistakes-with-react-testing-library",
+            "imagePlaceholderUrl": "placeholder-11.jpg",
+            "deleted": null,
+            "$id": "689d6aed00088ab18041",
+            "$sequence": 2265,
+            "$createdAt": "2025-08-14T04:49:49.176+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.176+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://programacionymas.com/blog/docker-diferencia-entrypoint-cmd",
+            "imageOriginalUrl": null,
+            "tags": ["docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://programacionymas.com/blog/docker-diferencia-entrypoint-cmd",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": null,
+            "$id": "689d6aed000c0a3df68b",
+            "$sequence": 2266,
+            "$createdAt": "2025-08-14T04:49:49.236+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.236+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Pico CSS • Minimal CSS Framework for semantic HTML",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://picocss.com/",
+            "imagePlaceholderUrl": "placeholder-44.jpg",
+            "deleted": null,
+            "$id": "689d6aed000f851d7d8f",
+            "$sequence": 2267,
+            "$createdAt": "2025-08-14T04:49:49.288+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.288+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.valentinog.com/blog/traefik/",
+            "imageOriginalUrl": null,
+            "tags": ["devops", "docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.valentinog.com/blog/traefik/",
+            "imagePlaceholderUrl": "placeholder-13.jpg",
+            "deleted": null,
+            "$id": "689d6aed00138009f73d",
+            "$sequence": 2268,
+            "$createdAt": "2025-08-14T04:49:49.370+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.370+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "A guide to module mocking with Jest - Emma Goto",
+            "imageOriginalUrl": null,
+            "tags": ["javascript", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.emgoto.com/mocking-with-jest/",
+            "imagePlaceholderUrl": "placeholder-67.jpg",
+            "deleted": null,
+            "$id": "689d6aed0017c59f0f36",
+            "$sequence": 2269,
+            "$createdAt": "2025-08-14T04:49:49.432+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.432+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.baeldung.com/ops/spring-boot-logs-docker",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/ops/spring-boot-logs-docker",
+            "imagePlaceholderUrl": "placeholder-71.jpg",
+            "deleted": null,
+            "$id": "689d6aed001beb122bd3",
+            "$sequence": 2270,
+            "$createdAt": "2025-08-14T04:49:49.493+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.493+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.adictosaltrabajo.com/2021/01/13/implementando-event-sourcing/",
+            "imageOriginalUrl": null,
+            "tags": ["java", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.adictosaltrabajo.com/2021/01/13/implementando-event-sourcing/",
+            "imagePlaceholderUrl": "placeholder-52.jpg",
+            "deleted": null,
+            "$id": "689d6aed002032202f6e",
+            "$sequence": 2271,
+            "$createdAt": "2025-08-14T04:49:49.563+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.563+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "El principio de idempotencia - Oscar Blancarte - Software Architecture",
+            "imageOriginalUrl": null,
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.oscarblancarteblog.com/2021/01/17/el-principio-de-idempotencia/",
+            "imagePlaceholderUrl": "placeholder-17.jpg",
+            "deleted": null,
+            "$id": "689d6aed002446a942f9",
+            "$sequence": 2272,
+            "$createdAt": "2025-08-14T04:49:49.622+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.622+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://picodotdev.github.io/blog-bitix/2021/02/introduccion-a-ddd-y-arquitectura-hexagonal-con-un-ejemplo-de-aplicacion-en-java/",
+            "imageOriginalUrl": null,
+            "tags": ["java", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://picodotdev.github.io/blog-bitix/2021/02/introduccion-a-ddd-y-arquitectura-hexagonal-con-un-ejemplo-de-aplicacion-en-java/",
+            "imagePlaceholderUrl": "placeholder-28.jpg",
+            "deleted": null,
+            "$id": "689d6aed00280176f13b",
+            "$sequence": 2273,
+            "$createdAt": "2025-08-14T04:49:49.688+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.688+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://lenguajejs.com/automatizadores/introduccion/commonjs-vs-es-modules/",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://lenguajejs.com/automatizadores/introduccion/commonjs-vs-es-modules/",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6aed002c403459d0",
+            "$sequence": 2274,
+            "$createdAt": "2025-08-14T04:49:49.745+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.745+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "The Complete Guide to useRef() and Refs in React",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dmitripavlutin.com/react-useref-guide/",
+            "imagePlaceholderUrl": "placeholder-35.jpg",
+            "deleted": null,
+            "$id": "689d6aed002fb8f25bb5",
+            "$sequence": 2275,
+            "$createdAt": "2025-08-14T04:49:49.807+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.807+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://dev.to/joyshaheb/css-grid-cheat-sheet-illustrated-in-2021-1a3",
+            "imageOriginalUrl": null,
+            "tags": ["css"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dev.to/joyshaheb/css-grid-cheat-sheet-illustrated-in-2021-1a3",
+            "imagePlaceholderUrl": "placeholder-17.jpg",
+            "deleted": null,
+            "$id": "689d6aed00337d7a94cc",
+            "$sequence": 2276,
+            "$createdAt": "2025-08-14T04:49:49.866+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.866+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "The Algorithms",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://the-algorithms.com/es",
+            "imagePlaceholderUrl": "placeholder-37.jpg",
+            "deleted": null,
+            "$id": "689d6aed003793bcc430",
+            "$sequence": 2277,
+            "$createdAt": "2025-08-14T04:49:49.939+00:00",
+            "$updatedAt": "2025-08-14T04:49:49.939+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Avoid Inserting Duplicate Records in SQL INSERT Query (5 Easy Ways) ",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://codingsight.com/sql-insert-into-select-5-easy-ways-to-handle-duplicates/",
+            "imagePlaceholderUrl": "placeholder-1.jpg",
+            "deleted": null,
+            "$id": "689d6aed003babd42afe",
+            "$sequence": 2278,
+            "$createdAt": "2025-08-14T04:49:50.009+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.009+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Deployment Automation via SSH With Python Fabric: How It Works | HackerNoon",
+            "imageOriginalUrl": null,
+            "tags": ["devops"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://hackernoon.com/deployment-automation-via-ssh-with-python-fabric-how-it-works-w0q33wn",
+            "imagePlaceholderUrl": "placeholder-37.jpg",
+            "deleted": null,
+            "$id": "689d6aee0000eb83c0b5",
+            "$sequence": 2279,
+            "$createdAt": "2025-08-14T04:49:50.064+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.064+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://medium.com/geekculture/create-an-api-gateway-using-nodejs-and-express-933d1ca23322",
+            "imageOriginalUrl": null,
+            "tags": ["nodejs", "microservices"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://medium.com/geekculture/create-an-api-gateway-using-nodejs-and-express-933d1ca23322",
+            "imagePlaceholderUrl": "placeholder-69.jpg",
+            "deleted": false,
+            "$id": "689d6aee000500e15e72",
+            "$sequence": 2280,
+            "$createdAt": "2025-08-14T04:49:50.135+00:00",
+            "$updatedAt": "2026-02-03T17:08:34.706+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.hackajob.co/implementing-binary-search-trees-in-java/",
+            "imageOriginalUrl": null,
+            "tags": ["programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.hackajob.co/implementing-binary-search-trees-in-java/",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": null,
+            "$id": "689d6aee00098925cee3",
+            "$sequence": 2281,
+            "$createdAt": "2025-08-14T04:49:50.193+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.193+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.campusmvp.es/recursos/post/introduccion-a-docker-swarm-mode-creacion-de-clusteres-y-levantar-servicios.aspx",
+            "imageOriginalUrl": null,
+            "tags": ["docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.campusmvp.es/recursos/post/introduccion-a-docker-swarm-mode-creacion-de-clusteres-y-levantar-servicios.aspx",
+            "imagePlaceholderUrl": "placeholder-41.jpg",
+            "deleted": null,
+            "$id": "689d6aee000d2980e91a",
+            "$sequence": 2282,
+            "$createdAt": "2025-08-14T04:49:50.269+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.269+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Demo CQRS con SpringBoot   Kafka   Mongo | Pandemonio Digital",
+            "imageOriginalUrl": null,
+            "tags": ["java", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://pandemoniodigital.es/demo/2021/02/04/cqrs-kafka-mongo-spring.html",
+            "imagePlaceholderUrl": "placeholder-24.jpg",
+            "deleted": null,
+            "$id": "689d6aee0011aa6afef9",
+            "$sequence": 2283,
+            "$createdAt": "2025-08-14T04:49:50.323+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.323+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Validate Request Body and Parameter in Spring Boot",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.tericcabrel.com/validate-request-body-and-parameter-in-spring-boot/",
+            "imagePlaceholderUrl": "placeholder-59.jpg",
+            "deleted": null,
+            "$id": "689d6aee00155dba4ca7",
+            "$sequence": 2284,
+            "$createdAt": "2025-08-14T04:49:50.396+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.396+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Enfoques de Arquitectura Multitenant para Aplicaciones SaaS | by Adrián Alo",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://adrianalonsodev.medium.com/enfoques-de-arquitectura-multitenant-para-aplicaciones-saas-cf210d6c2f10",
+            "imagePlaceholderUrl": "placeholder-9.jpg",
+            "deleted": null,
+            "$id": "689d6aee0018e70a9a92",
+            "$sequence": 2285,
+            "$createdAt": "2025-08-14T04:49:50.436+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.436+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "El Algoritmo determinista – Cursos gratis",
+            "imageOriginalUrl": null,
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://conocimientosweb.net/dcmt/ficha17.html",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6aee001c4c4f7226",
+            "$sequence": 2286,
+            "$createdAt": "2025-08-14T04:49:50.490+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.490+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Usando JPA CriteriaQuery para crear Queries con pagination – Adam Gamboa G ",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.adamgamboa.dev/es/usando-jpa-criteriaquery-para-crear-queries-con-pagination/",
+            "imagePlaceholderUrl": "placeholder-74.jpg",
+            "deleted": null,
+            "$id": "689d6aee001fc3561978",
+            "$sequence": 2287,
+            "$createdAt": "2025-08-14T04:49:50.559+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.559+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Mock AWS con Localstack en Spring Boot - Refactorizando",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://refactorizando.com/mock-aws-localstack-spring-boot/",
+            "imagePlaceholderUrl": "placeholder-44.jpg",
+            "deleted": null,
+            "$id": "689d6aee00243df67060",
+            "$sequence": 2288,
+            "$createdAt": "2025-08-14T04:49:50.632+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.632+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "CloudWatch Insights Examples -",
+            "imageOriginalUrl": null,
+            "tags": ["aws"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.pujan.net/post/2021-10-01-aws-cloudwatch-insights/",
+            "imagePlaceholderUrl": "placeholder-25.jpg",
+            "deleted": null,
+            "$id": "689d6aee0029751a3578",
+            "$sequence": 2289,
+            "$createdAt": "2025-08-14T04:49:50.712+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.712+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://reflectoring.io/getting-started-with-aws-sqs/",
+            "imageOriginalUrl": null,
+            "tags": ["aws"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://reflectoring.io/getting-started-with-aws-sqs/",
+            "imagePlaceholderUrl": "placeholder-4.jpg",
+            "deleted": null,
+            "$id": "689d6aee002dbd3e2953",
+            "$sequence": 2290,
+            "$createdAt": "2025-08-14T04:49:50.778+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.778+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Authorize HttpServletRequests with AuthorizationFilter",
+            "imageOriginalUrl": null,
+            "tags": ["auth", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html",
+            "imagePlaceholderUrl": "placeholder-28.jpg",
+            "deleted": null,
+            "$id": "689d6aee0031ee61ac45",
+            "$sequence": 2291,
+            "$createdAt": "2025-08-14T04:49:50.849+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.849+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/just-yet-still-and-already",
+            "imageOriginalUrl": null,
+            "tags": ["english"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/just-yet-still-and-already",
+            "imagePlaceholderUrl": "placeholder-20.jpg",
+            "deleted": null,
+            "$id": "689d6aee0039fa6169f3",
+            "$sequence": 2293,
+            "$createdAt": "2025-08-14T04:49:50.970+00:00",
+            "$updatedAt": "2025-08-14T04:49:50.970+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "50 Questions with How: Grammar Guide & Examples - EnglishPost.org",
+            "imageOriginalUrl": null,
+            "tags": ["english"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://englishpost.org/questions-with-how/",
+            "imagePlaceholderUrl": "placeholder-33.jpg",
+            "deleted": null,
+            "$id": "689d6aee003dbba1da40",
+            "$sequence": 2294,
+            "$createdAt": "2025-08-14T04:49:51.026+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.026+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://thenewstack.io/the-case-for-environment-specific-docker-images/",
+            "imageOriginalUrl": null,
+            "tags": ["docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://thenewstack.io/the-case-for-environment-specific-docker-images/",
+            "imagePlaceholderUrl": "placeholder-16.jpg",
+            "deleted": null,
+            "$id": "689d6aef0002a6ac0460",
+            "$sequence": 2295,
+            "$createdAt": "2025-08-14T04:49:51.087+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.087+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.bitsrc.io/implement-concurrent-download-of-large-files-in-javascript-4e94202c5373",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.bitsrc.io/implement-concurrent-download-of-large-files-in-javascript-4e94202c5373",
+            "imagePlaceholderUrl": "placeholder-54.jpg",
+            "deleted": null,
+            "$id": "689d6aef0006bb948e04",
+            "$sequence": 2296,
+            "$createdAt": "2025-08-14T04:49:51.153+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.153+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.developerway.com/posts/react-re-renders-guide",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.developerway.com/posts/react-re-renders-guide",
+            "imagePlaceholderUrl": "placeholder-26.jpg",
+            "deleted": null,
+            "$id": "689d6aef000aa1d6349f",
+            "$sequence": 2297,
+            "$createdAt": "2025-08-14T04:49:51.224+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.224+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Acelerando los desarrollos con contenedores : Keycloak (Parte 3)",
+            "imageOriginalUrl": null,
+            "tags": ["auth"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.enmilocalfunciona.io/acelerando-los-desarrollos-con-contenedores-keycloak-parte-3/",
+            "imagePlaceholderUrl": "placeholder-63.jpg",
+            "deleted": null,
+            "$id": "689d6aef000ed00f30af",
+            "$sequence": 2298,
+            "$createdAt": "2025-08-14T04:49:51.297+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.297+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.logrocket.com/microservices-nestjs-kafka-typescript/",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/microservices-nestjs-kafka-typescript/",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6aef0012d8d6cf0e",
+            "$sequence": 2299,
+            "$createdAt": "2025-08-14T04:49:51.357+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.357+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://betterstack.com/community/guides/scaling-docker/ha-docker-swarm/",
+            "imageOriginalUrl": null,
+            "tags": ["docker"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://betterstack.com/community/guides/scaling-docker/ha-docker-swarm/",
+            "imagePlaceholderUrl": "placeholder-58.jpg",
+            "deleted": null,
+            "$id": "689d6aef0016483475fd",
+            "$sequence": 2300,
+            "$createdAt": "2025-08-14T04:49:51.401+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.401+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Android Attack: Reversing React Native Applications – Security Queens",
+            "imageOriginalUrl": null,
+            "tags": ["react-native"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://securityqueens.co.uk/android-attack-reversing-react-native-applications/",
+            "imagePlaceholderUrl": "placeholder-1.jpg",
+            "deleted": null,
+            "$id": "689d6aef001a0ab43e88",
+            "$sequence": 2301,
+            "$createdAt": "2025-08-14T04:49:51.474+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.474+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.logrocket.com/communicating-between-node-js-microservices-with-grpc/",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/communicating-between-node-js-microservices-with-grpc/",
+            "imagePlaceholderUrl": "placeholder-37.jpg",
+            "deleted": null,
+            "$id": "689d6aef001d9e7e9624",
+            "$sequence": 2302,
+            "$createdAt": "2025-08-14T04:49:51.515+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.515+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.baeldung.com/spring-boot-testing-pitfalls",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/spring-boot-testing-pitfalls",
+            "imagePlaceholderUrl": "placeholder-14.jpg",
+            "deleted": null,
+            "$id": "689d6aef002159e8753d",
+            "$sequence": 2303,
+            "$createdAt": "2025-08-14T04:49:51.576+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.576+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "You Might Not Need an Effect – React",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://react.dev/learn/you-might-not-need-an-effect#resetting-all-state-when-a-prop-changes",
+            "imagePlaceholderUrl": "placeholder-10.jpg",
+            "deleted": null,
+            "$id": "689d6aef0024fb6201d0",
+            "$sequence": 2304,
+            "$createdAt": "2025-08-14T04:49:51.633+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.633+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.splunk.com/en_us/blog/learn/data-denormalization.html",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.splunk.com/en_us/blog/learn/data-denormalization.html",
+            "imagePlaceholderUrl": "placeholder-57.jpg",
+            "deleted": null,
+            "$id": "689d6aef0029148c15c9",
+            "$sequence": 2305,
+            "$createdAt": "2025-08-14T04:49:51.698+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.698+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Login/Logout using Spring Boot Security 3 and JWT Auth",
+            "imageOriginalUrl": null,
+            "tags": ["auth", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://howtodoinjava.com/spring-security/jwt-auth-vuejs-spring-boot-security/",
+            "imagePlaceholderUrl": "placeholder-56.jpg",
+            "deleted": null,
+            "$id": "689d6aef002cca5c7ce3",
+            "$sequence": 2306,
+            "$createdAt": "2025-08-14T04:49:51.771+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.771+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Upgrading Spring Security without WebSecurityConfigurerAdapter",
+            "imageOriginalUrl": null,
+            "tags": ["auth", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://howtodoinjava.com/spring-security/configurations-without-websecurityconfigureradapter/",
+            "imagePlaceholderUrl": "placeholder-34.jpg",
+            "deleted": null,
+            "$id": "689d6aef003039ed0dfe",
+            "$sequence": 2307,
+            "$createdAt": "2025-08-14T04:49:51.819+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.819+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Structured Logging with Spring Boot and Amazon CloudWatch",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://reflectoring.io/struct-log-with-cloudwatch-tutorial/",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6aef00345e49460d",
+            "$sequence": 2308,
+            "$createdAt": "2025-08-14T04:49:51.885+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.885+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://docs.strapi.io/dev-docs/api/rest/filters-locale-publication",
+            "imageOriginalUrl": null,
+            "tags": ["apis"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://docs.strapi.io/dev-docs/api/rest/filters-locale-publication",
+            "imagePlaceholderUrl": "placeholder-27.jpg",
+            "deleted": null,
+            "$id": "689d6aef0038ac6beb8e",
+            "$sequence": 2309,
+            "$createdAt": "2025-08-14T04:49:51.969+00:00",
+            "$updatedAt": "2025-08-14T04:49:51.969+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Do you still need testcontainers with Spring Boot 3.1?",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://softwaremill.com/do-you-still-need-testcontainers-with-spring-boot-3-1/",
+            "imagePlaceholderUrl": "placeholder-6.jpg",
+            "deleted": null,
+            "$id": "689d6aef003cba0722e4",
+            "$sequence": 2310,
+            "$createdAt": "2025-08-14T04:49:52.025+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.025+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Introducción a TestContainers: Cómo mejorar tus pruebas de integración en S",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.adictosaltrabajo.com/2023/05/31/introduccion-testcontainers-en-spring-boot/",
+            "imagePlaceholderUrl": "placeholder-59.jpg",
+            "deleted": null,
+            "$id": "689d6af000019bce033e",
+            "$sequence": 2311,
+            "$createdAt": "2025-08-14T04:49:52.065+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.065+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Utilizando docker-compose para pruebas de integración en Spring Boot - Adic",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.adictosaltrabajo.com/2023/06/09/utilizando-docker-compose-para-pruebas-de-integracion-en-spring-boot/",
+            "imagePlaceholderUrl": "placeholder-44.jpg",
+            "deleted": null,
+            "$id": "689d6af0000502c7301c",
+            "$sequence": 2312,
+            "$createdAt": "2025-08-14T04:49:52.129+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.129+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://medium.com/@diego.coder/buffers-y-streams-en-node-js-bd96a55420ea",
+            "imageOriginalUrl": null,
+            "tags": ["nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://medium.com/@diego.coder/buffers-y-streams-en-node-js-bd96a55420ea",
+            "imagePlaceholderUrl": "placeholder-71.jpg",
+            "deleted": null,
+            "$id": "689d6af0000d12156590",
+            "$sequence": 2314,
+            "$createdAt": "2025-08-14T04:49:52.251+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.251+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Multi-Tenancy on PostgreSQL : An Introduction",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://opensource-db.com/multi-tenancy-on-postgres/",
+            "imagePlaceholderUrl": "placeholder-8.jpg",
+            "deleted": null,
+            "$id": "689d6af00010e46ccd4a",
+            "$sequence": 2315,
+            "$createdAt": "2025-08-14T04:49:52.315+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.315+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Guide to Error Handling in Reactor Project | by Gyeongsun (Sunny) Park | De",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.devops.dev/guide-to-error-handling-in-reactor-project-13f699299072",
+            "imagePlaceholderUrl": "placeholder-18.jpg",
+            "deleted": null,
+            "$id": "689d6af0001496185841",
+            "$sequence": 2316,
+            "$createdAt": "2025-08-14T04:49:52.370+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.370+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.freecodecamp.org/news/how-to-handle-breaking-changes/",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-handle-breaking-changes/",
+            "imagePlaceholderUrl": "placeholder-59.jpg",
+            "deleted": null,
+            "$id": "689d6af000180ad3ab8a",
+            "$sequence": 2317,
+            "$createdAt": "2025-08-14T04:49:52.445+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.445+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66",
+            "imageOriginalUrl": null,
+            "tags": ["java", "microservices", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.bitsrc.io/implementing-microservices-with-cqrs-2cecb0b09c66",
+            "imagePlaceholderUrl": "placeholder-56.jpg",
+            "deleted": null,
+            "$id": "689d6af0001c0cae772b",
+            "$sequence": 2318,
+            "$createdAt": "2025-08-14T04:49:52.506+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.506+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.bitsrc.io/implementing-circuit-breaker-pattern-in-a-microservices-based-application-5d759021d09a",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.bitsrc.io/implementing-circuit-breaker-pattern-in-a-microservices-based-application-5d759021d09a",
+            "imagePlaceholderUrl": "placeholder-6.jpg",
+            "deleted": null,
+            "$id": "689d6af0001f99d4f938",
+            "$sequence": 2319,
+            "$createdAt": "2025-08-14T04:49:52.549+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.549+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.bitsrc.io/optimizing-sql-databases-for-read-heavy-operations-14c5402955d9",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.bitsrc.io/optimizing-sql-databases-for-read-heavy-operations-14c5402955d9",
+            "imagePlaceholderUrl": "placeholder-25.jpg",
+            "deleted": null,
+            "$id": "689d6af0002394ab6cbb",
+            "$sequence": 2320,
+            "$createdAt": "2025-08-14T04:49:52.610+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.610+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://reflectoring.io/beginner-friendly-guide-to-java-records/",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://reflectoring.io/beginner-friendly-guide-to-java-records/",
+            "imagePlaceholderUrl": "placeholder-63.jpg",
+            "deleted": null,
+            "$id": "689d6af000272a3d6e7e",
+            "$sequence": 2321,
+            "$createdAt": "2025-08-14T04:49:52.676+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.676+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.sitepoint.com/node-js-multithreading/",
+            "imageOriginalUrl": null,
+            "tags": ["async", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.sitepoint.com/node-js-multithreading/",
+            "imagePlaceholderUrl": "placeholder-2.jpg",
+            "deleted": null,
+            "$id": "689d6af0002b481f25e5",
+            "$sequence": 2322,
+            "$createdAt": "2025-08-14T04:49:52.736+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.736+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://kinsta.com/es/blog/ataque-csrf/",
+            "imageOriginalUrl": null,
+            "tags": ["tech"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://kinsta.com/es/blog/ataque-csrf/",
+            "imagePlaceholderUrl": "placeholder-50.jpg",
+            "deleted": null,
+            "$id": "689d6af0002f280a6201",
+            "$sequence": 2323,
+            "$createdAt": "2025-08-14T04:49:52.802+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.802+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.freecodecamp.org/news/idempotence-explained/",
+            "imageOriginalUrl": null,
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/idempotence-explained/",
+            "imagePlaceholderUrl": "placeholder-71.jpg",
+            "deleted": null,
+            "$id": "689d6af00032f6b2f5f9",
+            "$sequence": 2324,
+            "$createdAt": "2025-08-14T04:49:52.854+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.854+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.sitepoint.com/next-js-internationalization/",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.sitepoint.com/next-js-internationalization/",
+            "imagePlaceholderUrl": "placeholder-17.jpg",
+            "deleted": null,
+            "$id": "689d6af00036779f6540",
+            "$sequence": 2325,
+            "$createdAt": "2025-08-14T04:49:52.919+00:00",
+            "$updatedAt": "2025-08-14T04:49:52.919+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Implement JWT authentication in a Spring Boot 3 application | by Eric Cabre",
+            "imageOriginalUrl": null,
+            "tags": ["auth", "java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac",
+            "imagePlaceholderUrl": "placeholder-12.jpg",
+            "deleted": null,
+            "$id": "689d6af0003d7ea1367e",
+            "$sequence": 2326,
+            "$createdAt": "2025-08-14T04:49:53.026+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.026+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.bitsrc.io/implementing-the-api-gateway-pattern-in-node-js-2cb39d174094",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.bitsrc.io/implementing-the-api-gateway-pattern-in-node-js-2cb39d174094",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": null,
+            "$id": "689d6af100030995539e",
+            "$sequence": 2327,
+            "$createdAt": "2025-08-14T04:49:53.087+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.087+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.baeldung.com/sql/databases-indexing",
+            "imageOriginalUrl": null,
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/sql/databases-indexing",
+            "imagePlaceholderUrl": "placeholder-41.jpg",
+            "deleted": null,
+            "$id": "689d6af100068dce027f",
+            "$sequence": 2328,
+            "$createdAt": "2025-08-14T04:49:53.149+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.149+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.enmilocalfunciona.io/unveiling-the-power-of-event-driven-microservices-using-axon-framework-2/",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.enmilocalfunciona.io/unveiling-the-power-of-event-driven-microservices-using-axon-framework-2/",
+            "imagePlaceholderUrl": "placeholder-8.jpg",
+            "deleted": null,
+            "$id": "689d6af1000aa81a1397",
+            "$sequence": 2329,
+            "$createdAt": "2025-08-14T04:49:53.217+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.217+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://blog.logrocket.com/how-to-analyze-next-js-app-bundles/",
+            "imageOriginalUrl": null,
+            "tags": ["nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/how-to-analyze-next-js-app-bundles/",
+            "imagePlaceholderUrl": "placeholder-18.jpg",
+            "deleted": null,
+            "$id": "689d6af1000ec458380f",
+            "$sequence": 2330,
+            "$createdAt": "2025-08-14T04:49:53.272+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.272+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://reflectoring.io/one-stop-guide-to-java-functional-interfaces/",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://reflectoring.io/one-stop-guide-to-java-functional-interfaces/",
+            "imagePlaceholderUrl": "placeholder-64.jpg",
+            "deleted": null,
+            "$id": "689d6af1001216a4498b",
+            "$sequence": 2331,
+            "$createdAt": "2025-08-14T04:49:53.355+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.355+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "3 tipos de cifrado - Guía detallada con pros y contras",
+            "imageOriginalUrl": null,
+            "tags": ["tech"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.sealpath.com/es/blog/tipos-de-cifrado-guia/",
+            "imagePlaceholderUrl": "placeholder-21.jpg",
+            "deleted": null,
+            "$id": "689d6af100162927eb8b",
+            "$sequence": 2332,
+            "$createdAt": "2025-08-14T04:49:53.415+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.415+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Decoupling monoliths into microservices with feature flags - LogRocket Blog",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/decoupling-monoliths-microservices-feature-flags/",
+            "imagePlaceholderUrl": "placeholder-53.jpg",
+            "deleted": null,
+            "$id": "689d6af10019e406375e",
+            "$sequence": 2333,
+            "$createdAt": "2025-08-14T04:49:53.457+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.457+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.packtpub.com/en-us/product/building-microservices-with-nodejs-9781838985936",
+            "imageOriginalUrl": null,
+            "tags": ["microservices", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.packtpub.com/en-us/product/building-microservices-with-nodejs-9781838985936",
+            "imagePlaceholderUrl": "placeholder-31.jpg",
+            "deleted": null,
+            "$id": "689d6af1001d8150ef4d",
+            "$sequence": 2334,
+            "$createdAt": "2025-08-14T04:49:53.515+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.515+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "goldbergyoni/nodebestpractices at spanish-translation",
+            "imageOriginalUrl": null,
+            "tags": ["nodejs", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/goldbergyoni/nodebestpractices/tree/spanish-translation",
+            "imagePlaceholderUrl": "placeholder-60.jpg",
+            "deleted": null,
+            "$id": "689d6af100213740a005",
+            "$sequence": 2335,
+            "$createdAt": "2025-08-14T04:49:53.571+00:00",
+            "$updatedAt": "2025-08-14T04:49:53.571+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/html/test.html#running-as-a-user-in-spring-mvc-test-with-annotations",
+            "imageOriginalUrl": null,
+            "tags": ["java", "testing"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://docs.spring.io/spring-security/site/docs/5.2.0.RELEASE/reference/html/test.html#running-as-a-user-in-spring-mvc-test-with-annotations",
+            "imagePlaceholderUrl": "placeholder-73.jpg",
+            "deleted": null,
+            "$id": "689d6b690024d414017c",
+            "$sequence": 2336,
+            "$createdAt": "2025-08-14T04:51:53.646+00:00",
+            "$updatedAt": "2025-08-14T04:51:53.646+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "45 VS Code Shortcuts for Boosting Your Productivity — SitePoint",
+            "imageOriginalUrl": null,
+            "tags": ["programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.sitepoint.com/visual-studio-code-keyboard-shortcuts/",
+            "imagePlaceholderUrl": "placeholder-30.jpg",
+            "deleted": null,
+            "$id": "689d6b69002ddbc72acb",
+            "$sequence": 2338,
+            "$createdAt": "2025-08-14T04:51:53.773+00:00",
+            "$updatedAt": "2025-08-14T04:51:53.773+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Have I Been Pwned: Check if your email has been compromised in a data breach",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://haveibeenpwned.com/",
+            "imagePlaceholderUrl": "placeholder-74.jpg",
+            "deleted": null,
+            "$id": "689d6b6900314e8dcbfc",
+            "$sequence": 2339,
+            "$createdAt": "2025-08-14T04:51:53.828+00:00",
+            "$updatedAt": "2025-08-14T04:51:53.828+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Formato y zona horaria del trabajo cron  |  Cloud Scheduler Documentation  |  Google Cloud",
+            "imageOriginalUrl": null,
+            "tags": ["programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://cloud.google.com/scheduler/docs/configuring/cron-job-schedules?hl=es-419",
+            "imagePlaceholderUrl": "placeholder-24.jpg",
+            "deleted": null,
+            "$id": "689d6b690034e67dfe73",
+            "$sequence": 2340,
+            "$createdAt": "2025-08-14T04:51:53.888+00:00",
+            "$updatedAt": "2025-08-14T04:51:53.888+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Build Multi-Module Projects in Spring Boot for Scalable Microservices",
+            "imageOriginalUrl": null,
+            "tags": ["java", "microservices"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices/",
+            "imagePlaceholderUrl": "placeholder-57.jpg",
+            "deleted": null,
+            "$id": "689d6b69003872e3a5b5",
+            "$sequence": 2341,
+            "$createdAt": "2025-08-14T04:51:53.961+00:00",
+            "$updatedAt": "2025-08-14T04:51:53.961+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Bloom Filters Explained",
+            "imageOriginalUrl": null,
+            "tags": ["programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://systemdesign.one/bloom-filters-explained/",
+            "imagePlaceholderUrl": "placeholder-29.jpg",
+            "deleted": null,
+            "$id": "689d6b69003c10d29dfe",
+            "$sequence": 2342,
+            "$createdAt": "2025-08-14T04:51:54.009+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.009+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Better Auth",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.better-auth.com/",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": null,
+            "$id": "689d6b6a0002490a68d8",
+            "$sequence": 2343,
+            "$createdAt": "2025-08-14T04:51:54.094+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.094+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "OpenAPI TypeScript",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "javascript", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://openapi-ts.dev/",
+            "imagePlaceholderUrl": "placeholder-38.jpg",
+            "deleted": null,
+            "$id": "689d6b6a0006e0a1a941",
+            "$sequence": 2344,
+            "$createdAt": "2025-08-14T04:51:54.147+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.147+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "react-native-sse - npm",
+            "imageOriginalUrl": null,
+            "tags": ["react-native"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.npmjs.com/package/react-native-sse",
+            "imagePlaceholderUrl": "placeholder-75.jpg",
+            "deleted": null,
+            "$id": "689d6b6a000a35ee28a7",
+            "$sequence": 2345,
+            "$createdAt": "2025-08-14T04:51:54.202+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.202+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "React Scan",
+            "imageOriginalUrl": null,
+            "tags": ["libraries", "react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://react-scan.com/",
+            "imagePlaceholderUrl": "placeholder-55.jpg",
+            "deleted": null,
+            "$id": "689d6b6a000d93b89722",
+            "$sequence": 2346,
+            "$createdAt": "2025-08-14T04:51:54.255+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.255+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "supabase-community/copycat: Generate deterministic fake values: The same input will always generate ",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/supabase-community/copycat",
+            "imagePlaceholderUrl": "placeholder-53.jpg",
+            "deleted": null,
+            "$id": "689d6b6a001102f375b2",
+            "$sequence": 2347,
+            "$createdAt": "2025-08-14T04:51:54.310+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.310+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Encore — Backend framework for type-safe distributed systems",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://encore.dev/",
+            "imagePlaceholderUrl": "placeholder-22.jpg",
+            "deleted": null,
+            "$id": "689d6b6a00149ee43b33",
+            "$sequence": 2348,
+            "$createdAt": "2025-08-14T04:51:54.387+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.387+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "serengil/deepface",
+            "imageOriginalUrl": null,
+            "tags": ["libraries", "python"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/serengil/deepface",
+            "imagePlaceholderUrl": "placeholder-11.jpg",
+            "deleted": null,
+            "$id": "689d6b6a0018884afa99",
+            "$sequence": 2349,
+            "$createdAt": "2025-08-14T04:51:54.435+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.435+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "40 open-source gems to replace your SaaS subscriptions 🔥 🚀",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.indiehackers.com/post/40-open-source-gems-to-replace-your-saas-subscriptions-f733b8e166?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-15.jpg",
+            "deleted": null,
+            "$id": "689d6b6a001c6ecd04f6",
+            "$sequence": 2350,
+            "$createdAt": "2025-08-14T04:51:54.500+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.500+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Open Source Alternatives to Popular Software",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://openalternative.co/",
+            "imagePlaceholderUrl": "placeholder-42.jpg",
+            "deleted": null,
+            "$id": "689d6b6a002056a49b32",
+            "$sequence": 2351,
+            "$createdAt": "2025-08-14T04:51:54.579+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.579+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Tailwind CSS Component Library | WindUI",
+            "imageOriginalUrl": null,
+            "tags": ["css", "docs", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://wind-ui.com/",
+            "imagePlaceholderUrl": "placeholder-29.jpg",
+            "deleted": null,
+            "$id": "689d6b6a00243e44bca4",
+            "$sequence": 2352,
+            "$createdAt": "2025-08-14T04:51:54.632+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.632+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Astro",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://astro.build/",
+            "imagePlaceholderUrl": "placeholder-61.jpg",
+            "deleted": null,
+            "$id": "689d6b6a00289c7ff06c",
+            "$sequence": 2353,
+            "$createdAt": "2025-08-14T04:51:54.686+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.686+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "AsyncAPI Initiative for event-driven APIs | AsyncAPI Initiative for event-driven APIs",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.asyncapi.com/en",
+            "imagePlaceholderUrl": "placeholder-17.jpg",
+            "deleted": null,
+            "$id": "689d6b6a002bdff5bc4d",
+            "$sequence": 2354,
+            "$createdAt": "2025-08-14T04:51:54.775+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.775+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Elysia - Ergonomic Framework for Humans | ElysiaJS",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://elysiajs.com/",
+            "imagePlaceholderUrl": "placeholder-62.jpg",
+            "deleted": null,
+            "$id": "689d6b6a003180daf37a",
+            "$sequence": 2355,
+            "$createdAt": "2025-08-14T04:51:54.847+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.847+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Ktor: Build Asynchronous Servers and Clients in Kotlin | Ktor Framework",
+            "imageOriginalUrl": null,
+            "tags": ["docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://ktor.io/",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6b6a0039717ed8ee",
+            "$sequence": 2357,
+            "$createdAt": "2025-08-14T04:51:54.955+00:00",
+            "$updatedAt": "2025-08-14T04:51:54.955+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Supabase | The Open Source Firebase Alternative",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://supabase.com/",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": null,
+            "$id": "689d6b6a003cc19d306a",
+            "$sequence": 2358,
+            "$createdAt": "2025-08-14T04:51:55.018+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.018+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "High-performance Open Source API Gateway | KrakenD",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.krakend.io/",
+            "imagePlaceholderUrl": "placeholder-12.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0002523d38ef",
+            "$sequence": 2359,
+            "$createdAt": "2025-08-14T04:51:55.082+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.082+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Keycloak",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.keycloak.org/",
+            "imagePlaceholderUrl": "placeholder-34.jpg",
+            "deleted": null,
+            "$id": "689d6b6b00069b046bc1",
+            "$sequence": 2360,
+            "$createdAt": "2025-08-14T04:51:55.146+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.146+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "The TSConfig Cheat Sheet | Total TypeScript",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
+            "imagePlaceholderUrl": "placeholder-56.jpg",
+            "deleted": null,
+            "$id": "689d6b6b000a1975c29e",
+            "$sequence": 2361,
+            "$createdAt": "2025-08-14T04:51:55.218+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.218+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "drizzle-team/drizzle-studio-expo",
+            "imageOriginalUrl": null,
+            "tags": ["react-native", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/drizzle-team/drizzle-studio-expo",
+            "imagePlaceholderUrl": "placeholder-11.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0011e8e855ae",
+            "$sequence": 2363,
+            "$createdAt": "2025-08-14T04:51:55.325+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.325+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Detox",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "react-native", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://wix.github.io/Detox/",
+            "imagePlaceholderUrl": "placeholder-15.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0015606e1e05",
+            "$sequence": 2364,
+            "$createdAt": "2025-08-14T04:51:55.393+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.393+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "What is Maestro?",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "react-native", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://maestro.mobile.dev/",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0019908353ac",
+            "$sequence": 2365,
+            "$createdAt": "2025-08-14T04:51:55.452+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.452+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Compile SQL to type-safe code | sqlc.dev",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://sqlc.dev/",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": null,
+            "$id": "689d6b6b001de228b027",
+            "$sequence": 2366,
+            "$createdAt": "2025-08-14T04:51:55.531+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.531+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "vercel-labs/book-inventory",
+            "imageOriginalUrl": null,
+            "tags": ["nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/vercel-labs/book-inventory",
+            "imagePlaceholderUrl": "placeholder-42.jpg",
+            "deleted": null,
+            "$id": "689d6b6b00225d3c1907",
+            "$sequence": 2367,
+            "$createdAt": "2025-08-14T04:51:55.596+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.596+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Run Integration Tests with GitHub Service Containers",
+            "imageOriginalUrl": null,
+            "tags": ["devops"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-run-integration-tests-with-github-service-containers/",
+            "imagePlaceholderUrl": "placeholder-59.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0026a8df80df",
+            "$sequence": 2368,
+            "$createdAt": "2025-08-14T04:51:55.673+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.673+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Dokploy - Effortless Deployment Solutions",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dokploy.com/",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": null,
+            "$id": "689d6b6b002adc58dce9",
+            "$sequence": 2369,
+            "$createdAt": "2025-08-14T04:51:55.733+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.733+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Typesense",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://typesense.org/",
+            "imagePlaceholderUrl": "placeholder-63.jpg",
+            "deleted": null,
+            "$id": "689d6b6b002ec21d57a1",
+            "$sequence": 2370,
+            "$createdAt": "2025-08-14T04:51:55.796+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.796+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to master JavaScript debugging for web apps",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/master-javascript-debugging-web-apps/",
+            "imagePlaceholderUrl": "placeholder-7.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0033176a388a",
+            "$sequence": 2371,
+            "$createdAt": "2025-08-14T04:51:55.856+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.856+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "7 steps to building scalable Backend from scratch - DEV Community",
+            "imageOriginalUrl": null,
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dev.to/anmolbaranwal/7-steps-to-building-scalable-backend-from-scratch-fp8?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-62.jpg",
+            "deleted": null,
+            "$id": "689d6b6b0036776451e0",
+            "$sequence": 2372,
+            "$createdAt": "2025-08-14T04:51:55.913+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.913+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Dozzle",
+            "imageOriginalUrl": null,
+            "tags": ["docker", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dozzle.dev/?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-22.jpg",
+            "deleted": null,
+            "$id": "689d6b6b003a7cd2dfd2",
+            "$sequence": 2373,
+            "$createdAt": "2025-08-14T04:51:55.986+00:00",
+            "$updatedAt": "2025-08-14T04:51:55.986+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "swark-io/swark",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/swark-io/swark",
+            "imagePlaceholderUrl": "placeholder-60.jpg",
+            "deleted": null,
+            "$id": "689d6b6c000055bc9745",
+            "$sequence": 2374,
+            "$createdAt": "2025-08-14T04:51:56.047+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.047+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Blacksmith",
+            "imageOriginalUrl": null,
+            "tags": ["devops", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.blacksmith.sh/",
+            "imagePlaceholderUrl": "placeholder-35.jpg",
+            "deleted": null,
+            "$id": "689d6b6c00098871dc33",
+            "$sequence": 2376,
+            "$createdAt": "2025-08-14T04:51:56.212+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.212+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Fiberplane | Fiberplane",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://fiberplane.com/",
+            "imagePlaceholderUrl": "placeholder-19.jpg",
+            "deleted": null,
+            "$id": "689d6b6c000e924b2eed",
+            "$sequence": 2377,
+            "$createdAt": "2025-08-14T04:51:56.277+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.277+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "stepci/awesome-api-clients",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/stepci/awesome-api-clients",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": null,
+            "$id": "689d6b6c001274deb1cf",
+            "$sequence": 2378,
+            "$createdAt": "2025-08-14T04:51:56.334+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.334+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How We Reduced React App Load Time by 36%",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.certa.dev/how-we-reduced-react-app-load-time-by-36?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": null,
+            "$id": "689d6b6c0015e4d28933",
+            "$sequence": 2379,
+            "$createdAt": "2025-08-14T04:51:56.401+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.401+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Mastering forms in Next.js 15 and React 19",
+            "imageOriginalUrl": null,
+            "tags": ["nextjs", "react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://engineering.udacity.com/mastering-forms-in-next-js-15-and-react-19-e3d2d783946b",
+            "imagePlaceholderUrl": "placeholder-20.jpg",
+            "deleted": null,
+            "$id": "689d6b6c0019d9c2b8d2",
+            "$sequence": 2380,
+            "$createdAt": "2025-08-14T04:51:56.448+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.448+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Lynx",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "libraries", "react-native"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://lynxjs.org/index.html",
+            "imagePlaceholderUrl": "placeholder-3.jpg",
+            "deleted": null,
+            "$id": "689d6b6c001d14145ab8",
+            "$sequence": 2381,
+            "$createdAt": "2025-08-14T04:51:56.511+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.511+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Beautify Screenshots",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://postspark.app/?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-6.jpg",
+            "deleted": null,
+            "$id": "689d6b6c00210bf20c8f",
+            "$sequence": 2382,
+            "$createdAt": "2025-08-14T04:51:56.565+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.565+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Understanding HTTP Responses and Streams",
+            "imageOriginalUrl": null,
+            "tags": ["javascript", "programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://tigerabrodi.blog/understanding-http-responses-and-streams?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6b6c002478a2b41d",
+            "$sequence": 2383,
+            "$createdAt": "2025-08-14T04:51:56.625+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.625+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "changesets/changesets",
+            "imageOriginalUrl": null,
+            "tags": ["docs", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/changesets/changesets",
+            "imagePlaceholderUrl": "placeholder-20.jpg",
+            "deleted": null,
+            "$id": "689d6b6c002835fa0200",
+            "$sequence": 2384,
+            "$createdAt": "2025-08-14T04:51:56.692+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.692+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "ChatGPT Prompt Engineering for Developers - DeepLearning.AI",
+            "imageOriginalUrl": null,
+            "tags": ["courses", "programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+            "imagePlaceholderUrl": "placeholder-52.jpg",
+            "deleted": null,
+            "$id": "689d6b6c002c48628ec6",
+            "$sequence": 2385,
+            "$createdAt": "2025-08-14T04:51:56.756+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.756+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Making Beautiful API Keys",
+            "imageOriginalUrl": null,
+            "tags": ["apis"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://docs.agentstation.ai/blog/beautiful-api-keys/",
+            "imagePlaceholderUrl": "placeholder-37.jpg",
+            "deleted": null,
+            "$id": "689d6b6c00307f0dd1bc",
+            "$sequence": 2386,
+            "$createdAt": "2025-08-14T04:51:56.817+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.817+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Self.so - Resume to Website",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.self.so/",
+            "imagePlaceholderUrl": "placeholder-58.jpg",
+            "deleted": null,
+            "$id": "689d6b6c00342f4b9377",
+            "$sequence": 2387,
+            "$createdAt": "2025-08-14T04:51:56.874+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.874+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Your entire server infrastructure at your fingertips",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://xpipe.io/",
+            "imagePlaceholderUrl": "placeholder-23.jpg",
+            "deleted": null,
+            "$id": "689d6b6c003799239bb5",
+            "$sequence": 2388,
+            "$createdAt": "2025-08-14T04:51:56.926+00:00",
+            "$updatedAt": "2025-08-14T04:51:56.926+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "The need for API Gateways and how to solve it with KrakenD | Insider Engineering",
+            "imageOriginalUrl": null,
+            "tags": ["microservices"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://medium.com/insiderengineering/the-need-for-api-gateways-and-how-to-solve-it-with-krakend-de4ee9c97440",
+            "imagePlaceholderUrl": "placeholder-30.jpg",
+            "deleted": null,
+            "$id": "689d6b6d00016c85ee72",
+            "$sequence": 2390,
+            "$createdAt": "2025-08-14T04:51:57.065+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.065+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "AI: Desarrollo de Apps con LLMs",
+            "imageOriginalUrl": null,
+            "tags": ["courses"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://platzi.com/ruta/datos-llm/?school=_escuela_datos_",
+            "imagePlaceholderUrl": "placeholder-74.jpg",
+            "deleted": null,
+            "$id": "689d6b6d0005353a2ca1",
+            "$sequence": 2391,
+            "$createdAt": "2025-08-14T04:51:57.124+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.124+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "RapidMCP",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://rapid-mcp.com/?ref=producthunt",
+            "imagePlaceholderUrl": "placeholder-20.jpg",
+            "deleted": null,
+            "$id": "689d6b6d0008ce6bc999",
+            "$sequence": 2392,
+            "$createdAt": "2025-08-14T04:51:57.192+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.192+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Create Accessible and User-Friendly Forms in React",
+            "imageOriginalUrl": null,
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-create-accessible-and-user-friendly-forms-in-react/",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": null,
+            "$id": "689d6b6d000cf82ba11c",
+            "$sequence": 2393,
+            "$createdAt": "2025-08-14T04:51:57.252+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.252+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "proto : A multi-language version manager",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://moonrepo.dev/proto",
+            "imagePlaceholderUrl": "placeholder-35.jpg",
+            "deleted": null,
+            "$id": "689d6b6d00110c2f78e9",
+            "$sequence": 2394,
+            "$createdAt": "2025-08-14T04:51:57.326+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.326+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "React Hook Form vs. React 19: Should you still use RHF in 2025?",
+            "imageOriginalUrl": null,
+            "tags": ["react", "javascript", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/react-hook-form-vs-react-19/",
+            "imagePlaceholderUrl": "placeholder-51.jpg",
+            "deleted": null,
+            "$id": "689d6b6d00152e15f5ab",
+            "$sequence": 2395,
+            "$createdAt": "2025-08-14T04:51:57.384+00:00",
+            "$updatedAt": "2025-08-16T05:26:18.686+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Use TypeSpec for Documenting and Modeling APIs",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/use-typespec-for-documenting-and-modeling-apis/",
+            "imagePlaceholderUrl": "placeholder-19.jpg",
+            "deleted": null,
+            "$id": "689d6b6d0018ccde137a",
+            "$sequence": 2396,
+            "$createdAt": "2025-08-14T04:51:57.435+00:00",
+            "$updatedAt": "2025-08-16T05:29:44.275+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Hookdeck - A reliable Event Gateway for event-driven applications",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://hookdeck.com/",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": null,
+            "$id": "689d6b6d001c332aa636",
+            "$sequence": 2397,
+            "$createdAt": "2025-08-14T04:51:57.501+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.501+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "stack-auth/multi-tenant-starter-template",
+            "imageOriginalUrl": null,
+            "tags": ["nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/stack-auth/multi-tenant-starter-template",
+            "imagePlaceholderUrl": "placeholder-9.jpg",
+            "deleted": null,
+            "$id": "689d6b6d00209cbc6572",
+            "$sequence": 2398,
+            "$createdAt": "2025-08-14T04:51:57.573+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.573+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "vercel/platforms",
+            "imageOriginalUrl": null,
+            "tags": ["nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/vercel/platforms",
+            "imagePlaceholderUrl": "placeholder-50.jpg",
+            "deleted": null,
+            "$id": "689d6b6d002506deefeb",
+            "$sequence": 2399,
+            "$createdAt": "2025-08-14T04:51:57.653+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.653+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Railway",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://railway.com/",
+            "imagePlaceholderUrl": "placeholder-68.jpg",
+            "deleted": null,
+            "$id": "689d6b6d0028e63ff7c8",
+            "$sequence": 2400,
+            "$createdAt": "2025-08-14T04:51:57.697+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.697+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://better-t-stack.amanv.dev/?ref=dailydev",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://better-t-stack.amanv.dev/?ref=dailydev",
+            "imagePlaceholderUrl": "placeholder-23.jpg",
+            "deleted": null,
+            "$id": "689d6b6d003050e96145",
+            "$sequence": 2402,
+            "$createdAt": "2025-08-14T04:51:57.822+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.822+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Never Build Permissions Again | Permit.io",
+            "imageOriginalUrl": null,
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.permit.io/",
+            "imagePlaceholderUrl": "placeholder-3.jpg",
+            "deleted": null,
+            "$id": "689d6b6d00349c12a38e",
+            "$sequence": 2403,
+            "$createdAt": "2025-08-14T04:51:57.892+00:00",
+            "$updatedAt": "2025-08-14T04:51:57.892+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "WebDevSimplified/feature-flags-sample-code",
+            "imageOriginalUrl": null,
+            "tags": ["javascript", "programming", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/WebDevSimplified/feature-flags-sample-code",
+            "imagePlaceholderUrl": "placeholder-42.jpg",
+            "deleted": null,
+            "$id": "689d6b6d003c12beb601",
+            "$sequence": 2405,
+            "$createdAt": "2025-08-14T04:51:58.005+00:00",
+            "$updatedAt": "2025-08-14T04:51:58.005+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to prep for a software dev interview: Advice from a dev leader - LogRocket Blog",
+            "imageOriginalUrl": "https://blog.logrocket.com/wp-content/uploads/2025/07/how_to_prepare_for_a_software_dev_engineering_interview_web-1.png",
+            "tags": [],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/prep-for-software-dev-interview/",
+            "imagePlaceholderUrl": "placeholder-57.jpg",
+            "deleted": null,
+            "$id": "68a290650008329898c6",
+            "$sequence": 2408,
+            "$createdAt": "2025-08-18T02:31:01.264+00:00",
+            "$updatedAt": "2025-08-18T02:31:01.264+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Test Document",
+            "imageOriginalUrl": null,
+            "tags": ["test"],
+            "userId": "test-user",
+            "url": "https://example.com",
+            "imagePlaceholderUrl": null,
+            "deleted": false,
+            "$id": "test-1756077576282",
+            "$sequence": 2410,
+            "$createdAt": "2025-08-24T23:19:36.516+00:00",
+            "$updatedAt": "2025-08-24T23:19:36.516+00:00",
+            "$permissions": [
+                "read(\"user:6847a5f90034fe1592b0\")",
+                "update(\"user:6847a5f90034fe1592b0\")",
+                "delete(\"user:6847a5f90034fe1592b0\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "TinyBase",
+            "imageOriginalUrl": "https://tinybase.org/favicon_pad.png",
+            "tags": ["database", "react-native", "docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://tinybase.org/",
+            "imagePlaceholderUrl": "placeholder-63.jpg",
+            "deleted": false,
+            "$id": "68aba646003bf18a4c17",
+            "$sequence": 2426,
+            "$createdAt": "2025-08-24T23:54:47.302+00:00",
+            "$updatedAt": "2025-08-24T23:55:54.068+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "RxDB - JavaScript Database | RxDB - JavaScript Database",
+            "imageOriginalUrl": "https://rxdb.info/img/rxdb_social_card.png",
+            "tags": ["database", "react-native", "docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://rxdb.info/",
+            "imagePlaceholderUrl": "placeholder-61.jpg",
+            "deleted": false,
+            "$id": "68aba6e6001eb84d1a01",
+            "$sequence": 2427,
+            "$createdAt": "2025-08-24T23:57:26.832+00:00",
+            "$updatedAt": "2025-08-24T23:57:45.138+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Check out the README | WatermelonDB",
+            "imageOriginalUrl": "https://watermelondb.dev/img/watermelon-social-card.png",
+            "tags": ["database", "react-native", "docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://watermelondb.dev/docs",
+            "imagePlaceholderUrl": "placeholder-23.jpg",
+            "deleted": false,
+            "$id": "68aca83b003363991040",
+            "$sequence": 2428,
+            "$createdAt": "2025-08-25T18:15:24.197+00:00",
+            "$updatedAt": "2025-08-25T18:15:40.641+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://typespec.io/",
+            "imageOriginalUrl": null,
+            "tags": ["apis", "docs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://typespec.io/",
+            "imagePlaceholderUrl": "placeholder-24.jpg",
+            "deleted": false,
+            "$id": "68b0ac220024e821e916",
+            "$sequence": 2434,
+            "$createdAt": "2025-08-28T19:21:06.780+00:00",
+            "$updatedAt": "2025-08-28T19:21:32.442+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Assign Unique IDs to Express API Requests for Tracing",
+            "imageOriginalUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1755625819738/b5d45868-c770-4878-8c49-63011507ef56.png",
+            "tags": ["nodejs", "apis"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-assign-unique-ids-to-express-api-requests-for-tracing/",
+            "imagePlaceholderUrl": "placeholder-45.jpg",
+            "deleted": false,
+            "$id": "68b11f5f001ec42626a6",
+            "$sequence": 2443,
+            "$createdAt": "2025-08-29T03:32:47.690+00:00",
+            "$updatedAt": "2025-08-29T03:33:13.622+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Inngest - AI and backend workflows, orchestrated at any scale",
+            "imageOriginalUrl": "https://www.inngest.com/assets/homepage/open-graph-june-2025.png",
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.inngest.com/",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": false,
+            "$id": "68c6ee840010c01d8093",
+            "$sequence": 2458,
+            "$createdAt": "2025-09-14T16:34:12.378+00:00",
+            "$updatedAt": "2025-09-14T16:34:21.194+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Islas Baleares - Wikipedia, la enciclopedia libre",
+            "imageOriginalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Islas_Baleares_in_Spain_%28including_Canarias%29.svg/1200px-Islas_Baleares_in_Spain_%28including_Canarias%29.svg.png",
+            "tags": [],
+            "userId": "68d04bdb0028fe8703de",
+            "url": "https://es.wikipedia.org/wiki/Islas_Baleares",
+            "imagePlaceholderUrl": "placeholder-41.jpg",
+            "deleted": false,
+            "$id": "68d04c08002eb7758b85",
+            "$sequence": 2459,
+            "$createdAt": "2025-09-21T19:03:37.598+00:00",
+            "$updatedAt": "2025-09-21T19:03:37.598+00:00",
+            "$permissions": [
+                "read(\"user:68d04bdb0028fe8703de\")",
+                "delete(\"user:68d04bdb0028fe8703de\")",
+                "update(\"user:68d04bdb0028fe8703de\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "LMDE 7 Beta: Linux Mint ultima el salto a Debian 13",
+            "imageOriginalUrl": "https://www.muylinux.com/wp-content/uploads/2025/09/LMDEb.jpg",
+            "tags": [],
+            "userId": "68d686a200180d907374",
+            "url": "https://www.muylinux.com/2025/09/23/lmde-7-beta-linux-mint-debian-edition/",
+            "imagePlaceholderUrl": "placeholder-57.jpg",
+            "deleted": false,
+            "$id": "68d6870200193679d3e9",
+            "$sequence": 2460,
+            "$createdAt": "2025-09-26T12:28:50.470+00:00",
+            "$updatedAt": "2025-09-26T12:28:50.470+00:00",
+            "$permissions": [
+                "read(\"user:68d686a200180d907374\")",
+                "delete(\"user:68d686a200180d907374\")",
+                "update(\"user:68d686a200180d907374\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Building beautiful components faster with Storybook 9 and Expo",
+            "imageOriginalUrl": "https://cdn.sanity.io/images/9r24npb8/production/e7aac4b0f5121fb00ec0a1323fe13c0723ba1339-2400x1350.png?rect=2,0,2396,1350&w=600&h=338&fm=webp&q=80&auto=format",
+            "tags": ["react-native"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://expo.dev/blog/storybook-and-expo",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": false,
+            "$id": "68ea89300037279b682e",
+            "$sequence": 2461,
+            "$createdAt": "2025-10-11T16:43:29.206+00:00",
+            "$updatedAt": "2025-10-11T16:43:41.850+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "PowerSync: Backend DB - SQLite sync engine | For Postgres, MongoDB, MySQL",
+            "imageOriginalUrl": "https://cdn.prod.website-files.com/67eea61902e19994e7054ea0/6810e8eaeacd928d29b4d2b7_06bb63215882af73a7f413944e941215_powersync-img-meta-share.png",
+            "tags": [],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.powersync.com/",
+            "imagePlaceholderUrl": "placeholder-53.jpg",
+            "deleted": false,
+            "$id": "690255fb00362b4a1b21",
+            "$sequence": 2462,
+            "$createdAt": "2025-10-29T17:59:24.193+00:00",
+            "$updatedAt": "2025-10-29T17:59:24.193+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
+            "imageOriginalUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1761323431527/d74eb2ba-edaa-4d19-a041-364e99a705ba.png",
+            "tags": ["nodejs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook/",
+            "imagePlaceholderUrl": "placeholder-31.jpg",
+            "deleted": false,
+            "$id": "69039935001e137e2023",
+            "$sequence": 2463,
+            "$createdAt": "2025-10-30T16:58:29.806+00:00",
+            "$updatedAt": "2025-11-20T16:55:52.752+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Motia - Unified Backend Framework for APIs, Events and AI Agents",
+            "imageOriginalUrl": "https://www.motia.dev/og-image-updated-new.jpg",
+            "tags": [],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.motia.dev/",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": false,
+            "$id": "690c19290010e7b5532d",
+            "$sequence": 2464,
+            "$createdAt": "2025-11-06T03:42:33.626+00:00",
+            "$updatedAt": "2025-11-06T03:42:33.626+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Spring Boot con Kotlin frente a Java: Comparativa práctica y guía de integración empresarial | Adictos al trabajo",
+            "imageOriginalUrl": "https://adictosaltrabajo.com/wp-content/uploads/2025/07/spring-boot-kotlin-java-sin-texto.png",
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://adictosaltrabajo.com/2025/09/01/spring-boot-con-kotlin-frente-a-java-comparativa-practica-y-guia-de-integracion-empresarial/",
+            "imagePlaceholderUrl": "placeholder-16.jpg",
+            "deleted": false,
+            "$id": "691a845c0031f0b816f5",
+            "$sequence": 2465,
+            "$createdAt": "2025-11-17T02:11:41.378+00:00",
+            "$updatedAt": "2025-11-20T16:55:41.399+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "SQL performance improvements: finding the right queries to fix (part 1)",
+            "imageOriginalUrl": "https://ohdear.app/media/blog/0819748709bb67b1fe94289366424003/conversions/01K59TC28RNDB4M4972WXMT397-og_image.jpg",
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://ohdear.app/news-and-updates/sql-performance-improvements-finding-the-right-queries-to-fix-part-1",
+            "imagePlaceholderUrl": "placeholder-14.jpg",
+            "deleted": false,
+            "$id": "691e87350033d1f5ee90",
+            "$sequence": 2466,
+            "$createdAt": "2025-11-20T03:12:53.976+00:00",
+            "$updatedAt": "2025-11-20T16:55:30.851+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Level up your TypeScript with Record types - LogRocket Blog",
+            "imageOriginalUrl": "https://blog.logrocket.com/wp-content/uploads/2024/06/featured-image-typescript-record.png",
+            "tags": ["typescript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/typescript-record-types/",
+            "imagePlaceholderUrl": "placeholder-72.jpg",
+            "deleted": false,
+            "$id": "691f47df001ed376f49f",
+            "$sequence": 2467,
+            "$createdAt": "2025-11-20T16:54:55.624+00:00",
+            "$updatedAt": "2025-11-20T16:55:17.123+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Mastering React: How to Build a Powerful Component Library - miCoach Blog",
+            "imageOriginalUrl": "https://blog.micoach.itj.com/wp-content/uploads/2024/12/pexels-realtoughcandy-11035471-scaled.jpg",
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.micoach.itj.com/mastering-react-how-to-build-a-powerful-component-library",
+            "imagePlaceholderUrl": "placeholder-39.jpg",
+            "deleted": false,
+            "$id": "692a481f0005996c34d0",
+            "$sequence": 2469,
+            "$createdAt": "2025-11-29T01:10:55.257+00:00",
+            "$updatedAt": "2025-11-29T01:11:14.555+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.npmjs.com/package/syncpack",
+            "imageOriginalUrl": null,
+            "tags": ["javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.npmjs.com/package/syncpack",
+            "imagePlaceholderUrl": "placeholder-40.jpg",
+            "deleted": false,
+            "$id": "692cb6010029d5a50ff9",
+            "$sequence": 2470,
+            "$createdAt": "2025-11-30T21:24:17.912+00:00",
+            "$updatedAt": "2025-12-03T04:30:16.309+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Goodbye Microservices",
+            "imageOriginalUrl": "https://www.twilio.com/content/dam/twilio-com/core-assets/social/twilio-blog-default-ogimage.png",
+            "tags": ["apis", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices",
+            "imagePlaceholderUrl": "placeholder-3.jpg",
+            "deleted": false,
+            "$id": "6949795d0037a4e16e7a",
+            "$sequence": 2471,
+            "$createdAt": "2025-12-22T17:01:18.065+00:00",
+            "$updatedAt": "2025-12-22T17:01:34.196+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.baeldung.com/spring-modulith",
+            "imageOriginalUrl": null,
+            "tags": ["java", "microservices", "software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.baeldung.com/spring-modulith",
+            "imagePlaceholderUrl": "placeholder-55.jpg",
+            "deleted": false,
+            "$id": "694b09c10025818d76d3",
+            "$sequence": 2472,
+            "$createdAt": "2025-12-23T21:29:37.834+00:00",
+            "$updatedAt": "2025-12-23T21:29:55.958+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "The complete guide to internationalization in Next.js - LogRocket Blog",
+            "imageOriginalUrl": "https://blog.logrocket.com/wp-content/uploads/2021/10/next-js-international.png",
+            "tags": ["nextjs"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://blog.logrocket.com/complete-guide-internationalization-nextjs/",
+            "imagePlaceholderUrl": null,
+            "deleted": false,
+            "$id": "694c68b2001653b8c9e0",
+            "$sequence": 2474,
+            "$createdAt": "2025-12-24T22:26:58.569+00:00",
+            "$updatedAt": "2025-12-29T18:23:43.832+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Use the Optimistic UI Pattern with the useOptimistic() Hook in React",
+            "imageOriginalUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1765561440350/c3546e6c-8b23-476a-86d4-b63fd2cb9f6c.png",
+            "tags": ["react"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-use-the-optimistic-ui-pattern-with-the-useoptimistic-hook-in-react/",
+            "imagePlaceholderUrl": "placeholder-1.jpg",
+            "deleted": false,
+            "$id": "694d741b001dad1a84ce",
+            "$sequence": 2475,
+            "$createdAt": "2025-12-25T17:27:55.998+00:00",
+            "$updatedAt": "2025-12-29T18:23:36.448+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://www.toptal.com/developers/apache/integracion-optimizada-de-software-un-tutorial-de-apache-camel",
+            "imageOriginalUrl": null,
+            "tags": ["java"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.toptal.com/developers/apache/integracion-optimizada-de-software-un-tutorial-de-apache-camel",
+            "imagePlaceholderUrl": "placeholder-25.jpg",
+            "deleted": false,
+            "$id": "695215690026f1be0600",
+            "$sequence": 2478,
+            "$createdAt": "2025-12-29T05:45:13.702+00:00",
+            "$updatedAt": "2025-12-29T18:24:02.543+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "CapsuleUI",
+            "imageOriginalUrl": "https://raw.githubusercontent.com/ZiZiGY/CapsuleUI/master/public/logo.png",
+            "tags": ["libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://zizigy.github.io/CapsuleUI/",
+            "imagePlaceholderUrl": "placeholder-23.jpg",
+            "deleted": false,
+            "$id": "6952c71b00177dc69d11",
+            "$sequence": 2479,
+            "$createdAt": "2025-12-29T18:23:23.784+00:00",
+            "$updatedAt": "2026-01-18T03:11:02.952+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Logging Sucks - Your Logs Are Lying To You",
+            "imageOriginalUrl": "https://loggingsucks.com/og-image.png",
+            "tags": ["software engineering"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://loggingsucks.com/",
+            "imagePlaceholderUrl": "placeholder-5.jpg",
+            "deleted": false,
+            "$id": "6952c7a4000fc6946467",
+            "$sequence": 2480,
+            "$createdAt": "2025-12-29T18:25:40.656+00:00",
+            "$updatedAt": "2025-12-29T18:25:48.541+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Welcome | authentik",
+            "imageOriginalUrl": "https://goauthentik.io/img/social.png",
+            "tags": ["auth"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://goauthentik.io/",
+            "imagePlaceholderUrl": "placeholder-47.jpg",
+            "deleted": false,
+            "$id": "6955a8170019c436920f",
+            "$sequence": 2481,
+            "$createdAt": "2025-12-31T22:47:51.491+00:00",
+            "$updatedAt": "2026-01-18T03:10:52.084+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Motia - Code-First Backend Framework for APIs & AI Agents",
+            "imageOriginalUrl": "https://cdn.prod.website-files.com/68ac358911ebdce85872236d/691c58c68ca11f84b810f7d4_Screenshot%202025-11-18%20at%205.00.05%E2%80%AFPM.png",
+            "tags": ["docs", "libraries", "javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://motia.dev/",
+            "imagePlaceholderUrl": "placeholder-34.jpg",
+            "deleted": false,
+            "$id": "695c0bc300111b8521c6",
+            "$sequence": 2484,
+            "$createdAt": "2026-01-05T19:06:43.341+00:00",
+            "$updatedAt": "2026-01-18T03:10:38.276+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "API Platform",
+            "imageOriginalUrl": "https://api-platform.com/opengraph-image-235swf.png?225c6a5cd29bf32e",
+            "tags": ["apis"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://api-platform.com/",
+            "imagePlaceholderUrl": "placeholder-16.jpg",
+            "deleted": false,
+            "$id": "69647418001b26b71c25",
+            "$sequence": 2486,
+            "$createdAt": "2026-01-12T04:10:00.503+00:00",
+            "$updatedAt": "2026-01-18T03:10:17.357+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Home - Crawl4AI Documentation (v0.7.x)",
+            "imageOriginalUrl": "https://badge.fury.io/py/crawl4ai.svg",
+            "tags": ["ai", "docs", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://docs.crawl4ai.com/",
+            "imagePlaceholderUrl": "placeholder-75.jpg",
+            "deleted": false,
+            "$id": "69713eed002d4d8b026e",
+            "$sequence": 2488,
+            "$createdAt": "2026-01-21T21:02:37.868+00:00",
+            "$updatedAt": "2026-01-21T21:02:52.563+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "I Replaced Redis with PostgreSQL (And It's Faster)",
+            "imageOriginalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbar9z799eq8gj2v3kot2.jpg",
+            "tags": ["database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://dev.to/polliog/i-replaced-redis-with-postgresql-and-its-faster-4942",
+            "imagePlaceholderUrl": "placeholder-12.jpg",
+            "deleted": false,
+            "$id": "69739dd1002fd51ea9f5",
+            "$sequence": 2490,
+            "$createdAt": "2026-01-23T16:12:02.004+00:00",
+            "$updatedAt": "2026-01-23T16:12:09.744+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Mastra Course: Learn to Build AI Agents",
+            "imageOriginalUrl": "https://mastra.ai/api/og/page?title=Mastra%20Course",
+            "tags": ["ai", "courses"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://mastra.ai/course",
+            "imagePlaceholderUrl": "placeholder-4.jpg",
+            "deleted": false,
+            "$id": "698975ff00328aa6e064",
+            "$sequence": 2503,
+            "$createdAt": "2026-02-09T05:51:59.881+00:00",
+            "$updatedAt": "2026-02-11T00:49:49.298+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Pencil – Design on canvas. Land in code.",
+            "imageOriginalUrl": "https://pencil.dev/og-image.png",
+            "tags": ["ai", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.pencil.dev/",
+            "imagePlaceholderUrl": "placeholder-62.jpg",
+            "deleted": false,
+            "$id": "6998b2140030934328d7",
+            "$sequence": 2507,
+            "$createdAt": "2026-02-20T19:12:21.309+00:00",
+            "$updatedAt": "2026-03-02T17:49:50.910+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "GitHub - millionco/react-doctor: Let coding agents diagnose and fix your React code",
+            "imageOriginalUrl": "https://opengraph.githubassets.com/07cf1525c1603fd225cd58562263738143ee3cec1223526591a44ec29a9aa05c/millionco/react-doctor",
+            "tags": ["react", "tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/millionco/react-doctor",
+            "imagePlaceholderUrl": "placeholder-8.jpg",
+            "deleted": false,
+            "$id": "699c8a090022fd3e874a",
+            "$sequence": 2508,
+            "$createdAt": "2026-02-23T17:10:33.632+00:00",
+            "$updatedAt": "2026-03-02T17:49:36.713+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "https://rednegra.net/blog/20260212-virtual-scroll/",
+            "imageOriginalUrl": null,
+            "tags": ["javascript", "programming"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://rednegra.net/blog/20260212-virtual-scroll/",
+            "imagePlaceholderUrl": "placeholder-73.jpg",
+            "deleted": false,
+            "$id": "699c90720032489a6b16",
+            "$sequence": 2509,
+            "$createdAt": "2026-02-23T17:37:54.879+00:00",
+            "$updatedAt": "2026-03-02T17:49:24.275+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "terminal-image - npmx",
+            "imageOriginalUrl": "https://npmx.dev/__og-image__/image/package/terminal-image/og.png",
+            "tags": ["javascript", "libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://npmx.dev/package/terminal-image",
+            "imagePlaceholderUrl": "placeholder-53.jpg",
+            "deleted": false,
+            "$id": "699d2312003ab5fbf28c",
+            "$sequence": 2510,
+            "$createdAt": "2026-02-24T04:03:31.535+00:00",
+            "$updatedAt": "2026-03-02T17:48:58.050+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "GitHub - wanasit/chrono: A natural language date parser in Javascript",
+            "imageOriginalUrl": "https://opengraph.githubassets.com/f05e93907932138f817592f8b4ec042881c7b6bb2476ba7975e615422566a79c/wanasit/chrono",
+            "tags": ["libraries", "javascript"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://github.com/wanasit/chrono",
+            "imagePlaceholderUrl": "placeholder-51.jpg",
+            "deleted": false,
+            "$id": "69a50bb3001e380b6d10",
+            "$sequence": 2511,
+            "$createdAt": "2026-03-02T04:01:55.588+00:00",
+            "$updatedAt": "2026-03-02T17:48:45.221+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "How to Build an AI-Powered RAG Search Application with Next.js, Supabase, and OpenAI",
+            "imageOriginalUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1769534479648/a3f19714-a00b-4444-9289-753902282ac6.png",
+            "tags": ["ai", "database"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-powered-rag-search-application-with-nextjs-supabase-and-openai/",
+            "imagePlaceholderUrl": "placeholder-66.jpg",
+            "deleted": false,
+            "$id": "69aa3d56001832b50bf7",
+            "$sequence": 2514,
+            "$createdAt": "2026-03-06T02:35:02.464+00:00",
+            "$updatedAt": "2026-03-11T17:46:38.047+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Welcome to FastMCP - FastMCP",
+            "imageOriginalUrl": "https://fastmcp.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26appearance%3Dlight%26title%3DWelcome%2Bto%2BFastMCP%26description%3DThe%2Bfast%252C%2BPythonic%2Bway%2Bto%2Bbuild%2BMCP%2Bservers%252C%2Bclients%252C%2Band%2Bapplications.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Ffastmcp%252FLu2sdJVHDyHdvswk%252Fassets%252Fbrand%252Fwordmark.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DLu2sdJVHDyHdvswk%2526q%253D85%2526s%253D67680e9b1c641023511881a24f296077%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Ffastmcp%252FLu2sdJVHDyHdvswk%252Fassets%252Fbrand%252Fwordmark-white.png%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DLu2sdJVHDyHdvswk%2526q%253D85%2526s%253D776d9c0663633c9b9782b9f3f9785960%26primaryColor%3D%25232d00f7%26lightColor%3D%25234cc9f0%26darkColor%3D%2523f72585%26backgroundLight%3D%2523EEEEEE%26backgroundDark%3D%2523222831%26background%3Dhttps%253A%252F%252Fmintlify.s3.us-west-1.amazonaws.com%252Ffastmcp%252Fassets%252Fbrand%252Fthumbnail-background-4.jpeg&w=1200&q=100",
+            "tags": ["libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://gofastmcp.com/getting-started/welcome",
+            "imagePlaceholderUrl": "placeholder-29.jpg",
+            "deleted": false,
+            "$id": "69aa3e120023e6061269",
+            "$sequence": 2515,
+            "$createdAt": "2026-03-06T02:38:10.633+00:00",
+            "$updatedAt": "2026-03-11T17:46:27.724+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "MetalBear 🐻 | Creators of mirrord",
+            "imageOriginalUrl": "https://metalbear.com/metalbear.png",
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://metalbear.com/",
+            "imagePlaceholderUrl": "placeholder-10.jpg",
+            "deleted": false,
+            "$id": "69af10a80017b6dd732b",
+            "$sequence": 2516,
+            "$createdAt": "2026-03-09T18:25:44.506+00:00",
+            "$updatedAt": "2026-03-11T17:46:08.279+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Stagehand: A browser automation SDK built for developers and LLMs.",
+            "imageOriginalUrl": "https://www.stagehand.dev/opengraph-image.png?91d78a895dd7e999",
+            "tags": ["libraries"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://www.stagehand.dev/",
+            "imagePlaceholderUrl": "placeholder-27.jpg",
+            "deleted": false,
+            "$id": "69b0d095000ff7595c58",
+            "$sequence": 2517,
+            "$createdAt": "2026-03-11T02:16:53.398+00:00",
+            "$updatedAt": "2026-03-11T17:46:17.202+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        },
+        {
+            "title": "Better Fullstack",
+            "imageOriginalUrl": "https://better-fullstack.dev/og/better-fullstack-terminal-preview-1200x630.png",
+            "tags": ["tools"],
+            "userId": "6898de9cb113ea687b3d",
+            "url": "https://better-fullstack.dev/",
+            "imagePlaceholderUrl": "placeholder-37.jpg",
+            "deleted": false,
+            "$id": "69b1aa4c001fe0c1a30d",
+            "$sequence": 2518,
+            "$createdAt": "2026-03-11T17:45:49.047+00:00",
+            "$updatedAt": "2026-03-11T17:46:02.941+00:00",
+            "$permissions": [
+                "read(\"user:6898de9cb113ea687b3d\")",
+                "delete(\"user:6898de9cb113ea687b3d\")",
+                "update(\"user:6898de9cb113ea687b3d\")"
+            ],
+            "$databaseId": "6847a63c00178471e105",
+            "$tableId": "6847a65000396daa6428"
+        }
+    ]
+}

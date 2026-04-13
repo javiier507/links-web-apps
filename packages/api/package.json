@@ -11,15 +11,21 @@
     },
     "scripts": {
         "lint": "biome check .",
-        "check-types": "tsc --noEmit"
+        "check-types": "tsc --noEmit",
+        "db:push": "dotenv -e .env.local -- drizzle-kit push",
+        "db:studio": "dotenv -e .env.local -- drizzle-kit studio",
+        "db:migrate-appwrite": "dotenv -e .env.local -- pnpm dlx tsx scripts/migrate-json-to-turso.ts"
     },
     "devDependencies": {
         "@repo/typescript-config": "workspace:*",
         "@types/node": "22.15.3",
+        "drizzle-kit": "0.31.10",
         "typescript": "5.9.2"
     },
     "dependencies": {
-        "node-appwrite": "21.0.0",
+        "@libsql/client": "0.17.2",
+        "better-auth": "1.6.2",
+        "drizzle-orm": "0.45.1",
         "zod": "4.2.1"
     }
 }

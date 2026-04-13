@@ -21,7 +21,7 @@ export function LinkItemActions(props: LinkItemActionsProps) {
     }
 
     async function HandleDelete() {
-        await deleteLinkAction(props.link.$id);
+        await deleteLinkAction(props.link.id);
     }
 
     return (

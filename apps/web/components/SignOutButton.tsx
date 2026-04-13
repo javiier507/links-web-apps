@@ -1,14 +1,8 @@
-"use client";
-
 import { Button } from "@repo/ui/button/Button";
 
-interface SignOutButtonProps {
-    signOut: () => void;
-}
-
-export function SignOutButton({ signOut }: SignOutButtonProps) {
+export function SignOutButton() {
     return (
-        <Button color="red" size="lg" onClick={() => signOut()}>
+        <Button type="submit" color="red" size="lg">
             Log Out
         </Button>
     );
