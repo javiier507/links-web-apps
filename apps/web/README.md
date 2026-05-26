@@ -1,40 +1,35 @@
 # Links Web App
 
-Web application for link management built with Next.js, Auth.js, and Appwrite.
+Web application for link management built with Next.js, Better Auth, and Turso.
 
 ## Environment Setup
 
-This project requires environment variables configuration for authentication and backend. Create a `.env` file in the project root:
-
-### `.env` File Template
+Create a `.env` file in the `apps/web` directory:
 
 ```bash
 cp .env.example .env
 ```
 
 ```env
-# Auth.js Configuration
-AUTH_SECRET=
-NEXTAUTH_URL=http://localhost:3000
+# Better Auth
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=http://localhost:3000
 
 # Google OAuth Provider
 AUTH_GOOGLE_ID=
 AUTH_GOOGLE_SECRET=
 
-# Appwrite Backend
-APPWRITE_ENDPOINT=
-APPWRITE_PROJECT=
-APPWRITE_DATABASE_ID=
-APPWRITE_TABLE_ID=
-APPWRITE_WEB_AUTH_API_KEY=
+# Turso Database
+TURSO_DATABASE_URL=
+TURSO_AUTH_TOKEN=
 ```
 
 ### Environment Variables Description
 
-#### Auth.js Authentication
+#### Better Auth
 
-- **`AUTH_SECRET`**: Secret key to encrypt tokens and sessions. Generate a secure random string (minimum 32 characters). You can use: `openssl rand -base64 32`
-- **`NEXTAUTH_URL`**: Base URL of your application. In development use `http://localhost:3000`, in production use your domain.
+- **`BETTER_AUTH_SECRET`**: Secret key to encrypt tokens and sessions. Generate with: `openssl rand -base64 32`
+- **`BETTER_AUTH_URL`**: Base URL of your application. In development use `http://localhost:3000`, in production use your domain.
 
 #### Google OAuth Provider
 
@@ -51,36 +46,20 @@ To obtain these credentials:
 6. In "Authorized redirect URIs" add: `http://localhost:3000/api/auth/callback/google`
 7. Copy the **Client ID** to `AUTH_GOOGLE_ID` and the **Client Secret** to `AUTH_GOOGLE_SECRET`
 
-📖 [Google Provider Documentation in Auth.js](https://authjs.dev/getting-started/providers/google)
+📖 [Better Auth Google Provider Documentation](https://www.better-auth.com/docs/authentication/google)
 
-#### Appwrite Backend
+#### Turso Database
 
-- **`APPWRITE_ENDPOINT`**: URL of your Appwrite instance
-  - Cloud: `https://cloud.appwrite.io/v1`
-  - Self-hosted: `https://[YOUR-DOMAIN]/v1`
+- **`TURSO_DATABASE_URL`**: Your Turso database URL (`libsql://your-db.turso.io`)
+- **`TURSO_AUTH_TOKEN`**: Auth token for your Turso database
 
-- **`APPWRITE_PROJECT`**: Your Appwrite project ID
-  - Go to your [Appwrite console](https://cloud.appwrite.io/console)
-  - Create or select a project
-  - Copy the Project ID from project settings
+To obtain these:
 
-- **`APPWRITE_WEB_AUTH_API_KEY`**: API Key with appropriate permissions
-  - In your Appwrite project, go to "Settings" → "API Keys"
-  - Create a new API Key with the following permissions:
-    - Auth (for server-side rendering)
-    - Databases (read/write)
-  - Copy the generated key
+1. Install the Turso CLI: `brew install tursodatabase/tap/turso`
+2. Create a database: `turso db create wlinks`
+3. Get the URL: `turso db show wlinks --url`
+4. Create a token: `turso db tokens create wlinks`
 
-- **`APPWRITE_DATABASE_ID`**: Your database ID
-  - In the Appwrite console, go to "Databases"
-  - Create a new database or select an existing one
-  - Copy the Database ID from settings
+📖 [Turso Documentation](https://docs.turso.tech/quickstart)
 
-- **`APPWRITE_TABLE_ID`**: Your collection/table ID
-  - Inside your database, create a collection to store the links
-  - Define the necessary attributes (title, URL, description, etc.)
-  - Copy the Collection ID from the collection settings
-
-📖 Appwrite References:
-- [Server-Side Rendering with Appwrite](https://appwrite.io/docs/products/auth/server-side-rendering)
-- [Databases Quick Start](https://appwrite.io/docs/products/databases/quick-start)
+> **Note:** In production on Vercel, the app automatically uses the `VERCEL_URL` environment variable (injected by Vercel) for internal API calls — no extra configuration needed.
