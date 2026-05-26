@@ -48,14 +48,14 @@ export async function DeleteLink(linkId: string) {
 
 async function FetchMetadata(url: string): Promise<Metadata> {
     try {
-        const baseUrl = process.env.NEXT_PUBLIC_APP_URL
-            ? `https://${process.env.NEXT_PUBLIC_APP_URL}`
-            : "http://localhost:3000";
-        const response = await fetch(`${baseUrl}/api/metadata`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ url }),
-        });
+        const response = await fetch(
+            `${process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"}/api/metadata`,
+            {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url }),
+            },
+        );
 
         const data = await response.json();
         const result = MetadataSchema.safeParse(data);
