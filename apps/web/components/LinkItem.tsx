@@ -4,9 +4,12 @@ import type { Link } from "@repo/api/link";
 
 type LinkItemProps = {
     link: Link;
+    availableTags: string[];
 };
 
-export function LinkItem({ link }: LinkItemProps) {
+export function LinkItem(props: LinkItemProps) {
+    const { link } = props;
+
     return (
         <div className="group bg-dark-2 rounded-xl border border-white/5 overflow-hidden">
             <a href={link.url} target="_blank" rel="noopener noreferrer" className="block">
@@ -49,7 +52,7 @@ export function LinkItem({ link }: LinkItemProps) {
                 </div>
             </a>
 
-            <LinkItemActions link={link} />
+            <LinkItemActions link={link} availableTags={props.availableTags} />
         </div>
     );
 }

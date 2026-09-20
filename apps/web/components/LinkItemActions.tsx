@@ -10,6 +10,7 @@ import type { Link } from "@repo/api/link";
 
 type LinkItemActionsProps = {
     link: Link;
+    availableTags: string[];
 };
 
 export function LinkItemActions(props: LinkItemActionsProps) {
@@ -65,7 +66,7 @@ export function LinkItemActions(props: LinkItemActionsProps) {
                     </svg>
                 )}
             </button>
-            <EditLinkTags link={props.link} />
+            <EditLinkTags link={props.link} availableTags={props.availableTags} />
             <Confirm
                 title="Delete link"
                 description="Are you sure you want to delete this link? This action cannot be undone."

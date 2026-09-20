@@ -29,7 +29,7 @@ export default async function Home(props: HomeProps) {
 
                 {links.length > 0 ? (
                     <>
-                        <LinksGrid links={links} />
+                        <LinksGrid links={links} availableTags={tags} />
                         {totalPages > 1 && (
                             <Pagination
                                 currentPage={page}
