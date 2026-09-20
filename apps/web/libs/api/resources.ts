@@ -1,8 +1,15 @@
+import { unstable_cache } from "next/cache";
+
 import type { LinkQuery, Metadata } from "@repo/api/link";
 import { LINKS_PER_PAGE, MetadataSchema } from "@repo/api/link";
-import { createLink, deleteLink, getLinks, updateLinkTags } from "@repo/api/link.api";
+import { createLink, deleteLink, getLinks, getTags, updateLinkTags } from "@repo/api/link.api";
 
 import { GetAuthUser } from "@/libs/auth";
+
+const GetCachedTags = unstable_cache(async (userId: string) => getTags(userId), ["tags"], {
+    tags: ["tags"],
+    revalidate: 300,
+});
 
 export async function GetLinks(linkQuery?: LinkQuery) {
     const user = await GetAuthUser();
@@ -15,6 +22,14 @@ export async function GetLinks(linkQuery?: LinkQuery) {
 export async function GetLinksPage(page: number, search?: string) {
     const offset = (page - 1) * LINKS_PER_PAGE;
     return GetLinks({ limit: LINKS_PER_PAGE, offset, search });
+}
+
+export async function GetTags(): Promise<string[]> {
+    const user = await GetAuthUser();
+
+    if (!user) return [];
+
+    return GetCachedTags(user.id);
 }
 
 export async function CreateLink(url: string) {

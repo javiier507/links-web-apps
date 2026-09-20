@@ -5,7 +5,7 @@ import { LinksGrid } from "@/components/LinksGrid";
 import { LinksHeader } from "@/components/LinksHeader";
 import { Pagination } from "@/components/Pagination";
 
-import { GetLinksPage } from "@/libs/api/resources";
+import { GetLinksPage, GetTags } from "@/libs/api/resources";
 
 type HomeProps = {
     searchParams: Promise<{
@@ -19,13 +19,13 @@ export default async function Home(props: HomeProps) {
     const search = searchParams.search;
     const page = Math.max(1, Number(searchParams.page) || 1);
 
-    const { links, total } = await GetLinksPage(page, search);
+    const [{ links, total }, tags] = await Promise.all([GetLinksPage(page, search), GetTags()]);
     const totalPages = Math.ceil(total / LINKS_PER_PAGE);
 
     return (
         <div className="min-h-screen py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <LinksHeader linksCount={total} />
+                <LinksHeader linksCount={total} tags={tags} />
 
                 {links.length > 0 ? (
                     <>

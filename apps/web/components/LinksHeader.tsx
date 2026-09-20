@@ -10,9 +10,11 @@ import { SearchLinkForm } from "./SearchLinkForm";
 
 interface LinksHeaderProps {
     linksCount: number;
+    tags: string[];
 }
 
-export function LinksHeader({ linksCount }: LinksHeaderProps) {
+export function LinksHeader(props: LinksHeaderProps) {
+    const { linksCount } = props;
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
 

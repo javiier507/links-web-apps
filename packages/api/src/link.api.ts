@@ -47,6 +47,17 @@ export async function getLinks(userId: string, linkQuery?: LinkQuery): Promise<L
     };
 }
 
+export async function getTags(userId: string): Promise<string[]> {
+    const rows = await db
+        .selectDistinct({ tag: sql<string>`json_each.value` })
+        .from(links)
+        .innerJoin(sql`json_each(${links.tags})`, sql`true`)
+        .where(eq(links.userId, userId))
+        .orderBy(sql`json_each.value`);
+
+    return rows.map((row) => row.tag);
+}
+
 export async function createLink(request: CreateLinkRequest): Promise<Link> {
     const [newLink] = await db
         .insert(links)

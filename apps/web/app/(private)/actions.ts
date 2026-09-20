@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { z } from "zod";
 
 import { UpdateLinkTagsSchema } from "@repo/api/link";
@@ -42,6 +42,7 @@ export async function addLinkAction(
 
         // Revalidate the page to show the new link
         revalidatePath("/");
+        revalidateTag("tags");
 
         return {
             success: true,
@@ -62,6 +63,7 @@ export async function deleteLinkAction(
     try {
         await DeleteLink(linkId);
         revalidatePath("/");
+        revalidateTag("tags");
         return { success: true, message: "Link deleted successfully" };
     } catch (error) {
         console.error("Error deleting link:", error);
@@ -97,6 +99,7 @@ export async function updateLinkTagsAction(
     try {
         await UpdateLinkTags(linkId, validation.data.tags);
         revalidatePath("/");
+        revalidateTag("tags");
         return { success: true, message: "Tags updated successfully" };
     } catch (error) {
         console.error("Error updating link tags:", error);
