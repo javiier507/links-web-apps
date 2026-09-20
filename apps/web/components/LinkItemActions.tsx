@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import { deleteLinkAction } from "@/app/(private)/actions";
 import { Confirm } from "@/components/Confirm";
+import { EditLinkTags } from "@/components/EditLinkTags";
 
 import type { Link } from "@repo/api/link";
 
@@ -64,25 +65,7 @@ export function LinkItemActions(props: LinkItemActionsProps) {
                     </svg>
                 )}
             </button>
-            <button
-                type="button"
-                className="p-1.5 rounded-md text-gray-1/40 hover:text-yellow-2 hover:bg-white/5 transition-colors duration-200 cursor-pointer"
-                aria-label="Edit tags"
-            >
-                {/* biome-ignore lint/a11y/noSvgWithoutTitle: decorative icon */}
-                <svg
-                    className="w-3.5 h-3.5"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                >
-                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z" />
-                    <line x1="7" y1="7" x2="7.01" y2="7" />
-                </svg>
-            </button>
+            <EditLinkTags link={props.link} />
             <Confirm
                 title="Delete link"
                 description="Are you sure you want to delete this link? This action cannot be undone."

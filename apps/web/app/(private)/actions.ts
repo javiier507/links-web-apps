@@ -3,7 +3,9 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 
-import { CreateLink, DeleteLink } from "@/libs/api/resources";
+import { UpdateLinkTagsSchema } from "@repo/api/link";
+
+import { CreateLink, DeleteLink, UpdateLinkTags } from "@/libs/api/resources";
 
 const addLinkSchema = z.object({
     url: z.url("Invalid URL format"),
@@ -66,6 +68,41 @@ export async function deleteLinkAction(
         return {
             success: false,
             message: error instanceof Error ? error.message : "Failed to delete link",
+        };
+    }
+}
+
+export type UpdateLinkTagsState = {
+    success: boolean;
+    message: string;
+    errors?: {
+        tags?: string[];
+    };
+};
+
+export async function updateLinkTagsAction(
+    linkId: string,
+    tags: string[],
+): Promise<UpdateLinkTagsState> {
+    const validation = UpdateLinkTagsSchema.safeParse({ tags });
+
+    if (!validation.success) {
+        return {
+            success: false,
+            message: "Validation failed",
+            errors: validation.error.flatten().fieldErrors,
+        };
+    }
+
+    try {
+        await UpdateLinkTags(linkId, validation.data.tags);
+        revalidatePath("/");
+        return { success: true, message: "Tags updated successfully" };
+    } catch (error) {
+        console.error("Error updating link tags:", error);
+        return {
+            success: false,
+            message: error instanceof Error ? error.message : "Failed to update tags",
         };
     }
 }

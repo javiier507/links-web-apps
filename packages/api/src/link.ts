@@ -25,6 +25,33 @@ export type LinkQuery = {
     search?: string;
 };
 
+export const MAX_LINK_TAGS = 5;
+export const MAX_LINK_TAG_LENGTH = 20;
+
+export function NormalizeLinkTags(tags: string[]): string[] {
+    return [...new Set(tags.map((tag) => tag.trim().toLowerCase()).filter(Boolean))];
+}
+
+export const UpdateLinkTagsSchema = z.object({
+    tags: z
+        .array(z.string())
+        .transform(NormalizeLinkTags)
+        .pipe(
+            z
+                .array(
+                    z
+                        .string()
+                        .max(
+                            MAX_LINK_TAG_LENGTH,
+                            `Tags cannot exceed ${MAX_LINK_TAG_LENGTH} characters`,
+                        ),
+                )
+                .max(MAX_LINK_TAGS, `You can add up to ${MAX_LINK_TAGS} tags`),
+        ),
+});
+
+export type UpdateLinkTagsRequest = z.infer<typeof UpdateLinkTagsSchema>;
+
 // Creating Link
 
 export const UrlSchema = z.url({

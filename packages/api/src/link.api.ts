@@ -4,7 +4,8 @@ import { db } from "./db";
 import { links } from "./db/schema";
 import { getRandomPlaceholder } from "./utils/placeholder";
 
-import type { CreateLinkRequest, Link, LinkList, LinkQuery } from "./link";
+import { UpdateLinkTagsSchema } from "./link";
+import type { CreateLinkRequest, Link, LinkList, LinkQuery, UpdateLinkTagsRequest } from "./link";
 
 function ToLink(row: typeof links.$inferSelect): Link {
     return {
@@ -65,4 +66,23 @@ export async function createLink(request: CreateLinkRequest): Promise<Link> {
 
 export async function deleteLink(userId: string, linkId: string): Promise<void> {
     await db.delete(links).where(and(eq(links.id, linkId), eq(links.userId, userId)));
+}
+
+export async function updateLinkTags(
+    userId: string,
+    linkId: string,
+    request: UpdateLinkTagsRequest,
+): Promise<Link> {
+    const validatedRequest = UpdateLinkTagsSchema.parse(request);
+    const [updatedLink] = await db
+        .update(links)
+        .set({
+            tags: JSON.stringify(validatedRequest.tags),
+            updatedAt: new Date(),
+        })
+        .where(and(eq(links.id, linkId), eq(links.userId, userId)))
+        .returning();
+
+    if (!updatedLink) throw new Error("Link not found");
+    return ToLink(updatedLink);
 }

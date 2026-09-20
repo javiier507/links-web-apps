@@ -1,6 +1,6 @@
 import type { LinkQuery, Metadata } from "@repo/api/link";
 import { LINKS_PER_PAGE, MetadataSchema } from "@repo/api/link";
-import { createLink, deleteLink, getLinks } from "@repo/api/link.api";
+import { createLink, deleteLink, getLinks, updateLinkTags } from "@repo/api/link.api";
 
 import { GetAuthUser } from "@/libs/auth";
 
@@ -44,6 +44,16 @@ export async function DeleteLink(linkId: string) {
         });
 
     return deleteLink(user.id, linkId);
+}
+
+export async function UpdateLinkTags(linkId: string, tags: string[]) {
+    const user = await GetAuthUser();
+    if (!user)
+        throw new Error("Unauthorized", {
+            cause: "No user found",
+        });
+
+    return updateLinkTags(user.id, linkId, { tags });
 }
 
 async function FetchMetadata(url: string): Promise<Metadata> {
