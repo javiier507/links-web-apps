@@ -10,7 +10,9 @@
         "check-types": "turbo run check-types",
         "commit": "cz",
         "prepare": "husky",
-        "preinstall": "npx only-allow pnpm"
+        "preinstall": "npx only-allow pnpm",
+        "clean:build": "bash scripts/clean-build.sh",
+        "clean:all": "bash scripts/clean-all.sh"
     },
     "devDependencies": {
         "@biomejs/biome": "1.9.4",
