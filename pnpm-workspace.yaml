@@ -4,3 +4,8 @@ packages:
 
 # 1 semana
 minimumReleaseAge: 10080
+
+# Keep pnpm virtual store folder names short. On NTFS (ntfs3 on Linux), symlinks
+# with long targets are listed as regular files, which breaks Turbopack module
+# resolution ("Module not found"). Shorter names keep the targets under that limit.
+virtualStoreDirMaxLength: 60
